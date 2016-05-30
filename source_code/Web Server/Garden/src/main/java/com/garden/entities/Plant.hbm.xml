@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+"http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
+<!-- Generated May 29, 2016 3:43:09 PM by Hibernate Tools 4.3.1 -->
+<hibernate-mapping>
+    <class name="com.garden.entities.Plant" table="plant" catalog="garden" optimistic-lock="version">
+        <id name="plantid" type="int">
+            <column name="plantid" />
+            <generator class="assigned" />
+        </id>
+        <property name="plantname" type="string">
+            <column name="plantname" length="50" not-null="true" />
+        </property>
+        <property name="varieties" type="string">
+            <column name="varieties" length="50" />
+        </property>
+    </class>
+</hibernate-mapping>

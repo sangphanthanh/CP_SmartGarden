@@ -1,0 +1,135 @@
+USE `garden`
+;
+/****** Object:  Table `account`    Script Date: 5/28/2016 12:38:48 PM ******/
+
+
+
+CREATE TABLE `account`(
+	`userID` int NOT NULL,
+	`username` varchar(50) NOT NULL,
+	`password` varchar(50) NOT NULL,
+	`address` varchar(50) NOT NULL,
+	`phonenumber` int NOT NULL,
+	`email` varchar(50) NOT NULL,
+ CONSTRAINT `PK_account` PRIMARY KEY 
+(
+	`userID` ASC
+)
+)
+
+;
+
+/****** Object:  Table `index`    Script Date: 5/28/2016 12:38:48 PM ******/
+
+
+CREATE TABLE `index`(
+	`plantid` int NOT NULL,
+	`IDSersor` int NOT NULL,
+	`SPH` int NULL,
+	`SLight` int NULL,
+	`SHumidity` int NULL,
+	`STemperature` int NULL,
+	`StemperatureOfSoil` int NULL,
+	`time` datetime NULL,
+ CONSTRAINT `PK_index` PRIMARY KEY 
+(
+	`IDSersor` ASC
+)
+)
+
+;
+/****** Object:  Table `information`    Script Date: 5/28/2016 12:38:48 PM ******/
+
+
+CREATE TABLE `information`(
+	`imformationid` int NOT NULL,
+	`plantid` int NOT NULL,
+	`ph` int NULL,
+	`light` int NULL,
+	`humidity` int NULL,
+	`temperature` int NULL,
+	`temperatureofsoil` int NULL,
+	`datefertilizer` int NULL,
+	`daygrowth` int NULL,
+ CONSTRAINT `PK_information` PRIMARY KEY 
+(
+	`imformationid` ASC
+)
+)
+
+;
+/****** Object:  Table `plant`    Script Date: 5/28/2016 12:38:48 PM ******/
+
+
+CREATE TABLE `plant`(
+	`plantid` int NOT NULL,
+	`plantname` varchar(50) NOT NULL,
+	`varieties` varchar(50) NULL,
+ CONSTRAINT `PK_plant` PRIMARY KEY 
+(
+	`plantid` ASC
+)
+)
+
+;
+/****** Object:  Table `plantofuser`    Script Date: 5/28/2016 12:38:48 PM ******/
+
+
+CREATE TABLE `plantofuser`(
+	`userID` int NOT NULL,
+	`uplantID` int NOT NULL,
+	`uplantname` varchar(50) NOT NULL,
+	`uph` int NOT NULL,
+	`ulight` int NOT NULL,
+	`uhumidity` int NOT NULL,
+	`utemperature` int NOT NULL,
+	`utemperatureofsoil` int NOT NULL,
+ CONSTRAINT `PK_plantofuser` PRIMARY KEY 
+(
+	`uplantID` ASC
+)
+)
+
+;
+/****** Object:  Table `transfer`    Script Date: 5/28/2016 12:38:48 PM ******/
+
+
+CREATE TABLE `transfer`(
+	`transferid` int NOT NULL,
+	`plantid` int NULL,
+	`startpump` datetime NULL,
+	`durationpump` int NULL,
+	`startcovered` datetime NULL,
+	`durationstartcovered` int NULL,
+	`startmisting` datetime NULL,
+	`durationmisting` int NULL,
+	`startduty` datetime NULL,
+	`starday` datetime NULL,
+	`durations` int NULL,
+ CONSTRAINT `PK_transfer` PRIMARY KEY 
+(
+	`transferid` ASC
+)
+)
+
+;
+ALTER TABLE `index`  WITH CHECK ADD  CONSTRAINT FOREIGN KEY (`plantid`)
+REFERENCES `plant` (`plantid`)
+;
+ALTER TABLE `index` CHECK CONSTRAINT `FK_index_plant`
+;
+ALTER TABLE `information`  WITH CHECK ADD  CONSTRAINT FOREIGN KEY (`plantid`)
+REFERENCES `plant` (`plantid`)
+;
+ALTER TABLE `information` CHECK CONSTRAINT `FK_information_plant`
+;
+ALTER TABLE `plantofuser`  WITH CHECK ADD  CONSTRAINT FOREIGN KEY (`userID`)
+REFERENCES `account` (`userID`)
+;
+ALTER TABLE `plantofuser` CHECK CONSTRAINT `FK_plantofuser_account`
+;
+ALTER TABLE `transfer`  WITH CHECK ADD  CONSTRAINT FOREIGN KEY (`plantid`)
+REFERENCES `plant` (`plantid`)
+;
+ALTER TABLE `transfer` CHECK CONSTRAINT `FK_transfer_plant`
+;

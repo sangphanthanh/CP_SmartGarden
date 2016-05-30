@@ -1,0 +1,36 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+"http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
+<!-- Generated May 29, 2016 3:43:09 PM by Hibernate Tools 4.3.1 -->
+<hibernate-mapping>
+    <class name="com.garden.entities.Information" table="information" catalog="garden" optimistic-lock="version">
+        <id name="imformationid" type="int">
+            <column name="imformationid" />
+            <generator class="assigned" />
+        </id>
+        <property name="plantid" type="int">
+            <column name="plantid" not-null="true" />
+        </property>
+        <property name="ph" type="java.lang.Integer">
+            <column name="ph" />
+        </property>
+        <property name="light" type="java.lang.Integer">
+            <column name="light" />
+        </property>
+        <property name="humidity" type="java.lang.Integer">
+            <column name="humidity" />
+        </property>
+        <property name="temperature" type="java.lang.Integer">
+            <column name="temperature" />
+        </property>
+        <property name="temperatureofsoil" type="java.lang.Integer">
+            <column name="temperatureofsoil" />
+        </property>
+        <property name="datefertilizer" type="java.lang.Integer">
+            <column name="datefertilizer" />
+        </property>
+        <property name="daygrowth" type="java.lang.Integer">
+            <column name="daygrowth" />
+        </property>
+    </class>
+</hibernate-mapping>
