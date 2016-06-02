@@ -1,0 +1,33 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+"http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
+<!-- Generated May 29, 2016 3:43:09 PM by Hibernate Tools 4.3.1 -->
+<hibernate-mapping>
+    <class name="com.garden.entities.Plantofuser" table="plantofuser" catalog="garden" optimistic-lock="version">
+        <id name="uplantId" type="int">
+            <column name="uplantID" />
+            <generator class="assigned" />
+        </id>
+        <property name="userId" type="int">
+            <column name="userID" not-null="true" />
+        </property>
+        <property name="uplantname" type="string">
+            <column name="uplantname" length="50" not-null="true" />
+        </property>
+        <property name="uph" type="int">
+            <column name="uph" not-null="true" />
+        </property>
+        <property name="ulight" type="int">
+            <column name="ulight" not-null="true" />
+        </property>
+        <property name="uhumidity" type="int">
+            <column name="uhumidity" not-null="true" />
+        </property>
+        <property name="utemperature" type="int">
+            <column name="utemperature" not-null="true" />
+        </property>
+        <property name="utemperatureofsoil" type="int">
+            <column name="utemperatureofsoil" not-null="true" />
+        </property>
+    </class>
+</hibernate-mapping>

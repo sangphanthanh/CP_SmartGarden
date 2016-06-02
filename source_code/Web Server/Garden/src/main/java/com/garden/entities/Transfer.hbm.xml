@@ -1,0 +1,42 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+"http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
+<!-- Generated May 29, 2016 3:43:09 PM by Hibernate Tools 4.3.1 -->
+<hibernate-mapping>
+    <class name="com.garden.entities.Transfer" table="transfer" catalog="garden" optimistic-lock="version">
+        <id name="transferid" type="int">
+            <column name="transferid" />
+            <generator class="assigned" />
+        </id>
+        <property name="plantid" type="java.lang.Integer">
+            <column name="plantid" />
+        </property>
+        <property name="startpump" type="timestamp">
+            <column name="startpump" length="19" />
+        </property>
+        <property name="durationpump" type="java.lang.Integer">
+            <column name="durationpump" />
+        </property>
+        <property name="startcovered" type="timestamp">
+            <column name="startcovered" length="19" />
+        </property>
+        <property name="durationstartcovered" type="java.lang.Integer">
+            <column name="durationstartcovered" />
+        </property>
+        <property name="startmisting" type="timestamp">
+            <column name="startmisting" length="19" />
+        </property>
+        <property name="durationmisting" type="java.lang.Integer">
+            <column name="durationmisting" />
+        </property>
+        <property name="startduty" type="timestamp">
+            <column name="startduty" length="19" />
+        </property>
+        <property name="starday" type="timestamp">
+            <column name="starday" length="19" />
+        </property>
+        <property name="durations" type="java.lang.Integer">
+            <column name="durations" />
+        </property>
+    </class>
+</hibernate-mapping>
