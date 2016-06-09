@@ -13,127 +13,19 @@
   (Folder "Outputs")
   (Folder "Referenced Projects")
   (PartMRUSelector
-    ("HEADER 3"
-      (FullPartName "HEADER 3.Normal")
+    ("HEADER 10"
+      (FullPartName "HEADER 10.Normal")
       (LibraryName "C:\CADENCE\SPB_16.6\TOOLS\CAPTURE\LIBRARY\CONNECTOR.OLB")
-      (DeviceIndex "0"))
-    ("RESISTOR VAR"
-      (FullPartName "RESISTOR VAR.Normal")
-      (LibraryName "C:\CADENCE\SPB_16.6\TOOLS\CAPTURE\LIBRARY\DISCRETE.OLB")
-      (DeviceIndex "0"))
-    ("CAP POL"
-      (FullPartName "CAP POL.Normal")
-      (LibraryName "C:\CADENCE\SPB_16.6\TOOLS\CAPTURE\LIBRARY\DISCRETE.OLB")
-      (DeviceIndex "0"))
-    (INDUCTOR
-      (FullPartName "INDUCTOR.Normal")
-      (LibraryName "C:\CADENCE\SPB_16.6\TOOLS\CAPTURE\LIBRARY\DISCRETE.OLB")
-      (DeviceIndex "0"))
-    ("DIODE SCHOTTKY"
-      (FullPartName "DIODE SCHOTTKY.Normal")
-      (LibraryName "C:\CADENCE\SPB_16.6\TOOLS\CAPTURE\LIBRARY\DISCRETE.OLB")
-      (DeviceIndex "0"))
-    ("CAP NP"
-      (FullPartName "CAP NP.Normal")
-      (LibraryName "C:\CADENCE\SPB_16.6\TOOLS\CAPTURE\LIBRARY\DISCRETE.OLB")
-      (DeviceIndex "0"))
-    ("HEADER 2"
-      (FullPartName "HEADER 2.Normal")
-      (LibraryName "C:\CADENCE\SPB_16.6\TOOLS\CAPTURE\LIBRARY\CONNECTOR.OLB")
-      (DeviceIndex "0"))
-    (LM2576HV-ADJ
-      (FullPartName "LM2576HV-ADJ.Normal")
-      (LibraryName "G:\CP_SMARTGARDEN\ORCAD\LIBRARY1.OLB")
-      (DeviceIndex "0"))
-    (LM2576HV/SO
-      (FullPartName "LM2576HV/SO.Normal")
-      (LibraryName "C:\CADENCE\SPB_16.6\TOOLS\CAPTURE\LIBRARY\REGULATOR.OLB")
-      (DeviceIndex "0"))
-    (CC1310LaouchPad
-      (FullPartName "CC1310LaouchPad.Normal")
-      (LibraryName "G:\CP_SMARTGARDEN\ORCAD\LIBRARY1.OLB")
-      (DeviceIndex "0"))
-    (pH
-      (FullPartName "pH.Normal")
-      (LibraryName "G:\CP_SMARTGARDEN\ORCAD\LIBRARY1.OLB")
-      (DeviceIndex "0"))
-    (LM393
-      (FullPartName "LM393.Normal")
-      (LibraryName "G:\CP_SMARTGARDEN\ORCAD\LIBRARY1.OLB")
-      (DeviceIndex "0"))
-    (bh1750
-      (FullPartName "bh1750.Normal")
-      (LibraryName "G:\CP_SMARTGARDEN\ORCAD\LIBRARY1.OLB")
-      (DeviceIndex "0"))
-    (AM2320
-      (FullPartName "AM2320.Normal")
-      (LibraryName "G:\CP_SMARTGARDEN\ORCAD\LIBRARY1.OLB")
-      (DeviceIndex "0"))
-    (ULN2003A
-      (FullPartName "ULN2003A.Normal")
-      (LibraryName "G:\CP_SMARTGARDEN\ORCAD\LIBRARY1.OLB")
-      (DeviceIndex "0"))
-    (RESISTOR
-      (FullPartName "RESISTOR.Normal")
-      (LibraryName "C:\CADENCE\SPB_16.6\TOOLS\CAPTURE\LIBRARY\DISCRETE.OLB")
-      (DeviceIndex "0"))
-    (LED
-      (FullPartName "LED.Normal")
-      (LibraryName "C:\CADENCE\SPB_16.6\TOOLS\CAPTURE\LIBRARY\DISCRETE.OLB")
-      (DeviceIndex "0"))
-    (ULN2003
-      (FullPartName "ULN2003.Normal")
-      (LibraryName "G:\CP_SMARTGARDEN\ORCAD\LIBRARY1.OLB")
-      (DeviceIndex "0"))
-    (GND
-      (LibraryName "C:\CADENCE\SPB_16.6\TOOLS\CAPTURE\LIBRARY\CAPSYM.OLB")
-      (DeviceIndex "0"))
-    (GND_POWER
-      (LibraryName "C:\CADENCE\SPB_16.6\TOOLS\CAPTURE\LIBRARY\CAPSYM.OLB")
-      (DeviceIndex "0"))
-    ("RELAY SPDT"
-      (FullPartName "RELAY SPDT.Normal")
-      (LibraryName "C:\CADENCE\SPB_16.6\TOOLS\CAPTURE\LIBRARY\DISCRETE.OLB")
-      (DeviceIndex "0"))
-    (CON2
-      (FullPartName "CON2.Normal")
-      (LibraryName "C:\CADENCE\SPB_16.6\TOOLS\CAPTURE\LIBRARY\CONNECTOR.OLB")
-      (DeviceIndex "0"))
-    ("RELAY DPDT HE"
-      (FullPartName "RELAY DPDT HEA.Normal")
-      (LibraryName "C:\CADENCE\SPB_16.6\TOOLS\CAPTURE\LIBRARY\DISCRETE.OLB")
-      (DeviceIndex "0"))
-    (ULN2003A/SO
-      (FullPartName "ULN2003A/SO.Normal")
-      (LibraryName "C:\CADENCE\SPB_16.6\TOOLS\CAPTURE\LIBRARY\TRANSISTOR.OLB")
-      (DeviceIndex "0"))
-    (cc1310
-      (FullPartName "cc1310.Normal")
-      (LibraryName "G:\CP_SMARTGARDEN\ORCAD\LIBRARY1.OLB")
       (DeviceIndex "0")))
   (GlobalState
     (FileView
       (Path "Design Resources")
-      (Path "Design Resources" ".\cp_cc1310launchpad.dsn")
-      (Path "Design Resources" ".\cp_cc1310launchpad.dsn" "SCHEMATIC1")
-      (Path "Design Resources" ".\cp_cc1310launchpad.dsn" "Design Cache")
       (Path "Design Resources" "Library")
-      (Path "Design Resources" "Library" ".\library1.olb"))
+      (Select "Design Resources" "Library"
+         "G:\CAPSTONEPROJECT_GIT\OrCAD\library1.olb"))
     (HierarchyView)
     (Doc
       (Type "COrCapturePMDoc")
       (Frame
-        (Placement "44 0 1 -1 -1 -8 -31 0 200 0 223"))
-      (Tab 0))
-    (Doc
-      (Type "COrSchematicDoc")
-      (Frame
-        (Placement "44 2 3 -1 -1 -8 -31 78 1264 78 340")
-        (Scroll "-193 -6")
-        (Zoom "16")
-        (Occurrence "/"))
-      (Path "G:\CP_SMARTGARDEN\ORCAD\CP_CC1310LAUNCHPAD.DSN")
-      (Schematic "SCHEMATIC1")
-      (Page "PAGE1")))
-  (MPSSessionName "Thanh Sang")
-  (LastUsedLibraryBrowseDirectory "C:\Cadence\SPB_16.6\tools\capture\library"))
+        (Placement "44 2 3 -1 -1 -8 -31 0 200 0 223"))
+      (Tab 0))))
