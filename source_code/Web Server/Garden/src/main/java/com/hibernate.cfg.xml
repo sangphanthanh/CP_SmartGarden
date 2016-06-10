@@ -12,11 +12,16 @@
         <property name="hibernate.dialect">org.hibernate.dialect.MySQLDialect</property>
         <property name="hibernate.search.autoregister_listeners">false</property>
         <property name="hibernate.validator.apply_to_ddl">false</property>
-        <mapping class="com.garden.entity.Libaryinfor" />
-        <mapping class="com.garden.entity.Sensorinfo" />
-        <mapping class="com.garden.entity.Zone" />
-        <mapping class="com.garden.entity.Enddevice" />
-        <mapping class="com.garden.entity.Uselibary" />
-        <mapping class="com.garden.entity.Account" />
+        <mapping class="com.myprojet.entities.Account" />
+        <mapping class="com.myprojet.entities.Area" />
+        <mapping class="com.myprojet.entities.Province" />
+        <mapping class="com.myprojet.entities.Smarthome" />
+        <mapping class="com.myprojet.entities.Userlibrary" />
+        <mapping class="com.myprojet.entities.Food" />
+        <mapping class="com.myprojet.entities.Sensorinfo" />
+        <mapping class="com.myprojet.entities.Enddevice" />
+        <mapping class="com.myprojet.entities.Place" />
+        <mapping class="com.myprojet.entities.Zone" />
+        <mapping class="com.myprojet.entities.Libraryinfo" />
     </session-factory>
 </hibernate-configuration>

@@ -1,0 +1,60 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+"http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
+<!-- Generated Jun 10, 2016 10:34:31 PM by Hibernate Tools 4.3.1 -->
+<hibernate-mapping>
+    <class name="com.myprojet.entities.Userlibrary" table="userlibrary" catalog="travelguild" optimistic-lock="version">
+        <id name="userLibId" type="java.lang.Integer">
+            <column name="userLibID" />
+            <generator class="identity" />
+        </id>
+        <property name="username" type="string">
+            <column name="username" not-null="true" />
+        </property>
+        <property name="userPlanName" type="string">
+            <column name="userPlanName" not-null="true" />
+        </property>
+        <property name="userTypePlan" type="string">
+            <column name="userTypePlan" not-null="true" />
+        </property>
+        <property name="userHighPh" type="java.lang.Float">
+            <column name="userHighPH" precision="12" scale="0" />
+        </property>
+        <property name="userLowPh" type="java.lang.Float">
+            <column name="userLowPH" precision="12" scale="0" />
+        </property>
+        <property name="userHighLight" type="java.lang.Float">
+            <column name="userHighLight" precision="12" scale="0" />
+        </property>
+        <property name="userLowLight" type="java.lang.Float">
+            <column name="userLowLight" precision="12" scale="0" />
+        </property>
+        <property name="userHighHumidity" type="java.lang.Float">
+            <column name="userHighHumidity" precision="12" scale="0" />
+        </property>
+        <property name="userLowHumidity" type="java.lang.Float">
+            <column name="userLowHumidity" precision="12" scale="0" />
+        </property>
+        <property name="userHighTemperature" type="java.lang.Float">
+            <column name="userHighTemperature" precision="12" scale="0" />
+        </property>
+        <property name="userLowTemperature" type="java.lang.Float">
+            <column name="userLowTemperature" precision="12" scale="0" />
+        </property>
+        <property name="userHighSoilMoisture" type="java.lang.Float">
+            <column name="userHighSoilMoisture" precision="12" scale="0" />
+        </property>
+        <property name="userLowSoilMoisture" type="java.lang.Float">
+            <column name="userLowSoilMoisture" precision="12" scale="0" />
+        </property>
+        <property name="userFertilizeDate" type="timestamp">
+            <column name="userFertilizeDate" length="19" />
+        </property>
+        <property name="userWeightFertilize" type="java.lang.Float">
+            <column name="userWeightFertilize" precision="12" scale="0" />
+        </property>
+        <property name="userLifeCycleOfPlan" type="java.lang.Integer">
+            <column name="userLifeCycleOfPlan" />
+        </property>
+    </class>
+</hibernate-mapping>

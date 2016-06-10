@@ -1,0 +1,27 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+"http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
+<!-- Generated Jun 10, 2016 10:34:31 PM by Hibernate Tools 4.3.1 -->
+<hibernate-mapping>
+    <class name="com.myprojet.entities.Food" table="food" catalog="travelguild" optimistic-lock="version">
+        <id name="foodId" type="java.lang.Integer">
+            <column name="foodId" />
+            <generator class="identity" />
+        </id>
+        <property name="foodName" type="string">
+            <column name="foodName" />
+        </property>
+        <property name="foodDescription" type="string">
+            <column name="foodDescription" />
+        </property>
+        <property name="provinceId" type="java.lang.Integer">
+            <column name="provinceId" />
+        </property>
+        <property name="foodImgLink" type="string">
+            <column name="foodImgLink" />
+        </property>
+        <property name="foodVote" type="java.lang.Integer">
+            <column name="foodVote" />
+        </property>
+    </class>
+</hibernate-mapping>

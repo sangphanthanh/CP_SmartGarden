@@ -1,0 +1,42 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+"http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
+<!-- Generated Jun 10, 2016 10:34:31 PM by Hibernate Tools 4.3.1 -->
+<hibernate-mapping>
+    <class name="com.myprojet.entities.Libraryinfo" table="libraryinfo" catalog="travelguild" optimistic-lock="version">
+        <id name="libId" type="java.lang.Integer">
+            <column name="libID" />
+            <generator class="identity" />
+        </id>
+        <property name="libPlanName" type="string">
+            <column name="libPlanName" not-null="true" />
+        </property>
+        <property name="libTypePlan" type="string">
+            <column name="libTypePlan" not-null="true" />
+        </property>
+        <property name="libHighPh" type="java.lang.Float">
+            <column name="libHighPH" precision="12" scale="0" />
+        </property>
+        <property name="libLowPh" type="java.lang.Float">
+            <column name="libLowPH" precision="12" scale="0" />
+        </property>
+        <property name="libHighLight" type="java.lang.Float">
+            <column name="libHighLight" precision="12" scale="0" />
+        </property>
+        <property name="libLowLight" type="java.lang.Float">
+            <column name="libLowLight" precision="12" scale="0" />
+        </property>
+        <property name="libHighTemperature" type="java.lang.Float">
+            <column name="libHighTemperature" precision="12" scale="0" />
+        </property>
+        <property name="libLowTemperature" type="java.lang.Float">
+            <column name="libLowTemperature" precision="12" scale="0" />
+        </property>
+        <property name="libHighSoilMoisture" type="java.lang.Float">
+            <column name="libHighSoilMoisture" precision="12" scale="0" />
+        </property>
+        <property name="libLowSoilMoisture" type="java.lang.Float">
+            <column name="libLowSoilMoisture" precision="12" scale="0" />
+        </property>
+    </class>
+</hibernate-mapping>

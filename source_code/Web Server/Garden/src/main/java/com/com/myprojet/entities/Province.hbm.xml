@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+"http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
+<!-- Generated Jun 10, 2016 10:34:31 PM by Hibernate Tools 4.3.1 -->
+<hibernate-mapping>
+    <class name="com.myprojet.entities.Province" table="province" catalog="travelguild" optimistic-lock="version">
+        <id name="provinceId" type="java.lang.Integer">
+            <column name="provinceId" />
+            <generator class="identity" />
+        </id>
+        <property name="provinceName" type="string">
+            <column name="provinceName" />
+        </property>
+        <property name="provinceDescription" type="string">
+            <column name="provinceDescription" />
+        </property>
+        <property name="areaId" type="java.lang.Integer">
+            <column name="areaId" />
+        </property>
+    </class>
+</hibernate-mapping>
