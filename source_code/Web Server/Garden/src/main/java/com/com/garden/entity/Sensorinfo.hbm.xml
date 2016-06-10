@@ -1,0 +1,33 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+"http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
+<!-- Generated Jun 10, 2016 12:51:31 AM by Hibernate Tools 4.3.1 -->
+<hibernate-mapping>
+    <class name="com.garden.entity.Sensorinfo" table="sensorinfo" catalog="travelguild" optimistic-lock="version">
+        <id name="id" type="java.lang.Integer">
+            <column name="id" />
+            <generator class="identity" />
+        </id>
+        <property name="zoneId" type="java.lang.Integer">
+            <column name="zoneID" />
+        </property>
+        <property name="ph" type="java.lang.Float">
+            <column name="ph" precision="12" scale="0" />
+        </property>
+        <property name="light" type="java.lang.Float">
+            <column name="light" precision="12" scale="0" />
+        </property>
+        <property name="humidity" type="java.lang.Float">
+            <column name="humidity" precision="12" scale="0" />
+        </property>
+        <property name="temperature" type="java.lang.Float">
+            <column name="temperature" precision="12" scale="0" />
+        </property>
+        <property name="humidityofsoil" type="java.lang.Float">
+            <column name="humidityofsoil" precision="12" scale="0" />
+        </property>
+        <property name="sincetime" type="date">
+            <column name="sincetime" length="10" />
+        </property>
+    </class>
+</hibernate-mapping>

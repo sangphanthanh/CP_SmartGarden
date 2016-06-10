@@ -1,0 +1,48 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+"http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
+<!-- Generated Jun 10, 2016 12:51:31 AM by Hibernate Tools 4.3.1 -->
+<hibernate-mapping>
+    <class name="com.garden.entity.Libaryinfor" table="libaryinfor" catalog="travelguild" optimistic-lock="version">
+        <id name="phlanId" type="int">
+            <column name="phlanID" />
+            <generator class="assigned" />
+        </id>
+        <property name="planname" type="string">
+            <column name="planname" not-null="true" />
+        </property>
+        <property name="typeplan" type="string">
+            <column name="typeplan" />
+        </property>
+        <property name="phhight" type="float">
+            <column name="phhight" precision="12" scale="0" not-null="true" />
+        </property>
+        <property name="lighthight" type="float">
+            <column name="lighthight" precision="12" scale="0" not-null="true" />
+        </property>
+        <property name="humidityhight" type="float">
+            <column name="humidityhight" precision="12" scale="0" not-null="true" />
+        </property>
+        <property name="temperaturehight" type="float">
+            <column name="temperaturehight" precision="12" scale="0" not-null="true" />
+        </property>
+        <property name="humidityofsoilhight" type="java.lang.Float">
+            <column name="humidityofsoilhight" precision="12" scale="0" />
+        </property>
+        <property name="phlower" type="java.lang.Float">
+            <column name="phlower" precision="12" scale="0" />
+        </property>
+        <property name="lightlower" type="java.lang.Float">
+            <column name="lightlower" precision="12" scale="0" />
+        </property>
+        <property name="humiditylower" type="java.lang.Float">
+            <column name="humiditylower" precision="12" scale="0" />
+        </property>
+        <property name="temperaturelower" type="java.lang.Float">
+            <column name="temperaturelower" precision="12" scale="0" />
+        </property>
+        <property name="humidityofsoillower" type="java.lang.Float">
+            <column name="humidityofsoillower" precision="12" scale="0" />
+        </property>
+    </class>
+</hibernate-mapping>

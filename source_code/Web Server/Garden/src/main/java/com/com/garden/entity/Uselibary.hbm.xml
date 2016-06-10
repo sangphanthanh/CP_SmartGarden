@@ -1,0 +1,57 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+"http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
+<!-- Generated Jun 10, 2016 12:51:31 AM by Hibernate Tools 4.3.1 -->
+<hibernate-mapping>
+    <class name="com.garden.entity.Uselibary" table="uselibary" catalog="travelguild" optimistic-lock="version">
+        <id name="userlibary" type="int">
+            <column name="userlibary" />
+            <generator class="assigned" />
+        </id>
+        <property name="usename" type="string">
+            <column name="usename" not-null="true" />
+        </property>
+        <property name="uplanname" type="string">
+            <column name="uplanname" />
+        </property>
+        <property name="utypeplan" type="string">
+            <column name="utypeplan" />
+        </property>
+        <property name="uphhight" type="java.lang.Float">
+            <column name="uphhight" precision="12" scale="0" />
+        </property>
+        <property name="ulighthight" type="java.lang.Float">
+            <column name="ulighthight" precision="12" scale="0" />
+        </property>
+        <property name="uhumidityhight" type="java.lang.Float">
+            <column name="uhumidityhight" precision="12" scale="0" />
+        </property>
+        <property name="utemperaturehight" type="java.lang.Float">
+            <column name="utemperaturehight" precision="12" scale="0" />
+        </property>
+        <property name="humidityofsoilhight" type="java.lang.Float">
+            <column name="humidityofsoilhight" precision="12" scale="0" />
+        </property>
+        <property name="udatefertilizer" type="java.lang.Integer">
+            <column name="udatefertilizer" />
+        </property>
+        <property name="udaygrowth" type="java.lang.Integer">
+            <column name="udaygrowth" />
+        </property>
+        <property name="uphlower" type="java.lang.Float">
+            <column name="uphlower" precision="12" scale="0" />
+        </property>
+        <property name="ulightlower" type="java.lang.Float">
+            <column name="ulightlower" precision="12" scale="0" />
+        </property>
+        <property name="uhumiditylower" type="java.lang.Float">
+            <column name="uhumiditylower" precision="12" scale="0" />
+        </property>
+        <property name="utemperaturelower" type="java.lang.Float">
+            <column name="utemperaturelower" precision="12" scale="0" />
+        </property>
+        <property name="uhumidityofsoillower" type="java.lang.Float">
+            <column name="uhumidityofsoillower" precision="12" scale="0" />
+        </property>
+    </class>
+</hibernate-mapping>

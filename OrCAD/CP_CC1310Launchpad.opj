@@ -13,6 +13,10 @@
   (Folder "Outputs")
   (Folder "Referenced Projects")
   (PartMRUSelector
+    (RESISTOR
+      (FullPartName "RESISTOR.Normal")
+      (LibraryName "C:\CADENCE\SPB_16.6\TOOLS\CAPTURE\LIBRARY\DISCRETE.OLB")
+      (DeviceIndex "0"))
     ("HEADER 3"
       (FullPartName "HEADER 3.Normal")
       (LibraryName "C:\CADENCE\SPB_16.6\TOOLS\CAPTURE\LIBRARY\CONNECTOR.OLB")
@@ -73,10 +77,6 @@
       (FullPartName "ULN2003A.Normal")
       (LibraryName "G:\CP_SMARTGARDEN\ORCAD\LIBRARY1.OLB")
       (DeviceIndex "0"))
-    (RESISTOR
-      (FullPartName "RESISTOR.Normal")
-      (LibraryName "C:\CADENCE\SPB_16.6\TOOLS\CAPTURE\LIBRARY\DISCRETE.OLB")
-      (DeviceIndex "0"))
     (LED
       (FullPartName "LED.Normal")
       (LibraryName "C:\CADENCE\SPB_16.6\TOOLS\CAPTURE\LIBRARY\DISCRETE.OLB")
@@ -118,7 +118,9 @@
       (Path "Design Resources" ".\cp_cc1310launchpad.dsn" "SCHEMATIC1")
       (Path "Design Resources" ".\cp_cc1310launchpad.dsn" "Design Cache")
       (Path "Design Resources" "Library")
-      (Path "Design Resources" "Library" ".\library1.olb"))
+      (Path "Design Resources" "Library" ".\library1.olb")
+      (Select "Design Resources" ".\cp_cc1310launchpad.dsn" "Design Cache"
+         "INDUCTOR"))
     (HierarchyView)
     (Doc
       (Type "COrCapturePMDoc")
@@ -129,8 +131,8 @@
       (Type "COrSchematicDoc")
       (Frame
         (Placement "44 2 3 -1 -1 -8 -31 78 1264 78 340")
-        (Scroll "-193 -6")
-        (Zoom "16")
+        (Scroll "1129 669")
+        (Zoom "88")
         (Occurrence "/"))
       (Path "G:\CP_SMARTGARDEN\ORCAD\CP_CC1310LAUNCHPAD.DSN")
       (Schematic "SCHEMATIC1")

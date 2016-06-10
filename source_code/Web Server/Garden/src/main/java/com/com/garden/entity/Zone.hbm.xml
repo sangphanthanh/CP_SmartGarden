@@ -1,0 +1,30 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+"http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
+<!-- Generated Jun 10, 2016 12:51:31 AM by Hibernate Tools 4.3.1 -->
+<hibernate-mapping>
+    <class name="com.garden.entity.Zone" table="zone" catalog="travelguild" optimistic-lock="version">
+        <id name="zoneId" type="int">
+            <column name="zoneID" />
+            <generator class="assigned" />
+        </id>
+        <property name="zonename" type="string">
+            <column name="zonename" length="45" />
+        </property>
+        <property name="username" type="string">
+            <column name="username" length="45" />
+        </property>
+        <property name="userlibary" type="java.lang.Integer">
+            <column name="userlibary" unique="true" />
+        </property>
+        <property name="devidecode" type="java.lang.Integer">
+            <column name="devidecode" />
+        </property>
+        <property name="location" type="string">
+            <column name="location" length="45" />
+        </property>
+        <property name="dayofplan" type="date">
+            <column name="dayofplan" length="10" />
+        </property>
+    </class>
+</hibernate-mapping>
