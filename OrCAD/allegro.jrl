@@ -1,0 +1,213 @@
+\t (00:25:22) allegro 16.6 P004 (v16-6-112G) Windows 32
+\t (00:25:22)     Journal start - Tue Jul 05 12:44:47 2016
+\t (00:25:22)         Host=SANGPTSE61252 User=Thanh Sang Pid=184840 CPUs=4
+\t (00:25:22) 
+\t (00:25:22) Starting new design...
+\i (00:25:22) trapsize 1996
+\i (00:25:22) trapsize 1996
+\i (00:25:22) package symbol wizard 
+\i (00:25:22) generaledit 
+   (00:25:32) Loading cmds.cxt 
+   (00:25:32) Loading axlcore.cxt 
+\i (00:25:32) setwindow form.sym_wizard
+\i (00:25:32) FORM sym_wizard soic YES 
+\i (00:25:35) FORM sym_wizard plcc YES 
+\i (00:25:37) FORM sym_wizard bga YES 
+\i (00:25:41) FORM sym_wizard rca_th YES 
+\i (00:25:44) FORM sym_wizard rca_smd YES 
+\i (00:25:45) FORM sym_wizard rca_th YES 
+\i (00:25:48) FORM sym_wizard rca_smd YES 
+\i (00:25:48) FORM sym_wizard sip YES 
+\i (00:25:51) FORM sym_wizard zip YES 
+\i (00:25:56) FORM sym_wizard dip YES 
+\i (00:25:58) FORM sym_wizard wiz_next  
+\i (00:25:59) FORM sym_wizard load_template  
+\t (00:25:59) Opening existing design...
+\t (00:25:59) Grids are drawn 400, 400 apart for enhanced viewability.
+\i (00:25:59) setwindow pcb
+\i (00:25:59) trapsize 339
+\d (00:25:59) Database opened: C:/Cadence/SPB_16.6/share/pcb/pcb_lib/symbols/template/sym_template.dra
+\i (00:26:01) setwindow form.sym_wizard
+\i (00:26:01) FORM sym_wizard use_custom_template YES 
+\i (00:26:02) FORM sym_wizard no_custom_template YES 
+\i (00:26:02) FORM sym_wizard load_template  
+\i (00:26:03) fillin yes 
+\t (00:26:03) Opening existing design...
+\t (00:26:03) Grids are drawn 400, 400 apart for enhanced viewability.
+\i (00:26:03) setwindow pcb
+\i (00:26:03) trapsize 339
+\d (00:26:03) Database opened: C:/Cadence/SPB_16.6/share/pcb/pcb_lib/symbols/template/sym_template.dra
+\i (00:26:04) setwindow form.sym_wizard
+\i (00:26:04) FORM sym_wizard load_template  
+\i (00:26:05) fillin yes 
+\t (00:26:05) Opening existing design...
+\t (00:26:05) Grids are drawn 400, 400 apart for enhanced viewability.
+\i (00:26:05) setwindow pcb
+\i (00:26:05) trapsize 339
+\d (00:26:05) Database opened: C:/Cadence/SPB_16.6/share/pcb/pcb_lib/symbols/template/sym_template.dra
+\i (00:26:06) setwindow form.sym_wizard
+\i (00:26:06) FORM sym_wizard wiz_next  
+\i (00:26:12) FORM sym_wizard wiz_next  
+\i (00:26:56) FORM sym_wizard wiz_next  
+\i (00:26:58) FORM sym_wizard default_pad_browse  
+\i (00:27:00) fillin "menu_cancel"
+\i (00:27:01) FORM sym_wizard wiz_back  
+\i (00:27:02) FORM sym_wizard wiz_next  
+\i (00:27:04) FORM sym_wizard default_pad_browse  
+\t (00:27:09) No valid name selected.
+\i (00:27:13) fillin "Pad40x60c"
+\i (00:27:14) FORM sym_wizard wiz_next  
+\i (00:27:17) FORM sym_wizard wiz_next  
+\i (00:27:18) FORM sym_wizard wiz_finish  
+\w (00:27:18) WARNING(SPMHUT-48): Scaled value has been rounded off.
+\i (00:27:18) setwindow pcb
+\i (00:27:18) trapsize 339
+\i (00:27:18) trapsize 12
+\i (00:27:18) trapsize 9
+\i (00:27:18) trapsize 9
+\t (00:27:19) Creating package symbol 'G:/CP_SmartGarden/OrCAD/cc1310lp.psm'.
+\t (00:27:19) Starting Create symbol...
+\i (00:27:19) generaledit 
+\i (00:27:28) copy 
+\t (00:27:28) Select the element(s) to copy.
+\i (00:27:33) pick grid -149 307
+\t (00:27:33) last pick:  -100  300
+\t (00:27:33) Mirror Geometry is not available for symbols or stand alone pins.
+\t (00:27:33) last pick:  -150  300
+\i (00:27:47) ipick 0 100 
+\t (00:27:47) last pick:  -150  400
+\i (00:27:56) undo 
+\i (00:27:56) trapsize 9
+\i (00:27:56) generaledit 
+\i (00:27:58) copy 
+\t (00:27:58) Select the element(s) to copy.
+\i (00:27:59) pick grid -147 286
+\t (00:27:59) last pick:  -100  300
+\t (00:27:59) Mirror Geometry is not available for symbols or stand alone pins.
+\t (00:27:59) last pick:  -150  300
+\i (00:28:07) ipick 100 0 
+\t (00:28:07) last pick:  -50  300
+\i (00:28:23) ipick 0 -100 
+\t (00:28:23) last pick:  -50  200
+\i (00:29:22) prepopup -396 258
+\i (00:29:24) cancel 
+\i (00:29:25) generaledit 
+\i (00:29:32) prepopup 675 339
+\i (00:29:34) prepopup 450 323
+\i (00:29:37) pick grid 355 391
+\t (00:29:37) last pick:  400  400
+\i (00:29:38) save 
+\i (00:29:41) fillin yes 
+\t (00:29:42) Symbol 'cc1310lp.psm' created.
+\i (00:29:42) generaledit 
+\i (00:30:17) new 
+\i (00:30:30) newdrawfillin "ttt.brd" "Board"
+\t (00:30:30) Starting new design...
+\i (00:30:30) trapsize 6
+\i (00:30:30) trapsize 24
+\i (00:30:30) trapsize 24
+\i (00:30:30) generaledit 
+\i (00:30:47) define grid 
+\t (00:30:47) Spacing fields allow simple equations to aid calculations; prefix with =
+\i (00:30:47) generaledit 
+\i (00:30:49) setwindow form.grid
+\i (00:30:49) FORM grid display YES 
+\i (00:30:50) FORM grid done  
+\i (00:30:58) setwindow pcb
+\i (00:30:58) netin 
+\i (00:31:00) setwindow form.niparams
+\i (00:31:00) FORM niparams capture_netlist YES 
+\i (00:31:05) FORM niparams browse  
+\i (00:31:10) fillin "menu_cancel"
+\i (00:31:12) FORM niparams cancel  
+\i (00:31:12) setwindow pcb
+\i (00:31:12) generaledit 
+\i (00:31:14) place manual 
+\i (00:31:27) setwindow form.plc_manual
+\i (00:31:27) FORM plc_manual cancel  
+\i (00:31:27) setwindow pcb
+\i (00:31:27) generaledit 
+\i (00:33:36) new 
+\e (00:33:36) Do you want to save the changes you made to ttt.brd?
+\i (00:33:38) fillin no 
+\i (00:34:35) newdrawfillin "CC1310LaunchPad.dra" "Package Symbol"
+\t (00:34:35) Starting new design...
+\i (00:34:35) trapsize 6
+\i (00:34:35) trapsize 24
+\i (00:34:35) trapsize 24
+\i (00:34:36) generaledit 
+\i (00:34:43) define grid 
+\t (00:34:43) Spacing fields allow simple equations to aid calculations; prefix with =
+\i (00:34:43) generaledit 
+\i (00:34:45) setwindow form.grid
+\i (00:34:45) FORM grid done  
+\i (00:34:48) setwindow pcb
+\i (00:34:48) new 
+\e (00:34:48) Do you want to save the changes you made to CC1310LaunchPad.dra?
+\i (00:34:51) fillin no 
+\i (00:34:55) newdrawfillin "menu_cancel"
+\i (00:34:55) generaledit 
+\i (00:40:21) padeditlib 
+\i (00:41:11) fillin "menu_cancel"
+\i (00:41:13) fillin no 
+\i (00:41:14) fillin "menu_cancel"
+\i (00:41:15) fillin yes 
+\i (00:41:15) generaledit 
+\i (00:41:18) new 
+\e (00:41:18) Do you want to save the changes you made to CC1310LaunchPad.dra?
+\i (00:41:20) fillin no 
+\i (00:41:46) newdrawfillin "CC1310LaunchPad.dra" "Package Symbol (Wizard)"
+\t (00:41:46) Starting new design...
+\i (00:41:46) trapsize 24
+\i (00:41:46) trapsize 24
+\i (00:41:46) package symbol wizard 
+\i (00:41:47) generaledit 
+\i (00:41:48) setwindow form.sym_wizard
+\i (00:41:48) FORM sym_wizard rca_th YES 
+\i (00:41:48) FORM sym_wizard bga YES 
+\i (00:41:49) FORM sym_wizard plcc YES 
+\i (00:41:49) FORM sym_wizard soic YES 
+\i (00:41:50) FORM sym_wizard dip YES 
+\i (00:41:50) FORM sym_wizard soic YES 
+\i (00:41:51) FORM sym_wizard plcc YES 
+\i (00:41:52) FORM sym_wizard bga YES 
+\i (00:41:53) FORM sym_wizard rca_th YES 
+\i (00:41:54) FORM sym_wizard rca_smd YES 
+\i (00:41:54) FORM sym_wizard sip YES 
+\i (00:41:55) FORM sym_wizard zip YES 
+\i (00:41:56) FORM sym_wizard dip YES 
+\i (00:41:58) FORM sym_wizard wiz_next  
+\i (00:42:02) FORM sym_wizard use_custom_template YES 
+\i (00:42:03) FORM sym_wizard template_browse  
+\i (00:42:04) fillin "menu_cancel"
+\i (00:42:05) FORM sym_wizard no_custom_template YES 
+\i (00:42:06) FORM sym_wizard load_template  
+\t (00:42:06) Opening existing design...
+\t (00:42:06) Grids are drawn 400, 400 apart for enhanced viewability.
+\i (00:42:06) setwindow pcb
+\i (00:42:06) trapsize 339
+\d (00:42:06) Database opened: C:/Cadence/SPB_16.6/share/pcb/pcb_lib/symbols/template/sym_template.dra
+\i (00:42:07) setwindow form.sym_wizard
+\i (00:42:07) FORM sym_wizard load_template  
+\i (00:42:09) fillin yes 
+\t (00:42:09) Opening existing design...
+\t (00:42:09) Grids are drawn 400, 400 apart for enhanced viewability.
+\i (00:42:09) setwindow pcb
+\i (00:42:09) trapsize 339
+\d (00:42:09) Database opened: C:/Cadence/SPB_16.6/share/pcb/pcb_lib/symbols/template/sym_template.dra
+\i (00:42:10) setwindow form.sym_wizard
+\i (00:42:10) FORM sym_wizard wiz_next  
+\i (00:42:15) FORM sym_wizard wiz_next  
+\i (04:48:55) FORM sym_wizard cancel  
+\t (04:48:55) Starting new design...
+\i (04:48:55) setwindow pcb
+\i (04:48:55) trapsize 170
+\i (04:48:55) trapsize 165
+\i (04:48:55) trapsize 170
+\i (04:48:55) trapsize 339
+\i (04:48:55) trapsize 339
+\i (04:48:55) generaledit 
+\i (04:48:56) exit 
+\e (04:48:56) Do you want to save the changes you made to CC1310LaunchPad.dra?
+\i (04:48:58) fillin no 
+\t (04:48:58)     Journal end - Tue Jul 05 17:08:23 2016

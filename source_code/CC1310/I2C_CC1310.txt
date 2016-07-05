@@ -100,8 +100,8 @@ uint16_t getLightSensor(UArg arg0, UArg arg1) {
 
 	Task_sleep(1000000 / Clock_tickPeriod);
 
-	txBuffer[0] = 0x03;
-	txBuffer[1] = 0x00;
+	txBuffer[0] = 0x10;
+	//txBuffer[1] = 0x00;
 
 
 	i2cTransaction.slaveAddress = 0x5c; //OPT3001 ADDR;
