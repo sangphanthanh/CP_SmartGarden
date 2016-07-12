@@ -1,6 +1,6 @@
 package com.sangpt.smartgarden.services;
 
-import com.sangpt.smartgarden.model.LoginResponseModel;
+import com.sangpt.smartgarden.model.responseModel.LoginResponseModel;
 
 import retrofit.Callback;
 import retrofit.http.GET;
@@ -12,7 +12,7 @@ import retrofit.http.Path;
 public interface IAccountService {
 
     @GET("/rest/account/{username}/{password}/loginjson")
-    void checkLogin(@Path("username")String username,
-                    @Path("password")String password,
+    void checkLogin(@Path("username") String username,
+                    @Path("password") String password,
                     Callback<LoginResponseModel> callback);
 }

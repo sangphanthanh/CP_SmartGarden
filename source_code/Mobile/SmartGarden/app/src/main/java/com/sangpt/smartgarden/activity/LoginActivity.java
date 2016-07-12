@@ -6,14 +6,13 @@ import android.support.v7.app.AppCompatActivity;
 import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
-import android.widget.ImageButton;
-import android.widget.TextView;
 import android.widget.Toast;
 
 import com.sangpt.smartgarden.R;
-import com.sangpt.smartgarden.model.LoginResponseModel;
+import com.sangpt.smartgarden.model.responseModel.LoginResponseModel;
 import com.sangpt.smartgarden.services.RestService;
 import com.sangpt.smartgarden.utils.DataUtils;
+import com.sangpt.smartgarden.utils.QuickSharePreference;
 
 import retrofit.Callback;
 import retrofit.RetrofitError;
@@ -60,8 +59,9 @@ public class LoginActivity extends AppCompatActivity implements View.OnClickList
                     RestService restService = new RestService();
                     restService.getAccountService().checkLogin(username, password, new Callback<LoginResponseModel>() {
                         @Override
-                        public void success(LoginResponseModel loginResponseModel, Response response) {
-                            if (loginResponseModel != null) {
+                        public void success(LoginResponseModel responseModel, Response response) {
+                            if (responseModel != null) {
+                                DataUtils.getINSTANCE(LoginActivity.this).getmPreferences().edit().putString(QuickSharePreference.SHARE_USERNAME,responseModel.getUsername()).commit();
                                 Intent intent = new Intent(LoginActivity.this, MainActivity.class);
                                 startActivity(intent);
                                 overridePendingTransition(R.anim.right_in, R.anim.left_out);

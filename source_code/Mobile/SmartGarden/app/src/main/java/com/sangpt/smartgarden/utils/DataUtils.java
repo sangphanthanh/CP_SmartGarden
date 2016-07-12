@@ -25,7 +25,7 @@ import java.util.concurrent.TimeUnit;
 //import com.google.android.gms.common.api.GoogleApiClient;
 
 public class DataUtils {
-    public static String URL = "http://smartgarden-thanhsang.rhcloud.com";
+    public static String URL = "http://smartgarden-thanhsang.rhcloud.com/SmartGarden";
 
 
 
@@ -35,7 +35,7 @@ public class DataUtils {
 
     private DataUtils(Context context) {
         mContext = context;
-        mPreferences = mContext.getSharedPreferences("SuperB", 0);
+        mPreferences = mContext.getSharedPreferences("SmartGarden", 0);
     }
 
     public static DataUtils getINSTANCE(Context context) {

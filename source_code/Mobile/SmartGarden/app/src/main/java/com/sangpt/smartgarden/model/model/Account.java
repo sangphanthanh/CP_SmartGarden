@@ -1,4 +1,4 @@
-package com.sangpt.smartgarden.model;
+package com.sangpt.smartgarden.model.model;
 
 import com.google.gson.annotations.SerializedName;
 
