@@ -26,6 +26,13 @@ public class LoginActivity extends AppCompatActivity implements View.OnClickList
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_login);
+        String username = DataUtils.getINSTANCE(this).getmPreferences().getString(QuickSharePreference.SHARE_USERNAME,"");
+        if (username.length()>0){
+            Intent intent = new Intent(LoginActivity.this, MainActivity.class);
+            startActivity(intent);
+            overridePendingTransition(R.anim.right_in, R.anim.left_out);
+            finish();
+        }
         viewHolder = new ViewHolder();
         viewHolder.txtUsername = (EditText) findViewById(R.id.txt_login_username_email);
         viewHolder.txtPassword = (EditText) findViewById(R.id.txt_login_password);

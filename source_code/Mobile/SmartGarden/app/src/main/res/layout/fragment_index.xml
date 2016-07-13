@@ -26,6 +26,7 @@
             android:textStyle="bold" />
 
         <EditText
+            android:id="@+id/txt_index_ph"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_alignParentRight="true"
@@ -54,6 +55,7 @@
             android:textStyle="bold" />
 
         <EditText
+            android:id="@+id/txt_index_light"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_alignParentRight="true"
@@ -82,6 +84,7 @@
             android:textStyle="bold" />
 
         <EditText
+            android:id="@+id/txt_index_humidity"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_alignParentRight="true"
@@ -110,6 +113,7 @@
             android:textStyle="bold" />
 
         <EditText
+            android:id="@+id/txt_index_soil"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_alignParentRight="true"
@@ -138,6 +142,7 @@
             android:textStyle="bold" />
 
         <EditText
+            android:id="@+id/txt_index_temperature"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_alignParentRight="true"
@@ -166,6 +171,7 @@
             android:textStyle="bold" />
 
         <EditText
+            android:id="@+id/txt_index_date_fertilizer"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_alignParentRight="true"
@@ -194,6 +200,7 @@
             android:textStyle="bold" />
 
         <EditText
+            android:id="@+id/txt_index_weight_of_fertilizer"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_alignParentRight="true"
@@ -222,6 +229,7 @@
             android:textStyle="bold" />
 
         <EditText
+            android:id="@+id/txt_index_device_code"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_alignParentRight="true"
@@ -250,6 +258,7 @@
             android:textStyle="bold" />
 
         <EditText
+            android:id="@+id/txt_index_location"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_alignParentRight="true"
@@ -278,6 +287,7 @@
             android:textStyle="bold" />
 
         <EditText
+            android:id="@+id/txt_index_create_date"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_alignParentRight="true"

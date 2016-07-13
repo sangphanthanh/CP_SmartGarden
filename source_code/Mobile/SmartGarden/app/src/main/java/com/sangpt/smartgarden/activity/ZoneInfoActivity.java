@@ -36,12 +36,12 @@ public class ZoneInfoActivity extends AppCompatActivity {
 
         int zoneId = getIntent().getIntExtra("zoneId",-1);
         String zoneName = getIntent().getStringExtra("zoneName");
-        toolbar.setTitle(zoneName.toUpperCase()+" - Bắp ngô".toUpperCase());
+        toolbar.setTitle(zoneName.toUpperCase());
 
         viewHolder = new ViewHolder();
         viewHolder.tabLayout = (TabLayout) findViewById(R.id.tabs_home);
         viewHolder.viewPager = (ViewPager) findViewById(R.id.viewpager_home);
-        viewHolder.viewPager.setAdapter(new HomeTabAdapter(getSupportFragmentManager()));
+        viewHolder.viewPager.setAdapter(new HomeTabAdapter(getSupportFragmentManager(),zoneId,zoneName));
         viewHolder.tabLayout.post(new Runnable() {
             @Override
             public void run() {
