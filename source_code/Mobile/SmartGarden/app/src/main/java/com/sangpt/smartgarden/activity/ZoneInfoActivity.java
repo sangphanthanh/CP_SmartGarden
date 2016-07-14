@@ -55,5 +55,10 @@ public class ZoneInfoActivity extends AppCompatActivity {
         ViewPager viewPager;
         TabLayout tabLayout;
     }
+    @Override
+    public void onBackPressed() {
+        super.onBackPressed();
+        overridePendingTransition(R.anim.left_in,R.anim.right_out);
+    }
 
 }

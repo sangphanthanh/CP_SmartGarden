@@ -84,7 +84,10 @@ public class MainActivity extends AppCompatActivity {
         int id = item.getItemId();
 
         //noinspection SimplifiableIfStatement
-        if (id == R.id.action_settings) {
+        if (id == R.id.action_add_zone) {
+            Intent intent = new Intent(MainActivity.this, EnterZoneActivity.class);
+            startActivity(intent);
+            overridePendingTransition(R.anim.right_in,R.anim.left_out);
             return true;
         }
 

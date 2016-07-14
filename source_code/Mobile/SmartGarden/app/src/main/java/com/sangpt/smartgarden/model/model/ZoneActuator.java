@@ -14,6 +14,8 @@ public class ZoneActuator {
     private boolean statusMisting;
     @SerializedName("statuspump")
     private boolean statusPump;
+    @SerializedName("statusFertilize")
+    private boolean statusFertilize;
     @SerializedName("zoneId")
     private int zoneId;
 
@@ -55,5 +57,13 @@ public class ZoneActuator {
 
     public void setZoneId(int zoneId) {
         this.zoneId = zoneId;
+    }
+
+    public boolean isStatusFertilize() {
+        return statusFertilize;
+    }
+
+    public void setStatusFertilize(boolean statusFertilize) {
+        this.statusFertilize = statusFertilize;
     }
 }

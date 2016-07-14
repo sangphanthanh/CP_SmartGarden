@@ -28,6 +28,10 @@
         <activity
             android:name=".activity.ZoneInfoActivity"
             android:label="@string/title_activity_zone_info"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".activity.EnterZoneActivity"
+            android:label="@string/title_activity_enter_zone"
             android:theme="@style/AppTheme.NoActionBar"></activity>
     </application>
 

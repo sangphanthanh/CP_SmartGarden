@@ -24,12 +24,13 @@
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="Water pump"
+                android:text="Status Pump"
                 android:textColor="#000"
                 android:textSize="18sp"
                 android:textStyle="bold" />
 
             <android.support.v7.widget.SwitchCompat
+                android:id="@+id/sc_zone_status_pump"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_alignParentRight="true"
@@ -53,12 +54,13 @@
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="Pressure pump"
+                android:text="Status Covered"
                 android:textColor="#000"
                 android:textSize="18sp"
                 android:textStyle="bold" />
 
             <android.support.v7.widget.SwitchCompat
+                android:id="@+id/sc_zone_status_covered"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_alignParentRight="true"
@@ -81,12 +83,13 @@
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="Fertilizer pump"
+                android:text="Status Misting"
                 android:textColor="#000"
                 android:textSize="18sp"
                 android:textStyle="bold" />
 
             <android.support.v7.widget.SwitchCompat
+                android:id="@+id/sc_zone_status_misting"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_alignParentRight="true"
@@ -109,12 +112,13 @@
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="Traction Motor"
+                android:text="Status Fertilize"
                 android:textColor="#000"
                 android:textSize="18sp"
                 android:textStyle="bold" />
 
             <android.support.v7.widget.SwitchCompat
+                android:id="@+id/sc_zone_status_fertilize"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_alignParentRight="true"
