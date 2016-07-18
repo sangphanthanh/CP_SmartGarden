@@ -13,8 +13,9 @@ import android.widget.Toast;
 
 import com.sangpt.smartgarden.R;
 import com.sangpt.smartgarden.adapter.HomeTabAdapter;
+import com.sangpt.smartgarden.listener.ICallActivity;
 
-public class ZoneInfoActivity extends AppCompatActivity {
+public class ZoneInfoActivity extends AppCompatActivity implements ICallActivity{
     private ViewHolder viewHolder;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -49,6 +50,11 @@ public class ZoneInfoActivity extends AppCompatActivity {
             }
         });
 
+    }
+
+    @Override
+    public void reCreateActivity() {
+        recreate();
     }
 
     private final class ViewHolder{

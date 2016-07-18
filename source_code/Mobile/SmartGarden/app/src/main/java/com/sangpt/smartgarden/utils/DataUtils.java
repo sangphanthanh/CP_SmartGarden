@@ -1,5 +1,6 @@
 package com.sangpt.smartgarden.utils;
 
+import android.app.DatePickerDialog;
 import android.content.Context;
 import android.content.SharedPreferences;
 import android.graphics.Bitmap;
@@ -9,6 +10,9 @@ import android.os.Environment;
 import android.view.View;
 import android.view.animation.AlphaAnimation;
 import android.view.animation.Animation;
+import android.view.inputmethod.InputMethodManager;
+import android.widget.DatePicker;
+import android.widget.EditText;
 
 import java.io.ByteArrayOutputStream;
 import java.io.File;
@@ -19,6 +23,7 @@ import java.text.ParseException;
 import java.text.SimpleDateFormat;
 import java.util.Calendar;
 import java.util.Date;
+import java.util.Locale;
 import java.util.TimeZone;
 import java.util.concurrent.TimeUnit;
 
@@ -85,21 +90,6 @@ public class DataUtils {
         return newBitmap;
     }
 
-    public static String getUpvoteString(int numOfUpvote) {
-        String s = "";
-        if (numOfUpvote > 0) {
-            s += " | ";
-            if (numOfUpvote > 999) {
-                s += numOfUpvote / 1000 > 0 ? numOfUpvote / 1000 + "k" : "";
-                numOfUpvote = numOfUpvote % 1000;
-                s += numOfUpvote > 0 ? (numOfUpvote / 100 > 0 ? numOfUpvote / 100 : "") : "";
-            } else {
-                s += numOfUpvote;
-            }
-        }
-        return s;
-    }
-
     public static Date parseDatetime(String s) throws ParseException {
         SimpleDateFormat sdf = new SimpleDateFormat("yyyy/MM/dd HH:mm:ss");
         Date date = sdf.parse(s);
@@ -145,6 +135,38 @@ public class DataUtils {
             animation1.setRepeatMode(Animation.REVERSE);
             v.startAnimation(animation1);
         }
+    }
+
+    public void setDobField(final EditText editText) {
+        final SimpleDateFormat dateFormatter = new SimpleDateFormat("MM/dd/yyyy", Locale.US);
+        Calendar newCalendar = Calendar.getInstance();
+        final DatePickerDialog datePickerDialog = new DatePickerDialog(mContext, new DatePickerDialog.OnDateSetListener() {
+            public void onDateSet(DatePicker view, int year, int monthOfYear, int dayOfMonth) {
+                Calendar newDate = Calendar.getInstance();
+                newDate.set(year, monthOfYear, dayOfMonth);
+                editText.setText(dateFormatter.format(newDate.getTime()));
+            }
+
+        }, (newCalendar.get(Calendar.YEAR)), (newCalendar.get(Calendar.MONTH)), (newCalendar.get(Calendar.DATE)));
+        editText.setOnFocusChangeListener(new View.OnFocusChangeListener() {
+            @Override
+            public void onFocusChange(View v, boolean hasFocus) {
+                if (hasFocus)
+                    datePickerDialog.show();
+                InputMethodManager imm = (InputMethodManager) mContext.getSystemService(Context.INPUT_METHOD_SERVICE);
+                imm.hideSoftInputFromWindow(editText.getWindowToken(), 0);
+            }
+        });
+        editText.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                datePickerDialog.show();
+                InputMethodManager imm = (InputMethodManager) mContext.getSystemService(Context.INPUT_METHOD_SERVICE);
+                imm.hideSoftInputFromWindow(editText.getWindowToken(), 0);
+            }
+        });
+
+
     }
 
 }

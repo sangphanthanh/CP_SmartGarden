@@ -28,6 +28,7 @@
             android:layout_height="wrap_content"
             android:layout_alignParentRight="true"
             android:background="@android:color/transparent"
+            android:inputType="numberDecimal"
             android:hint="0"
             android:textSize="18sp" />
     </RelativeLayout>
@@ -57,6 +58,7 @@
             android:layout_height="wrap_content"
             android:layout_alignParentRight="true"
             android:background="@android:color/transparent"
+            android:inputType="numberDecimal"
             android:hint="0"
             android:textSize="18sp" />
     </RelativeLayout>
@@ -78,6 +80,7 @@
             android:text="Humidity"
             android:textColor="#000"
             android:textSize="18sp"
+
             android:textStyle="bold" />
 
         <EditText
@@ -87,6 +90,7 @@
             android:layout_alignParentRight="true"
             android:background="@android:color/transparent"
             android:hint="0"
+            android:inputType="numberDecimal"
             android:textSize="18sp" />
     </RelativeLayout>
     <RelativeLayout
@@ -116,6 +120,7 @@
             android:layout_alignParentRight="true"
             android:background="@android:color/transparent"
             android:hint="0"
+            android:inputType="numberDecimal"
             android:textSize="18sp" />
     </RelativeLayout>
     <RelativeLayout
@@ -145,6 +150,7 @@
             android:layout_alignParentRight="true"
             android:background="@android:color/transparent"
             android:hint="0"
+            android:inputType="numberDecimal"
             android:textSize="18sp" />
     </RelativeLayout>
 </LinearLayout>

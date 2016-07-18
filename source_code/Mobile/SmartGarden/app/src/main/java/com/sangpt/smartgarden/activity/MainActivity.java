@@ -40,7 +40,6 @@ public class MainActivity extends AppCompatActivity {
         setSupportActionBar(toolbar);
         init();
         event();
-        getList();
         
     }
 
@@ -55,6 +54,7 @@ public class MainActivity extends AppCompatActivity {
                 intent.putExtra("zoneId",zone.getZoneId());
                 intent.putExtra("zoneName",zone.getZoneName());
                 startActivity(intent);
+                overridePendingTransition(R.anim.right_in,R.anim.left_out);
             }
         });
     }
@@ -116,5 +116,11 @@ public class MainActivity extends AppCompatActivity {
 
     private class ViewHolder{
         GridView gvZones;
+    }
+
+    @Override
+    protected void onResume() {
+        super.onResume();
+        getList();
     }
 }

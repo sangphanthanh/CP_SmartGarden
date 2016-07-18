@@ -3,4 +3,5 @@
     <string name="action_settings">Settings</string>
     <string name="title_activity_zone_info">ZoneInfoActivity</string>
     <string name="title_activity_enter_zone">EnterZoneActivity</string>
+    <string name="title_activity_add_lib">AddLibActivity</string>
 </resources>

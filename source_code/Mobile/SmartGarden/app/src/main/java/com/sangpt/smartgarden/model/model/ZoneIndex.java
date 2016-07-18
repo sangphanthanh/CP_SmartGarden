@@ -5,165 +5,49 @@ import com.google.gson.annotations.SerializedName;
 /**
  * Created by ManhNV on 7/13/2016.
  */
-public class ZoneIndex {
-    @SerializedName("userFertilizeDate")
-    private String userFertilizeDate;
-    @SerializedName("userHighHumidity")
-    private double userHighHumidity;
-    @SerializedName("userHighLight")
-    private double userHighLight;
-    @SerializedName("userHighPh")
-    private double userHighPh;
-    @SerializedName("userHighSoilMoisture")
-    private double userHighSoilMoisture;
-    @SerializedName("userHighTemperature")
-    private double userHighTemperature;
-    @SerializedName("userLibId")
-    private int userLibId;
-    @SerializedName("userLowHumidity")
-    private double userLowHumidity;
-    @SerializedName("userLowLight")
-    private double userLowLight;
-    @SerializedName("userLowPh")
-    private double userLowPh;
-    @SerializedName("userLowSoilMoisture")
-    private double userLowSoilMoisture;
-    @SerializedName("userLowTemperature")
-    private double userLowTemperature;
-    @SerializedName("userPlanName")
-    private String userPlanName;
-    @SerializedName("userTypePlan")
-    private String userTypePlan;
-    @SerializedName("userWeightFertilize")
-    private double userWeightFertilize;
-    @SerializedName("username")
-    private String username;
+public class ZoneIndex  extends Library{
 
-    public String getUserFertilizeDate() {
-        return userFertilizeDate;
+
+    @SerializedName("location")
+    private String location;
+    @SerializedName("devideCode")
+    private String devideCode;
+    @SerializedName("dateOfGrow")
+    private String dateOfGrow;
+
+    public ZoneIndex(String userFertilizeDate, String userHighHumidity, String userHighLight, String userHighPh, String userHighSoilMoisture, String userHighTemperature, String userLowHumidity, String userLowLight, String userLowPh, String userLowSoilMoisture, String userLowTemperature, String userWeightFertilize, int userLibId, String userPlanName, String userTypePlan, String username) {
+        super(userFertilizeDate, userHighHumidity, userHighLight, userHighPh, userHighSoilMoisture, userHighTemperature, userLowHumidity, userLowLight, userLowPh, userLowSoilMoisture, userLowTemperature, userWeightFertilize, userLibId, userPlanName, userTypePlan, username);
     }
 
-    public void setUserFertilizeDate(String userFertilizeDate) {
-        this.userFertilizeDate = userFertilizeDate;
+
+    public ZoneIndex(String userFertilizeDate, String userHighHumidity, String userHighLight, String userHighPh, String userHighSoilMoisture, String userHighTemperature, String userLowHumidity, String userLowLight, String userLowPh, String userLowSoilMoisture, String userLowTemperature, String userWeightFertilize, int userLibId, String userPlanName, String userTypePlan, String username, String location, String devideCode, String dateOfGrow) {
+        super(userFertilizeDate, userHighHumidity, userHighLight, userHighPh, userHighSoilMoisture, userHighTemperature, userLowHumidity, userLowLight, userLowPh, userLowSoilMoisture, userLowTemperature, userWeightFertilize, userLibId, userPlanName, userTypePlan, username);
+        this.location = location;
+        this.devideCode = devideCode;
+        this.dateOfGrow = dateOfGrow;
     }
 
-    public double getUserHighHumidity() {
-        return userHighHumidity;
+    public String getLocation() {
+        return location;
     }
 
-    public void setUserHighHumidity(double userHighHumidity) {
-        this.userHighHumidity = userHighHumidity;
+    public void setLocation(String location) {
+        this.location = location;
     }
 
-    public double getUserHighLight() {
-        return userHighLight;
+    public String getDevideCode() {
+        return devideCode;
     }
 
-    public void setUserHighLight(double userHighLight) {
-        this.userHighLight = userHighLight;
+    public void setDevideCode(String devideCode) {
+        this.devideCode = devideCode;
     }
 
-    public double getUserHighPh() {
-        return userHighPh;
+    public String getDateOfGrow() {
+        return dateOfGrow;
     }
 
-    public void setUserHighPh(double userHighPh) {
-        this.userHighPh = userHighPh;
-    }
-
-    public double getUserHighSoilMoisture() {
-        return userHighSoilMoisture;
-    }
-
-    public void setUserHighSoilMoisture(double userHighSoilMoisture) {
-        this.userHighSoilMoisture = userHighSoilMoisture;
-    }
-
-    public double getUserHighTemperature() {
-        return userHighTemperature;
-    }
-
-    public void setUserHighTemperature(double userHighTemperature) {
-        this.userHighTemperature = userHighTemperature;
-    }
-
-    public int getUserLibId() {
-        return userLibId;
-    }
-
-    public void setUserLibId(int userLibId) {
-        this.userLibId = userLibId;
-    }
-
-    public double getUserLowHumidity() {
-        return userLowHumidity;
-    }
-
-    public void setUserLowHumidity(double userLowHumidity) {
-        this.userLowHumidity = userLowHumidity;
-    }
-
-    public double getUserLowLight() {
-        return userLowLight;
-    }
-
-    public void setUserLowLight(double userLowLight) {
-        this.userLowLight = userLowLight;
-    }
-
-    public double getUserLowPh() {
-        return userLowPh;
-    }
-
-    public void setUserLowPh(double userLowPh) {
-        this.userLowPh = userLowPh;
-    }
-
-    public double getUserLowSoilMoisture() {
-        return userLowSoilMoisture;
-    }
-
-    public void setUserLowSoilMoisture(double userLowSoilMoisture) {
-        this.userLowSoilMoisture = userLowSoilMoisture;
-    }
-
-    public double getUserLowTemperature() {
-        return userLowTemperature;
-    }
-
-    public void setUserLowTemperature(double userLowTemperature) {
-        this.userLowTemperature = userLowTemperature;
-    }
-
-    public String getUserPlanName() {
-        return userPlanName;
-    }
-
-    public void setUserPlanName(String userPlanName) {
-        this.userPlanName = userPlanName;
-    }
-
-    public String getUserTypePlan() {
-        return userTypePlan;
-    }
-
-    public void setUserTypePlan(String userTypePlan) {
-        this.userTypePlan = userTypePlan;
-    }
-
-    public double getUserWeightFertilize() {
-        return userWeightFertilize;
-    }
-
-    public void setUserWeightFertilize(double userWeightFertilize) {
-        this.userWeightFertilize = userWeightFertilize;
-    }
-
-    public String getUsername() {
-        return username;
-    }
-
-    public void setUsername(String username) {
-        this.username = username;
+    public void setDateOfGrow(String dateOfGrow) {
+        this.dateOfGrow = dateOfGrow;
     }
 }

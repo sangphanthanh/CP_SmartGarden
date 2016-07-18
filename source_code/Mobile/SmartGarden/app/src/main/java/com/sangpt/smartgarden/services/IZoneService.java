@@ -1,5 +1,8 @@
 package com.sangpt.smartgarden.services;
 
+import com.sangpt.smartgarden.model.model.Library;
+import com.sangpt.smartgarden.model.model.ZoneIndex;
+import com.sangpt.smartgarden.model.requestModel.AddZoneRequestModel;
 import com.sangpt.smartgarden.model.responseModel.GetZoneInfoActuatorResponseModel;
 import com.sangpt.smartgarden.model.responseModel.GetZoneInfoResponseModel;
 import com.sangpt.smartgarden.model.responseModel.GetZoneInfoSensorResponseModel;
@@ -7,7 +10,9 @@ import com.sangpt.smartgarden.model.responseModel.GetZonesResponseModel;
 import com.sangpt.smartgarden.model.responseModel.ListLibResponseModel;
 
 import retrofit.Callback;
+import retrofit.http.Body;
 import retrofit.http.GET;
+import retrofit.http.POST;
 import retrofit.http.Path;
 
 /**
@@ -31,6 +36,15 @@ public interface IZoneService {
 
     @GET("/rest/userlibrary/{username}/findalluserlibrary")
     void getLibrary(@Path("username") String username,
-                    Callback<ListLibResponseModel> callback
-    );
+                    Callback<ListLibResponseModel> callback);
+
+    @POST("/rest/userlibrary/insertuserlib")
+    void addLib(@Body Library library,
+                Callback<String> callback);
+    @POST("/rest/zone/insertzone")
+    void addZone(@Body AddZoneRequestModel requestionModel,
+                Callback<AddZoneRequestModel> callback);
+    @POST("/rest/userlibrary/updatezone")
+    void updateZone(@Body ZoneIndex requestionModel,
+                 Callback<String> callback);
 }
