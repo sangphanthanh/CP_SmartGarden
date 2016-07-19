@@ -86,4 +86,5 @@ public class ZoneSensor {
     public void setZoneId(int zoneId) {
         this.zoneId = zoneId;
     }
+
 }

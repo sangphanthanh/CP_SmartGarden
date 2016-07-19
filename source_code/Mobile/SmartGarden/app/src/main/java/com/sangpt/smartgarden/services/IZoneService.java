@@ -3,6 +3,7 @@ package com.sangpt.smartgarden.services;
 import com.sangpt.smartgarden.model.model.Library;
 import com.sangpt.smartgarden.model.model.ZoneIndex;
 import com.sangpt.smartgarden.model.requestModel.AddZoneRequestModel;
+import com.sangpt.smartgarden.model.responseModel.GetListZoneSensorResponseModel;
 import com.sangpt.smartgarden.model.responseModel.GetZoneInfoActuatorResponseModel;
 import com.sangpt.smartgarden.model.responseModel.GetZoneInfoResponseModel;
 import com.sangpt.smartgarden.model.responseModel.GetZoneInfoSensorResponseModel;
@@ -29,6 +30,10 @@ public interface IZoneService {
     @GET("/rest/sensorinfo/{zoneId}/sensorinfolistjson")
     void getZoneSensor(@Path("zoneId") int zoneId,
                        Callback<GetZoneInfoSensorResponseModel> callback);
+
+    @GET("/rest/sensorinfo/{zoneId}/listsensor")
+    void getListZoneSensor(@Path("zoneId") int zoneId,
+                           Callback<GetListZoneSensorResponseModel> callback);
 
     @GET("/rest/enddevice/{zoneId}/enddevicelistjson")
     void getZoneActuator(@Path("zoneId") int zoneId,

@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    android:orientation="vertical" android:layout_width="match_parent"
-    android:layout_height="match_parent">
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
     <RelativeLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -22,16 +24,17 @@
             android:textSize="18sp"
             android:textStyle="bold" />
 
-        <EditText
+        <TextView
             android:id="@+id/txt_sensor_ph"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_alignParentRight="true"
             android:background="@android:color/transparent"
-            android:inputType="numberDecimal"
             android:hint="0"
+            android:inputType="numberDecimal"
             android:textSize="18sp" />
     </RelativeLayout>
+
     <RelativeLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -52,16 +55,17 @@
             android:textSize="18sp"
             android:textStyle="bold" />
 
-        <EditText
+        <TextView
             android:id="@+id/txt_sensor_light"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_alignParentRight="true"
             android:background="@android:color/transparent"
-            android:inputType="numberDecimal"
             android:hint="0"
+            android:inputType="numberDecimal"
             android:textSize="18sp" />
     </RelativeLayout>
+
     <RelativeLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -83,7 +87,7 @@
 
             android:textStyle="bold" />
 
-        <EditText
+        <TextView
             android:id="@+id/txt_sensor_humidity"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
@@ -93,6 +97,7 @@
             android:inputType="numberDecimal"
             android:textSize="18sp" />
     </RelativeLayout>
+
     <RelativeLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -113,7 +118,7 @@
             android:textSize="18sp"
             android:textStyle="bold" />
 
-        <EditText
+        <TextView
             android:id="@+id/txt_sensor_soil"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
@@ -123,6 +128,7 @@
             android:inputType="numberDecimal"
             android:textSize="18sp" />
     </RelativeLayout>
+
     <RelativeLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -143,7 +149,7 @@
             android:textSize="18sp"
             android:textStyle="bold" />
 
-        <EditText
+        <TextView
             android:id="@+id/txt_sensor_temperature"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
@@ -153,4 +159,21 @@
             android:inputType="numberDecimal"
             android:textSize="18sp" />
     </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_gravity="right">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Sync Date: "/>
+        <Spinner
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/spin_sync_date"
+            android:spinnerMode="dialog"></Spinner>
+    </LinearLayout>
 </LinearLayout>
