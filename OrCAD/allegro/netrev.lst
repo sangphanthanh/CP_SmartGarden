@@ -1,0 +1,149 @@
+(---------------------------------------------------------------------)
+(                                                                     )
+(    Allegro Netrev Import Logic                                      )
+(                                                                     )
+(    Drawing          : Shield.brd                                    )
+(    Software Version : 16.6P004                                      )
+(    Date/Time        : Sun Jul 17 17:34:53 2016                      )
+(                                                                     )
+(---------------------------------------------------------------------)
+
+
+------ Directives ------
+
+RIPUP_ETCH FALSE;
+RIPUP_DELETE_FIRST_SEGMENT FALSE;
+RIPUP_RETAIN_BONDWIRE FALSE;
+RIPUP_SYMBOLS ALWAYS;
+Missing symbol has error FALSE;
+SCHEMATIC_DIRECTORY 'G:\CP_SMARTGARDEN\ORCAD\ALLEGRO';
+BOARD_DIRECTORY 'G:/CP_SmartGarden/OrCAD/SmartGardenShield';
+OLD_BOARD_NAME 'G:/CP_SmartGarden/OrCAD/SmartGardenShield/Shield.brd';
+NEW_BOARD_NAME 'G:/CP_SmartGarden/OrCAD/SmartGardenShield/Shield.brd';
+
+CmdLine: netrev.exe -y 1 -n -i G:\CP_SMARTGARDEN\ORCAD\ALLEGRO G:\CP_SmartGarden\OrCAD\SmartGardenShield\Shield.brd G:\CP_SmartGarden\OrCAD\SmartGardenShield\Shield.brd
+
+------ Preparing to read pst files ------
+
+Starting to read G:/CP_SMARTGARDEN/ORCAD/ALLEGRO/pstchip.dat 
+   Finished reading G:/CP_SMARTGARDEN/ORCAD/ALLEGRO/pstchip.dat (00:00:00.09)
+Starting to read G:/CP_SMARTGARDEN/ORCAD/ALLEGRO/pstxprt.dat 
+   Finished reading G:/CP_SMARTGARDEN/ORCAD/ALLEGRO/pstxprt.dat (00:00:00.00)
+Starting to read G:/CP_SMARTGARDEN/ORCAD/ALLEGRO/pstxnet.dat 
+   Finished reading G:/CP_SMARTGARDEN/ORCAD/ALLEGRO/pstxnet.dat (00:00:00.00)
+
+------ Oversights/Warnings/Errors ------
+
+
+#1   WARNING(SPMHNI-192): Device/Symbol check warning detected. [help]
+
+WARNING(SPMHNI-194): Symbol 'SS34' for device 'DIODE SCHOTTKY_SS34_MBR360' not found in PSMPATH or must be "dbdoctor"ed.
+
+#2   WARNING(SPMHNI-192): Device/Symbol check warning detected. [help]
+
+WARNING(SPMHNI-194): Symbol 'KF3013P' for device 'HEADER 3_KF3013P_HEADER 3' not found in PSMPATH or must be "dbdoctor"ed.
+
+#3   WARNING(SPMHNI-192): Device/Symbol check warning detected. [help]
+
+WARNING(SPMHNI-194): Symbol 'MICROUSB' for device 'HEADER 5_MICROUSB_HEADER 5' not found in PSMPATH or must be "dbdoctor"ed.
+
+#4   WARNING(SPMHNI-192): Device/Symbol check warning detected. [help]
+
+WARNING(SPMHNI-194): Symbol 'RH127' for device 'INDUCTOR_RH127_47UH' not found in PSMPATH or must be "dbdoctor"ed.
+
+#5   WARNING(SPMHNI-192): Device/Symbol check warning detected. [help]
+
+WARNING(SPMHNI-194): Symbol 'HK33F' for device 'RELAY SPDT_HK33F_RELAY SPDT' not found in PSMPATH or must be "dbdoctor"ed.
+
+#6   WARNING(SPMHNI-192): Device/Symbol check warning detected. [help]
+
+WARNING(SPMHNI-194): Symbol 'R3296W' for device 'RESISTOR VAR_R3296W_100K' not found in PSMPATH or must be "dbdoctor"ed.
+
+#7   WARNING(SPMHNI-192): Device/Symbol check warning detected. [help]
+
+WARNING(SPMHNI-194): Symbol 'LM393' for device 'LM393_LM393_LM393' not found in PSMPATH or must be "dbdoctor"ed.
+
+#8   WARNING(SPMHNI-192): Device/Symbol check warning detected. [help]
+
+WARNING(SPMHNI-194): Symbol 'PH' for device 'PH_PH_PH' not found in PSMPATH or must be "dbdoctor"ed.
+
+#9   WARNING(SPMHNI-192): Device/Symbol check warning detected. [help]
+
+WARNING(SPMHNI-194): Symbol 'CC1310CONNECTOR' for device 'CC1310LAOUCHPAD_CC1310CONNECTOR' not found in PSMPATH or must be "dbdoctor"ed.
+
+#10  WARNING(SPMHNI-192): Device/Symbol check warning detected. [help]
+
+WARNING(SPMHNI-194): Symbol 'LM2576' for device 'LM2576HV-ADJ_LM2576_LM2576HV-AD' not found in PSMPATH or must be "dbdoctor"ed.
+
+#11  WARNING(SPMHNI-192): Device/Symbol check warning detected. [help]
+
+WARNING(SPMHNI-194): Symbol 'LM35' for device 'LM35_LM35_LM35' not found in PSMPATH or must be "dbdoctor"ed.
+
+#12  WARNING(SPMHNI-192): Device/Symbol check warning detected. [help]
+
+WARNING(SPMHNI-194): Symbol 'BH1750GY30' for device 'BH1750GY30_BH1750GY30_BH1750' not found in PSMPATH or must be "dbdoctor"ed.
+
+#13  WARNING(SPMHNI-192): Device/Symbol check warning detected. [help]
+
+WARNING(SPMHNI-194): Symbol 'ULN2003A' for device 'ULN2003A_ULN2003A_ULN2003A' not found in PSMPATH or must be "dbdoctor"ed.
+
+#14  WARNING(SPMHNI-192): Device/Symbol check warning detected. [help]
+
+WARNING(SPMHNI-194): Symbol 'AM2320' for device 'AM2320_AM2320_AM2320' not found in PSMPATH or must be "dbdoctor"ed.
+
+#15  WARNING(SPMHNI-192): Device/Symbol check warning detected. [help]
+
+WARNING(SPMHNI-194): Symbol 'BH1750' for device 'BH1750_BH1750_BH1750' not found in PSMPATH or must be "dbdoctor"ed.
+
+------ Library Paths ------
+MODULEPATH =  . 
+           C:/Cadence/SPB_16.6/share/local/pcb/modules 
+
+PSMPATH =  . 
+           symbols 
+           .. 
+           ../symbols 
+           C:/Cadence/SPB_16.6/share/local/pcb/symbols 
+           C:/Cadence/SPB_16.6/share/pcb/pcb_lib/symbols 
+           C:/Cadence/SPB_16.6/share/pcb/allegrolib/symbols 
+
+PADPATH =  . 
+           symbols 
+           .. 
+           ../symbols 
+           C:/Cadence/SPB_16.6/share/local/pcb/padstacks 
+           C:/Cadence/SPB_16.6/share/pcb/pcb_lib/symbols 
+           C:/Cadence/SPB_16.6/share/pcb/allegrolib/symbols 
+
+
+------ Summary Statistics ------
+
+
+netrev run on Jul 17 17:34:53 2016
+   DESIGN NAME : 'CP_CC1310LAUNCHPAD'
+   PACKAGING ON Sep 10 2012 04:46:09
+
+   COMPILE 'logic'
+   CHECK_PIN_NAMES OFF
+   CROSS_REFERENCE OFF
+   FEEDBACK OFF
+   INCREMENTAL OFF
+   INTERFACE_TYPE PHYSICAL
+   MAX_ERRORS 500
+   MERGE_MINIMUM 5
+   NET_NAME_CHARS '#%&()*+-./:=>?@[]^_`|'
+   NET_NAME_LENGTH 24
+   OVERSIGHTS ON
+   REPLACE_CHECK OFF
+   SINGLE_NODE_NETS ON
+   SPLIT_MINIMUM 0
+   SUPPRESS   20
+   WARNINGS ON
+
+ No error detected
+ No oversight detected
+ 15 warnings detected
+
+cpu time      0:01:36
+elapsed time  0:00:01
+

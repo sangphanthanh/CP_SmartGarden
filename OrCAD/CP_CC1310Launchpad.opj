@@ -48,11 +48,12 @@
     (FALSE)
     (LAYOUT_Units "0")
     ("Create Allegro Netlist" "TRUE")
-    ("Allegro Netlist Directory" "allegro")
+    ("Allegro Netlist Directory" "G:\CP_SMARTGARDEN\ORCAD\ALLEGRO")
     ("View Allegro Netlist Files" "FALSE")
     ("Allegro Netlist Create DCF File" "FALSE")
     ("Update Allegro Board" "TRUE")
-    ("Allegro Netlist Output Board File" "allegro\CP_CC1310LAUNCHPAD.brd")
+    ("Allegro Netlist Output Board File"
+       "G:\CP_SmartGarden\OrCAD\SmartGardenShield\Shield.brd")
     ("Allegro Netlist Remove Etch" "FALSE")
     ("Allegro Netlist Place Changed Component" "ALWAYS_REPLACE")
     ("Allegro Netlist Open Board in Allegro" "ALLEGRO")
@@ -67,9 +68,26 @@
     (File ".\cp_cc1310launchpad.drc"
       (Type "Report"))
     (File ".\cp_cc1310launchpad.mnl"
-      (Type "LAYOUT Netlist File")))
+      (Type "LAYOUT Netlist File"))
+    (File ".\allegro\pstxnet.dat"
+      (Type "Report")
+      (DisplayName "pstxnet.dat"))
+    (File ".\allegro\pstxprt.dat"
+      (Type "Report")
+      (DisplayName "pstxprt.dat"))
+    (File ".\allegro\pstchip.dat"
+      (Type "Report")
+      (DisplayName "pstchip.dat")))
   (Folder "Referenced Projects")
   (PartMRUSelector
+    ("HEADER 5"
+      (FullPartName "HEADER 5.Normal")
+      (LibraryName "C:\CADENCE\SPB_16.6\TOOLS\CAPTURE\LIBRARY\CONNECTOR.OLB")
+      (DeviceIndex "0"))
+    (BH1750GY30
+      (FullPartName "BH1750GY30.Normal")
+      (LibraryName "G:\CP_SMARTGARDEN\ORCAD\LIBRARY1.OLB")
+      (DeviceIndex "0"))
     (RESISTOR
       (FullPartName "RESISTOR.Normal")
       (LibraryName "C:\CADENCE\SPB_16.6\TOOLS\CAPTURE\LIBRARY\DISCRETE.OLB")
@@ -159,14 +177,6 @@
     ("RELAY DPDT HE"
       (FullPartName "RELAY DPDT HEA.Normal")
       (LibraryName "C:\CADENCE\SPB_16.6\TOOLS\CAPTURE\LIBRARY\DISCRETE.OLB")
-      (DeviceIndex "0"))
-    (ULN2003A/SO
-      (FullPartName "ULN2003A/SO.Normal")
-      (LibraryName "C:\CADENCE\SPB_16.6\TOOLS\CAPTURE\LIBRARY\TRANSISTOR.OLB")
-      (DeviceIndex "0"))
-    (cc1310
-      (FullPartName "cc1310.Normal")
-      (LibraryName "G:\CP_SMARTGARDEN\ORCAD\LIBRARY1.OLB")
       (DeviceIndex "0")))
   (GlobalState
     (FileView
@@ -186,8 +196,8 @@
       (Type "COrSchematicDoc")
       (Frame
         (Placement "44 2 3 -1 -1 -8 -31 78 1264 78 340")
-        (Scroll "1094 1194")
-        (Zoom "128")
+        (Scroll "818 0")
+        (Zoom "64")
         (Occurrence "/"))
       (Path "G:\CP_SMARTGARDEN\ORCAD\CP_CC1310LAUNCHPAD.DSN")
       (Schematic "SCHEMATIC1")

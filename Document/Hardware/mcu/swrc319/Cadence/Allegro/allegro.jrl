@@ -1,0 +1,23 @@
+\t (00:00:12) allegro 16.6 P004 (v16-6-112G) Windows 32
+\t (00:00:12)     Journal start - Tue Jul 12 00:17:39 2016
+\t (00:00:12)         Host=SANGPTSE61252 User=Thanh Sang Pid=7044 CPUs=4
+\t (00:00:12) 
+\t (00:00:14) Opening existing design...
+\w (00:00:14) WARNING(SPMHDB-214): Allegro PCB Design XL (legacy) opening an Allegro Editor design.
+\w (00:00:15) WARNING(SPMHDB-213): DRC set to "out of date". This product supports a different DRC set than last product used on drawing.
+\w (00:00:15) WARNING(SPMHOD-34): Design was last saved by lower capability product (Allegro Editor). DRC is set out-of-date, you may wish to update DRC to reflect current rules.
+\i (00:00:16) fillin confirm
+\d (00:00:16) Database opened: G:/CP_SmartGarden/Document/Hardware/mcu/swrc319/Cadence/Allegro/LAUNCHXL-CC1310.brd
+\i (00:00:17) trapsize 1163
+\i (00:00:17) trapsize 1131
+\i (00:00:17) trapsize 1169
+\i (00:00:17) trapsize 947
+\i (00:00:17) trapsize 1966
+\i (00:00:18) generaledit 
+\i (00:00:22) open 
+\i (00:00:46) fillin "G:\CP_SmartGarden\OrCAD\GreenHouseShield-Copy-Copy\1N5822.dra"
+\i (00:00:46) cd "G:\CP_SmartGarden\OrCAD\GreenHouseShield-Copy-Copy"
+\t (00:00:46) Opening existing design...
+\i (00:00:46) trapsize 2
+\i (00:00:47) trapsize 2
+\t (00:00:47)     Journal end - Tue Jul 12 00:18:13 2016

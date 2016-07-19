@@ -1,0 +1,373 @@
+\t (11:01:48) allegro 16.6 P004 (v16-6-112G) Windows 32
+\t (11:01:48)     Journal start - Tue Jul 12 11:19:15 2016
+\t (11:01:48)         Host=SANGPTSE61252 User=Thanh Sang Pid=7044 CPUs=4
+\t (11:01:48) 
+\d (11:01:48) Database opened: G:/CP_SmartGarden/OrCAD/GreenHouseShield-Copy-Copy/LM2576.dra
+\i (11:01:48) etchedit 
+\i (11:01:50) zoom in 1 
+\i (11:01:50) setwindow pcb
+\i (11:01:50) zoom in -56 49
+\i (11:01:50) trapsize 3
+\i (11:01:50) zoom in 1 
+\i (11:01:50) setwindow pcb
+\i (11:01:50) zoom in -55 49
+\i (11:01:50) trapsize 2
+\i (11:01:50) zoom out 1 
+\i (11:01:50) setwindow pcb
+\i (11:01:50) zoom out -55 50
+\i (11:01:50) trapsize 3
+\i (11:01:50) zoom out 1 
+\i (11:01:50) setwindow pcb
+\i (11:01:50) zoom out -52 48
+\i (11:01:50) trapsize 6
+\i (11:01:50) zoom out 1 
+\i (11:01:50) setwindow pcb
+\i (11:01:50) zoom out -40 38
+\t (11:01:50) Grids are drawn 40, 40 apart for enhanced viewability.
+\i (11:01:50) trapsize 13
+\i (11:01:50) zoom out 1 
+\i (11:01:50) setwindow pcb
+\i (11:01:50) zoom out 319 -24
+\i (11:01:50) trapsize 13
+\i (11:01:50) zoom out 1 
+\i (11:01:50) setwindow pcb
+\i (11:01:50) zoom out 332 -24
+\i (11:01:50) trapsize 13
+\i (11:01:51) zoom in 1 
+\i (11:01:51) setwindow pcb
+\i (11:01:51) zoom in 405 -6
+\i (11:01:51) trapsize 6
+\i (11:01:57) save_as 
+\i (11:02:03) fillin "G:\CP_SmartGarden\OrCAD\SmartGardenShield\LM2576.dra"
+\i (11:02:03) cd "G:\CP_SmartGarden\OrCAD\SmartGardenShield"
+\t (11:02:04) Symbol 'lm2576.psm' created.
+\i (11:02:04) etchedit 
+\i (11:02:51) open 
+\i (11:02:58) fillin "G:\CP_SmartGarden\OrCAD\GreenHouseShield-Copy-Copy\CAP220UF.dra"
+\i (11:02:58) cd "G:\CP_SmartGarden\OrCAD\GreenHouseShield-Copy-Copy"
+\t (11:02:58) Opening existing design...
+\i (11:02:58) trapsize 5
+\d (11:02:58) Database opened: G:/CP_SmartGarden/OrCAD/GreenHouseShield-Copy-Copy/CAP220UF.dra
+\i (11:02:58) etchedit 
+\i (11:03:26) pick grid -161 2
+\t (11:03:26) last pick:  -160  0
+\i (11:03:29) pick grid 157 9
+\t (11:03:29) last pick:  160  10
+\i (11:16:01) save_as 
+\i (11:16:10) fillin "G:\CP_SmartGarden\OrCAD\SmartGardenShield\CAP100UF.dra"
+\i (11:16:10) cd "G:\CP_SmartGarden\OrCAD\SmartGardenShield"
+\t (11:16:11) Symbol 'cap100uf.psm' created.
+\i (11:16:11) etchedit 
+\i (11:16:35) open 
+\i (11:16:46) fillin "G:\CP_SmartGarden\OrCAD\GreenHouseShield-Copy-Copy\L407.dra"
+\i (11:16:46) cd "G:\CP_SmartGarden\OrCAD\GreenHouseShield-Copy-Copy"
+\t (11:16:46) Opening existing design...
+\t (11:16:46) Grids are drawn 20, 20 apart for enhanced viewability.
+\i (11:16:46) trapsize 9
+\d (11:16:46) Database opened: G:/CP_SmartGarden/OrCAD/GreenHouseShield-Copy-Copy/L407.dra
+\i (11:16:46) etchedit 
+\i (11:16:51) pick grid 230 -37
+\t (11:16:51) last pick:  230  -35
+\i (11:16:53) pick grid 265 -274
+\t (11:16:53) last pick:  265  -275
+\i (11:16:54) pick grid 262 -281
+\t (11:16:54) last pick:  260  -280
+\i (11:16:55) prepopup 258 -281
+\i (11:16:56) pick grid 241 -282
+\t (11:16:56) last pick:  240  -280
+\i (11:16:59) pick grid 237 242
+\t (11:16:59) last pick:  235  240
+\i (11:17:00) pick grid dbl 237 242
+\t (11:17:00) last pick:  235  240
+\i (11:17:01) pick grid 206 220
+\t (11:17:01) last pick:  205  220
+\i (11:17:01) pick grid 137 140
+\t (11:17:01) last pick:  135  140
+\i (11:17:01) pick grid 140 126
+\t (11:17:02) last pick:  140  125
+\i (11:17:02) pick grid 149 86
+\t (11:17:02) last pick:  150  85
+\i (11:17:03) pick grid 131 98
+\t (11:17:03) last pick:  130  100
+\i (11:17:04) pick grid -91 74
+\t (11:17:04) last pick:  -90  75
+\i (11:17:04) pick grid -67 42
+\t (11:17:04) last pick:  -65  40
+\i (11:17:05) pick grid -6 30
+\t (11:17:05) last pick:  -5  30
+\i (11:17:05) pick grid 79 16
+\t (11:17:05) last pick:  80  15
+\i (11:17:06) pick grid -68 63
+\t (11:17:06) last pick:  -70  65
+\i (11:17:06) pick grid -181 15
+\t (11:17:06) last pick:  -180  15
+\i (11:17:07) pick grid -94 3
+\t (11:17:07) last pick:  -95  5
+\i (11:17:07) pick grid -239 -18
+\t (11:17:07) last pick:  -240  -20
+\i (11:17:09) prepopup -256 -30
+\i (11:17:12) pop dyn_option_select @:@Fix 
+\i (11:17:12) fix 
+\i (11:17:12) etchedit 
+\i (11:17:16) drag_start grid 251 -95
+\i (11:17:16) move 
+\t (11:17:16) Cannot edit Filled Rectangle "Package Geometry/Place_Bound_Top". It has the FIXED property.
+\t (11:17:16) No valid items selected for the current operation, exiting.
+\i (11:17:16) etchedit 
+\i (11:17:18) drag_stop grid 331 -175
+\i (11:17:19) prepopup 269 -230
+\i (11:17:20) pick grid 324 -147
+\t (11:17:20) last pick:  325  -145
+\i (11:17:21) Esc 
+\i (11:17:21) Esc 
+\i (11:17:21) Esc 
+\i (11:17:21) Esc 
+\i (11:17:22) prepopup 272 228
+\i (11:17:23) prepopup 260 242
+\i (11:17:24) pick grid 250 235
+\t (11:17:24) last pick:  250  235
+\i (11:17:24) pick grid dbl 250 235
+\t (11:17:24) last pick:  250  235
+\i (11:17:25) pick grid 243 244
+\t (11:17:25) last pick:  245  245
+\i (11:17:25) pick grid dbl 243 244
+\t (11:17:25) last pick:  245  245
+\i (11:17:26) add rect 
+\i (11:17:28) prepopup -237 242
+\i (11:17:28) pick grid -247 239
+\t (11:17:28) last pick:  -245  240
+\i (11:17:29) pick grid -242 237
+\t (11:17:29) last pick:  -240  235
+\i (11:17:30) Esc 
+\i (11:17:30) Esc 
+\i (11:17:30) Esc 
+\i (11:17:31) undo 
+\i (11:17:31) trapsize 9
+\i (11:17:31) etchedit 
+\i (11:17:32) undo 
+\i (11:17:32) trapsize 9
+\i (11:17:32) etchedit 
+\i (11:17:37) pick grid 262 240
+\t (11:17:37) last pick:  260  240
+\i (11:17:39) pick grid 256 -98
+\t (11:17:39) last pick:  255  -100
+\i (11:17:40) drag_start grid 253 -98
+\i (11:17:41) drag_stop 291 -135
+\i (11:17:43) drag_start grid 208 -93
+\i (11:17:43) drag_stop 316 -194
+\i (11:17:44) prepopup 250 -96
+\i (11:17:48) pick grid 131 -150
+\t (11:17:48) last pick:  130  -150
+\i (11:17:49) pick grid 147 -27
+\t (11:17:49) last pick:  145  -25
+\i (11:17:49) pick grid -39 -4
+\t (11:17:49) last pick:  -40  -5
+\i (11:18:01) save_as 
+\i (11:18:08) fillin "G:\CP_SmartGarden\OrCAD\SmartGardenShield\L407.dra"
+\i (11:18:08) cd "G:\CP_SmartGarden\OrCAD\SmartGardenShield"
+\t (11:18:08) Symbol 'l407.psm' created.
+\i (11:18:08) etchedit 
+\i (11:18:31) xname_flush 
+\i (11:20:30) open 
+\i (11:20:35) fillin "G:\CP_SmartGarden\OrCAD\GreenHouseShield-Copy-Copy\HEADER_1.dra"
+\i (11:20:35) cd "G:\CP_SmartGarden\OrCAD\GreenHouseShield-Copy-Copy"
+\t (11:20:35) Opening existing design...
+\i (11:20:35) trapsize 1
+\d (11:20:35) Database opened: G:/CP_SmartGarden/OrCAD/GreenHouseShield-Copy-Copy/HEADER_1.dra
+\i (11:20:35) etchedit 
+\i (11:20:42) pick grid 32 8
+\t (11:20:42) last pick:  0  0
+\i (11:20:44) drag_start grid 49 -50
+\i (11:20:44) move 
+\t (11:20:44) last pick:  0  0
+\t (11:20:44) Element has no origin, using pick.
+\t (11:20:44) Pick new location for the element(s).
+\i (11:20:44) drag_stop grid 111 -55
+\i (11:20:45) etchedit 
+\i (11:20:46) zoom out 1 
+\i (11:20:46) setwindow pcb
+\i (11:20:46) zoom out 122 -19
+\i (11:20:46) trapsize 2
+\i (11:20:46) zoom out 1 
+\i (11:20:46) setwindow pcb
+\i (11:20:46) zoom out 116 -20
+\i (11:20:46) trapsize 3
+\i (11:20:46) zoom out 1 
+\i (11:20:46) setwindow pcb
+\i (11:20:46) zoom out 207 -48
+\i (11:20:46) trapsize 3
+\i (11:20:46) zoom out 1 
+\i (11:20:46) setwindow pcb
+\i (11:20:46) zoom out 208 -49
+\i (11:20:46) trapsize 3
+\i (11:20:46) zoom out 1 
+\i (11:20:46) setwindow pcb
+\i (11:20:46) zoom out 207 -57
+\i (11:20:46) trapsize 3
+\i (11:20:46) zoom out 1 
+\i (11:20:46) setwindow pcb
+\i (11:20:46) zoom out 207 -57
+\i (11:20:46) trapsize 3
+\i (11:20:46) zoom out 1 
+\i (11:20:46) setwindow pcb
+\i (11:20:46) zoom out 207 -58
+\i (11:20:46) trapsize 3
+\i (11:20:47) zoom out 1 
+\i (11:20:47) setwindow pcb
+\i (11:20:47) zoom out 113 -58
+\i (11:20:47) trapsize 3
+\i (11:20:47) zoom out 1 
+\i (11:20:47) setwindow pcb
+\i (11:20:47) zoom out 113 -58
+\i (11:20:47) trapsize 3
+\i (11:20:48) zoom out 1 
+\i (11:20:48) setwindow pcb
+\i (11:20:48) zoom out 99 -49
+\i (11:20:48) trapsize 3
+\i (11:20:48) undo 
+\i (11:20:48) trapsize 1
+\i (11:20:48) etchedit 
+\i (11:20:50) pick grid 86 2
+\t (11:20:50) last pick:  100  0
+\i (11:20:52) pick grid 1 -8
+\t (11:20:52) last pick:  0  0
+\i (11:20:53) pick grid 17 -24
+\t (11:20:53) last pick:  0  0
+\i (11:20:53) pick grid 17 -26
+\t (11:20:53) last pick:  0  0
+\i (11:20:58) open 
+\e (11:20:58) Do you want to save the changes you made to HEADER_1.dra?
+\i (11:20:59) fillin no 
+\i (11:21:05) fillin "1N5822.dra"
+\t (11:21:05) Opening existing design...
+\i (11:21:05) trapsize 2
+\d (11:21:05) Database opened: G:/CP_SmartGarden/OrCAD/GreenHouseShield-Copy-Copy/1N5822.dra
+\i (11:21:05) etchedit 
+\i (11:21:14) open 
+\i (11:21:16) fillin "menu_cancel"
+\i (11:21:16) etchedit 
+\i (15:53:36) zoom out 1 
+\i (15:53:36) setwindow pcb
+\i (15:53:36) zoom out 12 -19
+\i (15:53:36) trapsize 5
+\i (15:53:36) zoom out 1 
+\i (15:53:36) setwindow pcb
+\i (15:53:36) zoom out -95 -17
+\i (15:53:36) trapsize 6
+\i (15:53:37) zoom in 1 
+\i (15:53:37) setwindow pcb
+\i (15:53:37) zoom in -45 -92
+\i (15:53:37) trapsize 3
+\i (15:53:37) zoom in 1 
+\i (15:53:37) setwindow pcb
+\i (15:53:37) zoom in -46 -92
+\i (15:53:37) trapsize 2
+\i (15:53:37) zoom out 1 
+\i (15:53:37) setwindow pcb
+\i (15:53:37) zoom out -44 -90
+\i (15:53:37) trapsize 3
+\i (16:31:45) zoom in 1 
+\i (16:31:45) setwindow pcb
+\i (16:31:45) zoom in -24 -40
+\i (16:31:45) trapsize 2
+\i (16:31:45) zoom in 1 
+\i (16:31:45) setwindow pcb
+\i (16:31:45) zoom in -24 -40
+\i (16:31:45) trapsize 1
+\i (16:31:45) zoom out 1 
+\i (16:31:45) setwindow pcb
+\i (16:31:45) zoom out -14 -42
+\i (16:31:45) trapsize 2
+\i (16:31:45) zoom out 1 
+\i (16:31:45) setwindow pcb
+\i (16:31:45) zoom out -15 -42
+\i (16:31:45) trapsize 3
+\i (16:31:45) zoom out 1 
+\i (16:31:45) setwindow pcb
+\i (16:31:45) zoom out -15 -42
+\i (16:31:45) trapsize 6
+\i (16:31:46) zoom in 1 
+\i (16:31:46) setwindow pcb
+\i (16:31:46) zoom in 285 97
+\i (16:31:46) trapsize 3
+\i (16:31:46) zoom out 1 
+\i (16:31:46) setwindow pcb
+\i (16:31:46) zoom out 271 91
+\i (16:31:46) trapsize 6
+\e (16:52:11) Command not found: xdehilite
+\i (16:52:11) xname_flush 
+\i (16:52:11) done 
+\i (16:52:11) etchedit 
+\i (23:20:47) new 
+\i (23:21:27) newdrawfillin "RES.dra" "Package Symbol (Wizard)"
+\t (23:21:27) Starting new design...
+\i (23:21:28) trapsize 6
+\i (23:21:28) trapsize 6
+\i (23:21:28) package symbol wizard 
+\i (23:21:28) etchedit 
+\i (23:21:30) setwindow form.sym_wizard
+\i (23:21:30) FORM sym_wizard bga YES 
+\i (23:21:30) FORM sym_wizard plcc YES 
+\i (23:21:31) FORM sym_wizard soic YES 
+\i (23:21:33) FORM sym_wizard rca_th YES 
+\i (23:21:33) FORM sym_wizard rca_smd YES 
+\i (23:21:34) FORM sym_wizard sip YES 
+\i (23:21:35) FORM sym_wizard zip YES 
+\i (23:21:36) FORM sym_wizard sip YES 
+\i (23:21:38) FORM sym_wizard zip YES 
+\i (23:21:39) FORM sym_wizard dip YES 
+\i (23:22:37) FORM sym_wizard soic YES 
+\i (23:22:38) FORM sym_wizard dip YES 
+\i (23:22:40) FORM sym_wizard soic YES 
+\i (23:22:42) FORM sym_wizard dip YES 
+\i (23:22:45) FORM sym_wizard wiz_next  
+\i (23:22:46) FORM sym_wizard cancel  
+\t (23:22:47) Starting new design...
+\i (23:22:47) setwindow pcb
+\i (23:22:47) trapsize 5
+\i (23:22:48) trapsize 6
+\i (23:22:48) trapsize 6
+\i (23:22:49) etchedit 
+\i (23:28:48) trapsize 7
+\i (23:28:53) new 
+\e (23:28:53) Do you want to save the changes you made to RES.dra?
+\i (23:28:55) fillin no 
+\i (23:29:03) newdrawfillin "RES100K.brd" "Board (Wizard)"
+\t (23:29:03) Starting new design...
+\i (23:29:03) trapsize 7
+\i (23:29:03) trapsize 7
+\i (23:29:03) layout wizard 
+\i (23:29:04) etchedit 
+\i (23:29:08) setwindow form.brd_wizard
+\i (23:29:08) FORM brd_wizard wiz_next  
+\i (23:29:13) FORM brd_wizard cancel  
+\t (23:29:13) Starting new design...
+\i (23:29:13) setwindow pcb
+\i (23:29:13) trapsize 7
+\i (23:29:13) trapsize 7
+\i (23:29:13) etchedit 
+\i (23:29:16) open 
+\i (23:29:18) fillin "menu_cancel"
+\i (23:29:18) etchedit 
+\i (23:29:20) new 
+\i (23:29:29) newdrawfillin "RES100K.dra" "Package Symbol (Wizard)"
+\t (23:29:29) Starting new design...
+\i (23:29:29) trapsize 7
+\i (23:29:30) trapsize 7
+\i (23:29:30) trapsize 7
+\i (23:29:30) package symbol wizard 
+\i (23:29:30) etchedit 
+\i (23:29:37) new 
+\e (23:29:37) Do you want to save the changes you made to RES100K.dra?
+\i (23:29:38) fillin no 
+\i (23:29:51) newdrawfillin "RES100K.dra" "Package Symbol (Wizard)"
+\t (23:29:51) Starting new design...
+\i (23:29:51) trapsize 7
+\i (23:29:51) trapsize 7
+\i (23:29:51) package symbol wizard 
+\i (23:29:51) etchedit 
+\i (23:29:58) new 
+\e (23:29:58) Do you want to save the changes you made to RES100K.dra?
+\i (23:29:59) fillin no 
+\i (23:30:21) newdrawfillin "RES100K.dra" "Package Symbol (Wizard)"
+\t (23:30:21)     Journal end - Tue Jul 12 23:47:48 2016

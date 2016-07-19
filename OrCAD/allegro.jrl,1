@@ -1,0 +1,71 @@
+\t (00:00:13) allegro 16.6 P004 (v16-6-112G) Windows 32
+\t (00:00:13)     Journal start - Tue Jul 05 22:59:02 2016
+\t (00:00:13)         Host=SANGPTSE61252 User=Thanh Sang Pid=494152 CPUs=4
+\t (00:00:13) 
+\t (00:00:14) Opening existing design...
+\d (00:00:15) Database opened: G:/CP_SmartGarden/OrCAD/CC1310LP.dra
+\i (00:00:15) trapsize 11
+\i (00:00:15) trapsize 10
+\i (00:00:15) trapsize 11
+\i (00:00:16) trapsize 9
+\i (00:00:16) trapsize 9
+\i (00:00:16) generaledit 
+\i (00:00:20) new 
+\i (00:00:46) newdrawfillin "CC1310LaunchPad.dra" "Package Symbol (Wizard)"
+\t (00:00:46) Starting new design...
+\i (00:00:46) trapsize 24
+\i (00:00:46) trapsize 24
+\i (00:00:46) package symbol wizard 
+\i (00:00:46) generaledit 
+   (00:00:48) Loading cmds.cxt 
+   (00:00:48) Loading axlcore.cxt 
+\i (00:00:48) setwindow form.sym_wizard
+\i (00:00:48) FORM sym_wizard soic YES 
+\i (00:00:49) FORM sym_wizard dip YES 
+\i (00:02:05) FORM sym_wizard wiz_next  
+\i (00:02:07) FORM sym_wizard load_template  
+\t (00:02:07) Opening existing design...
+\t (00:02:07) Grids are drawn 400, 400 apart for enhanced viewability.
+\i (00:02:07) setwindow pcb
+\i (00:02:07) trapsize 339
+\d (00:02:07) Database opened: C:/Cadence/SPB_16.6/share/pcb/pcb_lib/symbols/template/sym_template.dra
+\i (00:02:09) setwindow form.sym_wizard
+\i (00:02:09) FORM sym_wizard wiz_next  
+\i (00:02:14) FORM sym_wizard wiz_next  
+\i (00:02:20) FORM sym_wizard dip_pin_count 20 
+\i (00:08:31) setwindow pcb
+\i (00:08:31) pick grid 14184 12623
+\t (00:08:31) last pick:  14200  12600
+\i (00:35:37) setwindow form.sym_wizard
+\i (00:35:37) FORM sym_wizard cancel  
+\t (00:35:37) Starting new design...
+\i (00:35:37) setwindow pcb
+\i (00:35:37) trapsize 170
+\i (00:35:38) trapsize 165
+\i (00:35:38) trapsize 170
+\i (00:35:38) trapsize 339
+\i (00:35:38) trapsize 339
+\i (00:35:38) generaledit 
+\i (00:35:40) open 
+\e (00:35:40) Do you want to save the changes you made to CC1310LaunchPad.dra?
+\i (00:35:42) fillin no 
+\i (00:35:54) fillin "menu_cancel"
+\i (00:35:54) generaledit 
+\i (00:36:05) load photoplot 
+\i (00:36:07) setwindow form.load_photoplot
+\i (00:36:07) FORM load_photoplot done  
+   (00:36:07) Loading mfg.cxt 
+\i (00:36:07) setwindow pcb
+\i (00:36:07) generaledit 
+\i (00:36:09) open 
+\e (00:36:09) Do you want to save the changes you made to CC1310LaunchPad.dra?
+\i (00:36:10) fillin no 
+\i (00:36:37) fillin "G:\CP_SmartGarden\Document\Hardware\mcu\swrc319\Cadence\Allegro\LAUNCHXL-CC1310.brd"
+\i (00:36:37) cd "G:\CP_SmartGarden\Document\Hardware\mcu\swrc319\Cadence\Allegro"
+\t (00:36:37) Opening existing design...
+\w (00:36:37) WARNING(SPMHDB-214): Allegro PCB Design XL (legacy) opening an Allegro Editor design.
+\w (00:36:38) WARNING(SPMHDB-213): DRC set to "out of date". This product supports a different DRC set than last product used on drawing.
+\w (00:36:38) WARNING(SPMHOD-34): Design was last saved by lower capability product (Allegro Editor). DRC is set out-of-date, you may wish to update DRC to reflect current rules.
+\i (00:36:39) fillin confirm
+\i (00:36:39) trapsize 1966
+\t (00:36:39)     Journal end - Tue Jul 05 23:35:28 2016

@@ -1,0 +1,284 @@
+# 
+# ===============================================================================
+#                               Allegro PCB Router                               
+# Copyright 1990-2010 Cadence Design Systems, Inc.  All Rights Reserved.
+# ===============================================================================
+# 
+# Software licensed for sale by Cadence Design Systems, Inc.
+# Current time = Sun Jul 17 17:46:46 2016
+# 
+# Allegro PCB Router v16-6-112 made 2012/09/12 at 23:00:45
+# Running on: sangptse61252, OS Version: WindowsNT 6.2.9200, Architecture: Intel Pentium II, III, or 4
+# Licensing: The program will not obey any unlicensed rules
+# No graphics will be displayed.
+# Design Name G:/CP_SmartGarden/OrCAD/SmartGardenShield\Shield.dsn
+# Batch File Name: pasde.do
+# Did File Name: G:/CP_SmartGarden/OrCAD/SmartGardenShield/specctra.did
+# Current time = Sun Jul 17 17:46:48 2016
+# PCB G:/CP_SmartGarden/OrCAD/SmartGardenShield
+# Master Unit set up as: MIL 1000
+# PCB Limits xlo=-20.0000 ylo=-20.0000 xhi=34020.0000 yhi=22020.0000
+# Total 8 Images Consolidated.
+# Via VIA z=1, 2 xlo=-10.0000 ylo=-10.0000 xhi= 10.0000 yhi= 10.0000
+# 
+#    VIA     TOP  BOTTOM
+# 
+#    TOP  ------   VIA  
+# BOTTOM   VIA    ------
+# 
+# Wires Processed 0, Vias Processed 0
+# Layers Processed: Signal Layers 2
+# Components Placed 59, Images Processed 29, Padstacks Processed 12
+# Nets Processed 57, Net Terminals 189
+# PCB Area=748000000.000  EIC=15  Area/EIC=49866666.667  SMDs=35
+# Total Pin Count: 222
+# Signal Connections Created 132
+# 
+# Design Rules --------------------------------------------
+# Via Grid 0.0100 with offset 0.0000
+# Layer TOP Horz Signal Wire Grid 0.0100 with offset 0.0000, Width= 5.0000, Clearance= 5.0000
+# Layer BOTTOM Vert Signal Wire Grid 0.0100 with offset 0.0000, Width= 5.0000, Clearance= 5.0000
+# Cpu Time = 0:00:00  Elapsed Time = 0:00:00
+# 
+# Wiring Statistics ----------------- G:/CP_SmartGarden/OrCAD/SmartGardenShield\Shield.dsn
+# Nets 57 Connections 132 Unroutes 132
+# Signal Layers 2 Power Layers 0
+# Wire Junctions 0, at vias 0 Total Vias 0
+# Percent Connected    0.00
+# Manhattan Length 456430.4400 Horizontal 95525.0350 Vertical 360905.4050
+# Routed Length   0.0000 Horizontal   0.0000 Vertical   0.0000
+# Ratio Actual / Manhattan   0.0000
+# Unconnected Length 456430.4400 Horizontal 93998.0000 Vertical 362432.4400
+# Total Conflicts: 0 (Cross: 0, Clear: 0, Xtalk: 0, Length: 0, Polygon Clear: 0 )
+# Cpu Time = 0:00:00  Elapsed Time = 0:00:02
+# Loading Do File pasde.do ...
+# Loading Do File G:/CP_SmartGarden/OrCAD/SmartGardenShield\Shield_rules.do ...
+# Colormap Written to File _notify.std
+# Enter command <# Loading Do File C:/Users/THANHS~1/AppData/Local/Temp/#Taaaaab08052.tmp ...
+# All Components Unselected.
+# All Nets Unselected.
+set route_diagonal 0
+grid wire 0.010000 (direction x) (offset 0.000000)
+grid wire 0.010000 (direction y) (offset 0.000000)
+grid via 0.010000 (direction x) (offset 0.000000)
+grid via 0.010000 (direction y) (offset 0.000000)
+protect all wires
+# All Wires Protected.
+direction TOP horizontal
+select layer TOP
+unprotect layer_wires TOP
+# Wires on layer TOP were Unprotected.
+direction BOTTOM vertical
+select layer BOTTOM
+unprotect layer_wires BOTTOM
+# Wires on layer BOTTOM were Unprotected.
+cost via -1
+# System default cost will be used.
+set turbo_stagger off
+limit outside -1
+rule pcb (patterns_allowed  trombone accordion)
+set pattern_stacking on
+rule pcb (sawtooth_amplitude -1 -1)
+rule pcb (sawtooth_gap -1)
+rule pcb (accordion_amplitude -1 -1)
+rule pcb (accordion_gap -1)
+rule pcb (trombone_run_length -1)
+rule pcb (trombone_gap -1)
+unprotect selected
+# All Selected Wires Unprotected.
+route 25 1
+# Current time = Sun Jul 17 17:46:55 2016
+# 
+#    VIA     TOP  BOTTOM
+# 
+#    TOP  ------   VIA  
+# BOTTOM   VIA    ------
+# 
+# 
+# Design Rules --------------------------------------------
+# Via Grid 0.0100 with offset 0.0000
+# Layer TOP Horz Signal Wire Grid 0.0100 with offset 0.0000, Width= 5.0000, Clearance= 5.0000
+# Layer BOTTOM Vert Signal Wire Grid 0.0100 with offset 0.0000, Width= 5.0000, Clearance= 5.0000
+# 
+# Wiring Statistics ----------------- G:/CP_SmartGarden/OrCAD/SmartGardenShield\Shield.dsn
+# Nets 57 Connections 132 Unroutes 132
+# Signal Layers 2 Power Layers 0
+# Wire Junctions 0, at vias 0 Total Vias 0
+# Percent Connected    0.00
+# Manhattan Length 456430.4400 Horizontal 95525.0350 Vertical 360905.4050
+# Routed Length   0.0000 Horizontal   0.0000 Vertical   0.0000
+# Ratio Actual / Manhattan   0.0000
+# Unconnected Length 456430.4400 Horizontal 93998.0000 Vertical 362432.4400
+# Start Route Pass 1 of 25
+# Routing 18 wires.
+# Total Conflicts: 10 (Cross: 10, Clear: 0, Xtalk: 0, Length: 0, Polygon Clear: 0 )
+# Total Unroutes: 114
+# Attempts 18 Successes 18 Failures 0 Vias 1
+# Cpu Time = 0:00:00  Elapsed Time = 0:00:00
+# End Pass 1 of 25
+# 1 bend points have been removed.
+# 0 bend points have been removed.
+# 0 bend points have been removed.
+# Start Route Pass 2 of 25
+# Routing 11 wires.
+# Total Conflicts: 0 (Cross: 0, Clear: 0, Xtalk: 0, Length: 0, Polygon Clear: 0 )
+# Total Unroutes: 114
+# Attempts 11 Successes 11 Failures 0 Vias 2
+# Cpu Time = 0:00:01  Elapsed Time = 0:00:00
+# End Pass 2 of 25
+# Start Route Pass 3 of 25
+# Routing 0 wires.
+# Total Conflicts: 0 (Cross: 0, Clear: 0, Xtalk: 0, Length: 0, Polygon Clear: 0 )
+# Total Unroutes: 114
+# Attempts 0 Successes 0 Failures 0 Vias 2
+# Cpu Time = 0:00:00  Elapsed Time = 0:00:00
+# End Pass 3 of 25
+# Cpu Time = 0:00:02  Elapsed Time = 0:00:02
+# 
+# Design Rules --------------------------------------------
+# Via Grid 0.0100 with offset 0.0000
+# Layer TOP Horz Signal Wire Grid 0.0100 with offset 0.0000, Width= 5.0000, Clearance= 5.0000
+# Layer BOTTOM Vert Signal Wire Grid 0.0100 with offset 0.0000, Width= 5.0000, Clearance= 5.0000
+# ROUTING HISTORY ================================================================
+#     Pass     |   Conflicts |    |     |     |     |    |Red|      CPU Time     |
+#   Name   |No.| Cross| Clear|Fail|Unrte| Vias|XTalk|Len.| % |  Pass   |  Total  |
+#----------+---+------+------+----+-----+-----+-----+----+---+---------+---------|
+# Route    |  1|    10|     0|   0|  114|    1|    0|   0|  0|  0:00:00|  0:00:00|
+# Route    |  2|     0|     0|   0|  114|    2|    0|   0|100|  0:00:01|  0:00:01|
+# Route    |  3|     0|     0|   0|  114|    2|    0|   0|  0|  0:00:00|  0:00:01|
+# Conflicts between polygon wires and fixed objects:   0
+# Stub Violations:   0
+# Net Order Violations:   0
+# Diffpair Uncoupled Length Violations:   0
+# Diffpair Phase Tolerance  Violations:   0
+# Total layerset violations:   0
+# Total layerset violations (exclude Fanout/Stagger/XNet Short side):   0
+# Overall Routing Time: 0:00:01
+# 
+# Wiring Statistics ----------------- G:/CP_SmartGarden/OrCAD/SmartGardenShield\Shield.dsn
+# Nets 57 Connections 132 Unroutes 114
+# Signal Layers 2 Power Layers 0
+# Wire Junctions 6, at vias 0 Total Vias 2
+# Percent Connected   13.64
+# Manhattan Length 456462.4400 Horizontal 95530.1750 Vertical 360932.2650
+# Routed Length 17447.7200 Horizontal 9874.0200 Vertical 7573.7000
+# Ratio Actual / Manhattan   0.0382
+# Unconnected Length 443563.0000 Horizontal 86049.0000 Vertical 357514.0000
+clean 2
+# Current time = Sun Jul 17 17:46:57 2016
+# 
+#    VIA     TOP  BOTTOM
+# 
+#    TOP  ------   VIA  
+# BOTTOM   VIA    ------
+# 
+# 
+# Design Rules --------------------------------------------
+# Via Grid 0.0100 with offset 0.0000
+# Layer TOP Horz Signal Wire Grid 0.0100 with offset 0.0000, Width= 5.0000, Clearance= 5.0000
+# Layer BOTTOM Vert Signal Wire Grid 0.0100 with offset 0.0000, Width= 5.0000, Clearance= 5.0000
+# 
+# Wiring Statistics ----------------- G:/CP_SmartGarden/OrCAD/SmartGardenShield\Shield.dsn
+# Nets 57 Connections 132 Unroutes 114
+# Signal Layers 2 Power Layers 0
+# Wire Junctions 6, at vias 0 Total Vias 2
+# Percent Connected   13.64
+# Manhattan Length 456462.4400 Horizontal 95530.1750 Vertical 360932.2650
+# Routed Length 17447.7200 Horizontal 9874.0200 Vertical 7573.7000
+# Ratio Actual / Manhattan   0.0382
+# Unconnected Length 443563.0000 Horizontal 86049.0000 Vertical 357514.0000
+# Start Clean Pass 1 of 2
+# Routing 27 wires.
+# Total Conflicts: 0 (Cross: 0, Clear: 0, Xtalk: 0, Length: 0, Polygon Clear: 0 )
+# Total Unroutes: 114
+# Attempts 23 Successes 23 Failures 0 Vias 1
+# Cpu Time = 0:00:00  Elapsed Time = 0:00:00
+# End Pass 1 of 2
+# Start Clean Pass 2 of 2
+# Routing 31 wires.
+# 0 bend points have been removed.
+# 0 bend points have been removed.
+# 0 bend points have been removed.
+# Total Conflicts: 0 (Cross: 0, Clear: 0, Xtalk: 0, Length: 0, Polygon Clear: 0 )
+# Total Unroutes: 114
+# Attempts 27 Successes 27 Failures 0 Vias 1
+# Cpu Time = 0:00:00  Elapsed Time = 0:00:01
+# End Pass 2 of 2
+# Cpu Time = 0:00:02  Elapsed Time = 0:00:03
+# 
+# Design Rules --------------------------------------------
+# Via Grid 0.0100 with offset 0.0000
+# Layer TOP Horz Signal Wire Grid 0.0100 with offset 0.0000, Width= 5.0000, Clearance= 5.0000
+# Layer BOTTOM Vert Signal Wire Grid 0.0100 with offset 0.0000, Width= 5.0000, Clearance= 5.0000
+# ROUTING HISTORY ================================================================
+#     Pass     |   Conflicts |    |     |     |     |    |Red|      CPU Time     |
+#   Name   |No.| Cross| Clear|Fail|Unrte| Vias|XTalk|Len.| % |  Pass   |  Total  |
+#----------+---+------+------+----+-----+-----+-----+----+---+---------+---------|
+# Route    |  1|    10|     0|   0|  114|    1|    0|   0|  0|  0:00:00|  0:00:00|
+# Route    |  2|     0|     0|   0|  114|    2|    0|   0|100|  0:00:01|  0:00:01|
+# Route    |  3|     0|     0|   0|  114|    2|    0|   0|  0|  0:00:00|  0:00:01|
+# Clean    |  4|     0|     0|   0|  114|    1|    0|   0|   |  0:00:00|  0:00:01|
+# Clean    |  5|     0|     0|   0|  114|    1|    0|   0|   |  0:00:00|  0:00:01|
+# Conflicts between polygon wires and fixed objects:   0
+# Stub Violations:   0
+# Net Order Violations:   0
+# Diffpair Uncoupled Length Violations:   0
+# Diffpair Phase Tolerance  Violations:   0
+# Total layerset violations:   0
+# Total layerset violations (exclude Fanout/Stagger/XNet Short side):   0
+# Overall Routing Time: 0:00:01
+# 
+# Wiring Statistics ----------------- G:/CP_SmartGarden/OrCAD/SmartGardenShield\Shield.dsn
+# Nets 57 Connections 132 Unroutes 114
+# Signal Layers 2 Power Layers 0
+# Wire Junctions 9, at vias 0 Total Vias 1
+# Percent Connected   13.64
+# Manhattan Length 456977.1400 Horizontal 95814.9030 Vertical 361162.2370
+# Routed Length 16994.2100 Horizontal 9908.0100 Vertical 7086.2000
+# Ratio Actual / Manhattan   0.0372
+# Unconnected Length 443976.9700 Horizontal 86428.9900 Vertical 357547.9800
+write routes (changed_only) (reset_changed) C:/Users/THANHS~1/AppData/Local/Temp/#Taaaaac08052.tmp
+# Routing Written to File C:/Users/THANHS~1/AppData/Local/Temp/#Taaaaac08052.tmp
+# Loading Do File C:/Users/THANHS~1/AppData/Local/Temp/#Taaaaae08052.tmp ...
+# All Components Unselected.
+# All Nets Unselected.
+# Net N13508 Selected.
+# Net GND Selected.
+# All Selected Wires Unprotected.
+# All unprotected selected wires were deleted.
+# Current time = Sun Jul 17 17:53:42 2016
+# Total Conflicts: 0 (Cross: 0, Clear: 0, Xtalk: 0, Length: 0, Polygon Clear: 0 )
+# Cpu Time = 0:00:00  Elapsed Time = 0:00:00
+# 
+# Wiring Statistics ----------------- G:/CP_SmartGarden/OrCAD/SmartGardenShield\Shield.dsn
+# Nets 57 Connections 132 Unroutes 124
+# Signal Layers 2 Power Layers 0
+# Wire Junctions 3, at vias 0 Total Vias 1
+# Percent Connected    6.06
+# Manhattan Length 456205.4400 Horizontal 95394.6610 Vertical 360810.7790
+# Routed Length 8534.0000 Horizontal 5461.5000 Vertical 3072.5000
+# Ratio Actual / Manhattan   0.0187
+# Unconnected Length 449758.4400 Horizontal 89330.0000 Vertical 360428.4400
+# All Components Unselected.
+# All Nets Unselected.
+# Current time = Sun Jul 17 17:53:42 2016
+# Nets Processed 58, Net Terminals 226
+# Signal Connections Created 114
+# 
+# Design Rules --------------------------------------------
+# Via Grid 0.0100 with offset 0.0000
+# Layer TOP Horz Signal Wire Grid 0.0100 with offset 0.0000, Width= 5.0000, Clearance= 5.0000
+# Layer BOTTOM Vert Signal Wire Grid 0.0100 with offset 0.0000, Width= 5.0000, Clearance= 5.0000
+# Total Conflicts: 0 (Cross: 0, Clear: 0, Xtalk: 0, Length: 0, Polygon Clear: 0 )
+# Cpu Time = 0:00:00  Elapsed Time = 0:00:01
+# 
+# Wiring Statistics ----------------- G:/CP_SmartGarden/OrCAD/SmartGardenShield\Shield.dsn
+# Nets 58 Connections 132 Unroutes 114
+# Signal Layers 2 Power Layers 0
+# Wire Junctions 9, at vias 0 Total Vias 1
+# Percent Connected   13.64
+# Manhattan Length 457782.1400 Horizontal 96283.4630 Vertical 361498.6770
+# Routed Length 16994.2100 Horizontal 9908.0100 Vertical 7086.2000
+# Ratio Actual / Manhattan   0.0371
+# Unconnected Length 443931.9700 Horizontal 86371.4900 Vertical 357560.4800
+quit
