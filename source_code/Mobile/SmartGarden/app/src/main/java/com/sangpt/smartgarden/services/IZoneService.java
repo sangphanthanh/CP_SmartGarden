@@ -1,6 +1,7 @@
 package com.sangpt.smartgarden.services;
 
 import com.sangpt.smartgarden.model.model.Library;
+import com.sangpt.smartgarden.model.model.ZoneActuator;
 import com.sangpt.smartgarden.model.model.ZoneIndex;
 import com.sangpt.smartgarden.model.requestModel.AddZoneRequestModel;
 import com.sangpt.smartgarden.model.responseModel.GetZoneInfoActuatorResponseModel;
@@ -42,9 +43,13 @@ public interface IZoneService {
     void addLib(@Body Library library,
                 Callback<String> callback);
     @POST("/rest/zone/insertzone")
-    void addZone(@Body AddZoneRequestModel requestionModel,
+    void addZone(@Body AddZoneRequestModel requestModel,
                 Callback<AddZoneRequestModel> callback);
     @POST("/rest/userlibrary/updatezone")
-    void updateZone(@Body ZoneIndex requestionModel,
+    void updateZone(@Body ZoneIndex requestModel,
                  Callback<String> callback);
+
+    @POST("/rest/enddeviceId/postupdateenddevice")
+    void updateActuator(@Body ZoneActuator requestModel,
+                        Callback<String> callback);
 }
