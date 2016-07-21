@@ -18,6 +18,8 @@ public class ZoneActuator {
     private boolean statusFertilize;
     @SerializedName("zoneId")
     private int zoneId;
+    @SerializedName("automatically")
+    private boolean automatically;
 
     public int getEndDeviceId() {
         return endDeviceId;
@@ -65,5 +67,13 @@ public class ZoneActuator {
 
     public void setStatusFertilize(boolean statusFertilize) {
         this.statusFertilize = statusFertilize;
+    }
+
+    public boolean isAutomatically() {
+        return automatically;
+    }
+
+    public void setAutomatically(boolean automatically) {
+        this.automatically = automatically;
     }
 }
