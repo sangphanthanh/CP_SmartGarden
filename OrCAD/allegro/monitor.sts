@@ -1,0 +1,17 @@
+#Allegro PCB Router v16-6-112 made 2012/09/12 at 23:00:45
+#Host 
+#ROUTING STATUS <<< G:/CP_SmartGarden/OrCAD/SmartGardenShield\Shield.dsn >>>
+Start  Time: Report Time: Mon Jul 18 00:11:45 2016
+
+Nets         =       57   Connections         =      132
+Current Wire =       31   Reroute wires       =       31
+Completion   =   13.64%   Unconnections       =      114
+| ROUTING HISTORY ================================================================
+|     Pass     |   Conflicts |    |     |     |     |    |Red|      CPU Time     |
+|   Name   |No.| Cross| Clear|Fail|Unrte| Vias|XTalk|Len.| % |  Pass   |  Total  |
+|----------+---+------+------+----+-----+-----+-----+----+---+---------+---------|
+| Route    |  1|     0|     0|   0|  114|    8|    0|   0|  0|  0:00:00|  0:00:00|
+| Route    |  2|     0|     0|   0|  114|    8|    0|   0|  0|  0:00:01|  0:00:01|
+| Clean    |  3|     0|     0|   0|  114|    6|    0|   0|   |  0:00:00|  0:00:01|
+| Clean    |  4|     0|     0|   0|  114|    6|    0|   0|   |  0:00:01|  0:00:02|
+| Conflicts between polygon wires and fixed objects:   0

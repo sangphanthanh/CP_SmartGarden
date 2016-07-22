@@ -1,0 +1,580 @@
+FILE_TYPE = EXPANDEDPARTLIST;
+{ Using PSTWRITER 16.6.0 d001Jul-22-2016 at 11:52:16 }
+DIRECTIVES
+ PST_VERSION='PST_HDL_CENTRIC_VERSION_0';
+ ROOT_DRAWING='CC1310LAUNCHPAD';
+ POST_TIME='Sep 10 2012 04:46:09';
+ SOURCE_TOOL='CAPTURE_WRITER';
+END_DIRECTIVES;
+
+PART_NAME
+ C1 'CAP NP_C0805_0.1UF':;
+
+SECTION_NUMBER 1
+ '@CC1310LAUNCHPAD.SCHEMATIC1(SCH_1):INS46124@DISCRETE.CAP NP.NORMAL(CHIPS)':
+ C_PATH='@cc1310launchpad.schematic1(sch_1):ins46124@discrete.\cap np.normal\(chips)',
+ P_PATH='@cc1310launchpad.schematic1(sch_1):page1_ins46124@discrete.\cap np.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ C10 'CAP NP_C0805_0.1UF':;
+
+SECTION_NUMBER 1
+ '@CC1310LAUNCHPAD.SCHEMATIC1(SCH_1):INS46924@DISCRETE.CAP NP.NORMAL(CHIPS)':
+ C_PATH='@cc1310launchpad.schematic1(sch_1):ins46924@discrete.\cap np.normal\(chips)',
+ P_PATH='@cc1310launchpad.schematic1(sch_1):page1_ins46924@discrete.\cap np.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ C11 'CAP NP_C0805_0.1UF':;
+
+SECTION_NUMBER 1
+ '@CC1310LAUNCHPAD.SCHEMATIC1(SCH_1):INS47130@DISCRETE.CAP NP.NORMAL(CHIPS)':
+ C_PATH='@cc1310launchpad.schematic1(sch_1):ins47130@discrete.\cap np.normal\(chips)',
+ P_PATH='@cc1310launchpad.schematic1(sch_1):page1_ins47130@discrete.\cap np.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ C12 'CAP NP_C0805_0.1UF':;
+
+SECTION_NUMBER 1
+ '@CC1310LAUNCHPAD.SCHEMATIC1(SCH_1):INS45898@DISCRETE.CAP NP.NORMAL(CHIPS)':
+ C_PATH='@cc1310launchpad.schematic1(sch_1):ins45898@discrete.\cap np.normal\(chips)',
+ P_PATH='@cc1310launchpad.schematic1(sch_1):page1_ins45898@discrete.\cap np.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ C2 'CAP NP_C0805_0.1UF':;
+
+SECTION_NUMBER 1
+ '@CC1310LAUNCHPAD.SCHEMATIC1(SCH_1):INS46380@DISCRETE.CAP NP.NORMAL(CHIPS)':
+ C_PATH='@cc1310launchpad.schematic1(sch_1):ins46380@discrete.\cap np.normal\(chips)',
+ P_PATH='@cc1310launchpad.schematic1(sch_1):page1_ins46380@discrete.\cap np.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ C3 'CAP NP_C0805_10UF':;
+
+SECTION_NUMBER 1
+ '@CC1310LAUNCHPAD.SCHEMATIC1(SCH_1):INS46404@DISCRETE.CAP NP.NORMAL(CHIPS)':
+ C_PATH='@cc1310launchpad.schematic1(sch_1):ins46404@discrete.\cap np.normal\(chips)',
+ P_PATH='@cc1310launchpad.schematic1(sch_1):page1_ins46404@discrete.\cap np.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ C4 'CAP NP_C0805_0.1UF':;
+
+SECTION_NUMBER 1
+ '@CC1310LAUNCHPAD.SCHEMATIC1(SCH_1):INS46440@DISCRETE.CAP NP.NORMAL(CHIPS)':
+ C_PATH='@cc1310launchpad.schematic1(sch_1):ins46440@discrete.\cap np.normal\(chips)',
+ P_PATH='@cc1310launchpad.schematic1(sch_1):page1_ins46440@discrete.\cap np.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ C5 'CAP NP_C0805_0.1UF':;
+
+SECTION_NUMBER 1
+ '@CC1310LAUNCHPAD.SCHEMATIC1(SCH_1):INS46504@DISCRETE.CAP NP.NORMAL(CHIPS)':
+ C_PATH='@cc1310launchpad.schematic1(sch_1):ins46504@discrete.\cap np.normal\(chips)',
+ P_PATH='@cc1310launchpad.schematic1(sch_1):page1_ins46504@discrete.\cap np.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ C6 'CAP NP_C0805_0.1UF':;
+
+SECTION_NUMBER 1
+ '@CC1310LAUNCHPAD.SCHEMATIC1(SCH_1):INS46548@DISCRETE.CAP NP.NORMAL(CHIPS)':
+ C_PATH='@cc1310launchpad.schematic1(sch_1):ins46548@discrete.\cap np.normal\(chips)',
+ P_PATH='@cc1310launchpad.schematic1(sch_1):page1_ins46548@discrete.\cap np.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ C7 'CAP NP_C0805_10UF':;
+
+SECTION_NUMBER 1
+ '@CC1310LAUNCHPAD.SCHEMATIC1(SCH_1):INS47812@DISCRETE.CAP NP.NORMAL(CHIPS)':
+ C_PATH='@cc1310launchpad.schematic1(sch_1):ins47812@discrete.\cap np.normal\(chips)',
+ P_PATH='@cc1310launchpad.schematic1(sch_1):page1_ins47812@discrete.\cap np.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ C8 'CAP POL_C1210_100UF':;
+
+SECTION_NUMBER 1
+ '@CC1310LAUNCHPAD.SCHEMATIC1(SCH_1):INS45598@DISCRETE.CAP POL.NORMAL(CHIPS)':
+ C_PATH='@cc1310launchpad.schematic1(sch_1):ins45598@discrete.\cap pol.normal\(chips)',
+ P_PATH='@cc1310launchpad.schematic1(sch_1):page1_ins45598@discrete.\cap pol.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ C9 'CAP POL_C1210_100UF':;
+
+SECTION_NUMBER 1
+ '@CC1310LAUNCHPAD.SCHEMATIC1(SCH_1):INS45706@DISCRETE.CAP POL.NORMAL(CHIPS)':
+ C_PATH='@cc1310launchpad.schematic1(sch_1):ins45706@discrete.\cap pol.normal\(chips)',
+ P_PATH='@cc1310launchpad.schematic1(sch_1):page1_ins45706@discrete.\cap pol.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ D1 'LED_D0805_LED':;
+
+SECTION_NUMBER 1
+ '@CC1310LAUNCHPAD.SCHEMATIC1(SCH_1):INS46638@DISCRETE.LED.NORMAL(CHIPS)':
+ C_PATH='@cc1310launchpad.schematic1(sch_1):ins46638@discrete.\led.normal\(chips)',
+ P_PATH='@cc1310launchpad.schematic1(sch_1):page1_ins46638@discrete.\led.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ D10 'LED_D0805_LED':;
+
+SECTION_NUMBER 1
+ '@CC1310LAUNCHPAD.SCHEMATIC1(SCH_1):INS46006@DISCRETE.LED.NORMAL(CHIPS)':
+ C_PATH='@cc1310launchpad.schematic1(sch_1):ins46006@discrete.\led.normal\(chips)',
+ P_PATH='@cc1310launchpad.schematic1(sch_1):page1_ins46006@discrete.\led.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ D2 'LED_D0805_LED':;
+
+SECTION_NUMBER 1
+ '@CC1310LAUNCHPAD.SCHEMATIC1(SCH_1):INS46832@DISCRETE.LED.NORMAL(CHIPS)':
+ C_PATH='@cc1310launchpad.schematic1(sch_1):ins46832@discrete.\led.normal\(chips)',
+ P_PATH='@cc1310launchpad.schematic1(sch_1):page1_ins46832@discrete.\led.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ D3 'LED_D0805_LED':;
+
+SECTION_NUMBER 1
+ '@CC1310LAUNCHPAD.SCHEMATIC1(SCH_1):INS46868@DISCRETE.LED.NORMAL(CHIPS)':
+ C_PATH='@cc1310launchpad.schematic1(sch_1):ins46868@discrete.\led.normal\(chips)',
+ P_PATH='@cc1310launchpad.schematic1(sch_1):page1_ins46868@discrete.\led.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ D5 'LED_D0805_LED':;
+
+SECTION_NUMBER 1
+ '@CC1310LAUNCHPAD.SCHEMATIC1(SCH_1):INS47846@DISCRETE.LED.NORMAL(CHIPS)':
+ C_PATH='@cc1310launchpad.schematic1(sch_1):ins47846@discrete.\led.normal\(chips)',
+ P_PATH='@cc1310launchpad.schematic1(sch_1):page1_ins47846@discrete.\led.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ D6 'DIODE SCHOTTKY_SS34_MBR360':;
+
+SECTION_NUMBER 1
+ '@CC1310LAUNCHPAD.SCHEMATIC1(SCH_1):INS45654@DISCRETE.DIODE SCHOTTKY.NORMAL(CHIPS)':
+ C_PATH='@cc1310launchpad.schematic1(sch_1):ins45654@discrete.\diode schottky.normal\(chips)',
+ P_PATH='@cc1310launchpad.schematic1(sch_1):page1_ins45654@discrete.\diode schottky.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ D7 'LED_D0805_LED':;
+
+SECTION_NUMBER 1
+ '@CC1310LAUNCHPAD.SCHEMATIC1(SCH_1):INS46192@DISCRETE.LED.NORMAL(CHIPS)':
+ C_PATH='@cc1310launchpad.schematic1(sch_1):ins46192@discrete.\led.normal\(chips)',
+ P_PATH='@cc1310launchpad.schematic1(sch_1):page1_ins46192@discrete.\led.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ D8 'LED_D0805_LED':;
+
+SECTION_NUMBER 1
+ '@CC1310LAUNCHPAD.SCHEMATIC1(SCH_1):INS46292@DISCRETE.LED.NORMAL(CHIPS)':
+ C_PATH='@cc1310launchpad.schematic1(sch_1):ins46292@discrete.\led.normal\(chips)',
+ P_PATH='@cc1310launchpad.schematic1(sch_1):page1_ins46292@discrete.\led.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ D9 'LED_D0805_LED':;
+
+SECTION_NUMBER 1
+ '@CC1310LAUNCHPAD.SCHEMATIC1(SCH_1):INS47678@DISCRETE.LED.NORMAL(CHIPS)':
+ C_PATH='@cc1310launchpad.schematic1(sch_1):ins47678@discrete.\led.normal\(chips)',
+ P_PATH='@cc1310launchpad.schematic1(sch_1):page1_ins47678@discrete.\led.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ J10 'HEADER 3_KF3013P_HEADER 3':;
+
+SECTION_NUMBER 1
+ '@CC1310LAUNCHPAD.SCHEMATIC1(SCH_1):INS47742@CONNECTOR.HEADER 3.NORMAL(CHIPS)':
+ C_PATH='@cc1310launchpad.schematic1(sch_1):ins47742@connector.\header 3.normal\(chips)',
+ P_PATH='@cc1310launchpad.schematic1(sch_1):page1_ins47742@connector.\header 3.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ J11 'HEADER 3_KF3013P_HEADER 3':;
+
+SECTION_NUMBER 1
+ '@CC1310LAUNCHPAD.SCHEMATIC1(SCH_1):INS46066@CONNECTOR.HEADER 3.NORMAL(CHIPS)':
+ C_PATH='@cc1310launchpad.schematic1(sch_1):ins46066@connector.\header 3.normal\(chips)',
+ P_PATH='@cc1310launchpad.schematic1(sch_1):page1_ins46066@connector.\header 3.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ J4 'HEADER 3_KF3013P_HEADER 3':;
+
+SECTION_NUMBER 1
+ '@CC1310LAUNCHPAD.SCHEMATIC1(SCH_1):INS47304@CONNECTOR.HEADER 3.NORMAL(CHIPS)':
+ C_PATH='@cc1310launchpad.schematic1(sch_1):ins47304@connector.\header 3.normal\(chips)',
+ P_PATH='@cc1310launchpad.schematic1(sch_1):page1_ins47304@connector.\header 3.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ J5 'HEADER 3_KF3013P_HEADER 3':;
+
+SECTION_NUMBER 1
+ '@CC1310LAUNCHPAD.SCHEMATIC1(SCH_1):INS47382@CONNECTOR.HEADER 3.NORMAL(CHIPS)':
+ C_PATH='@cc1310launchpad.schematic1(sch_1):ins47382@connector.\header 3.normal\(chips)',
+ P_PATH='@cc1310launchpad.schematic1(sch_1):page1_ins47382@connector.\header 3.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ J6 'HEADER 3_KF3013P_HEADER 3':;
+
+SECTION_NUMBER 1
+ '@CC1310LAUNCHPAD.SCHEMATIC1(SCH_1):INS47452@CONNECTOR.HEADER 3.NORMAL(CHIPS)':
+ C_PATH='@cc1310launchpad.schematic1(sch_1):ins47452@connector.\header 3.normal\(chips)',
+ P_PATH='@cc1310launchpad.schematic1(sch_1):page1_ins47452@connector.\header 3.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ J7 'HEADER 3_KF3013P_HEADER 3':;
+
+SECTION_NUMBER 1
+ '@CC1310LAUNCHPAD.SCHEMATIC1(SCH_1):INS47522@CONNECTOR.HEADER 3.NORMAL(CHIPS)':
+ C_PATH='@cc1310launchpad.schematic1(sch_1):ins47522@connector.\header 3.normal\(chips)',
+ P_PATH='@cc1310launchpad.schematic1(sch_1):page1_ins47522@connector.\header 3.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ J8 'HEADER 3_KF3013P_HEADER 3':;
+
+SECTION_NUMBER 1
+ '@CC1310LAUNCHPAD.SCHEMATIC1(SCH_1):INS47580@CONNECTOR.HEADER 3.NORMAL(CHIPS)':
+ C_PATH='@cc1310launchpad.schematic1(sch_1):ins47580@connector.\header 3.normal\(chips)',
+ P_PATH='@cc1310launchpad.schematic1(sch_1):page1_ins47580@connector.\header 3.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ J9 'HEADER 5_MICROUSB_HEADER 5':;
+
+SECTION_NUMBER 1
+ '@CC1310LAUNCHPAD.SCHEMATIC1(SCH_1):INS47250@CONNECTOR.HEADER 5.NORMAL(CHIPS)':
+ C_PATH='@cc1310launchpad.schematic1(sch_1):ins47250@connector.\header 5.normal\(chips)',
+ P_PATH='@cc1310launchpad.schematic1(sch_1):page1_ins47250@connector.\header 5.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ L1 'INDUCTOR_RH127_47UH':;
+
+SECTION_NUMBER 1
+ '@CC1310LAUNCHPAD.SCHEMATIC1(SCH_1):INS45678@DISCRETE.INDUCTOR.NORMAL(CHIPS)':
+ C_PATH='@cc1310launchpad.schematic1(sch_1):ins45678@discrete.\inductor.normal\(chips)',
+ P_PATH='@cc1310launchpad.schematic1(sch_1):page1_ins45678@discrete.\inductor.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ LS1 'RELAY SPDT_HK33F_RELAY SPDT':;
+
+SECTION_NUMBER 1
+ '@CC1310LAUNCHPAD.SCHEMATIC1(SCH_1):INS45760@DISCRETE.RELAY SPDT.NORMAL(CHIPS)':
+ C_PATH='@cc1310launchpad.schematic1(sch_1):ins45760@discrete.\relay spdt.normal\(chips)',
+ P_PATH='@cc1310launchpad.schematic1(sch_1):page1_ins45760@discrete.\relay spdt.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ LS2 'RELAY SPDT_HK33F_RELAY SPDT':;
+
+SECTION_NUMBER 1
+ '@CC1310LAUNCHPAD.SCHEMATIC1(SCH_1):INS45794@DISCRETE.RELAY SPDT.NORMAL(CHIPS)':
+ C_PATH='@cc1310launchpad.schematic1(sch_1):ins45794@discrete.\relay spdt.normal\(chips)',
+ P_PATH='@cc1310launchpad.schematic1(sch_1):page1_ins45794@discrete.\relay spdt.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ LS3 'RELAY SPDT_HK33F_RELAY SPDT':;
+
+SECTION_NUMBER 1
+ '@CC1310LAUNCHPAD.SCHEMATIC1(SCH_1):INS45856@DISCRETE.RELAY SPDT.NORMAL(CHIPS)':
+ C_PATH='@cc1310launchpad.schematic1(sch_1):ins45856@discrete.\relay spdt.normal\(chips)',
+ P_PATH='@cc1310launchpad.schematic1(sch_1):page1_ins45856@discrete.\relay spdt.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ LS4 'RELAY SPDT_HK33F_RELAY SPDT':;
+
+SECTION_NUMBER 1
+ '@CC1310LAUNCHPAD.SCHEMATIC1(SCH_1):INS46148@DISCRETE.RELAY SPDT.NORMAL(CHIPS)':
+ C_PATH='@cc1310launchpad.schematic1(sch_1):ins46148@discrete.\relay spdt.normal\(chips)',
+ P_PATH='@cc1310launchpad.schematic1(sch_1):page1_ins46148@discrete.\relay spdt.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ LS5 'RELAY SPDT_HK33F_RELAY SPDT':;
+
+SECTION_NUMBER 1
+ '@CC1310LAUNCHPAD.SCHEMATIC1(SCH_1):INS46252@DISCRETE.RELAY SPDT.NORMAL(CHIPS)':
+ C_PATH='@cc1310launchpad.schematic1(sch_1):ins46252@discrete.\relay spdt.normal\(chips)',
+ P_PATH='@cc1310launchpad.schematic1(sch_1):page1_ins46252@discrete.\relay spdt.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ LS6 'RELAY SPDT_HK33F_RELAY SPDT':;
+
+SECTION_NUMBER 1
+ '@CC1310LAUNCHPAD.SCHEMATIC1(SCH_1):INS47630@DISCRETE.RELAY SPDT.NORMAL(CHIPS)':
+ C_PATH='@cc1310launchpad.schematic1(sch_1):ins47630@discrete.\relay spdt.normal\(chips)',
+ P_PATH='@cc1310launchpad.schematic1(sch_1):page1_ins47630@discrete.\relay spdt.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ LS7 'RELAY SPDT_HK33F_RELAY SPDT':;
+
+SECTION_NUMBER 1
+ '@CC1310LAUNCHPAD.SCHEMATIC1(SCH_1):INS45966@DISCRETE.RELAY SPDT.NORMAL(CHIPS)':
+ C_PATH='@cc1310launchpad.schematic1(sch_1):ins45966@discrete.\relay spdt.normal\(chips)',
+ P_PATH='@cc1310launchpad.schematic1(sch_1):page1_ins45966@discrete.\relay spdt.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ R1 'RESISTOR_R0805_220 OHM':;
+
+SECTION_NUMBER 1
+ '@CC1310LAUNCHPAD.SCHEMATIC1(SCH_1):INS46662@DISCRETE.RESISTOR.NORMAL(CHIPS)':
+ C_PATH='@cc1310launchpad.schematic1(sch_1):ins46662@discrete.\resistor.normal\(chips)',
+ P_PATH='@cc1310launchpad.schematic1(sch_1):page1_ins46662@discrete.\resistor.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ R10 'RESISTOR_R0805_220 OHM':;
+
+SECTION_NUMBER 1
+ '@CC1310LAUNCHPAD.SCHEMATIC1(SCH_1):INS47698@DISCRETE.RESISTOR.NORMAL(CHIPS)':
+ C_PATH='@cc1310launchpad.schematic1(sch_1):ins47698@discrete.\resistor.normal\(chips)',
+ P_PATH='@cc1310launchpad.schematic1(sch_1):page1_ins47698@discrete.\resistor.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ R11 'RESISTOR_R0805_220 OHM':;
+
+SECTION_NUMBER 1
+ '@CC1310LAUNCHPAD.SCHEMATIC1(SCH_1):INS46022@DISCRETE.RESISTOR.NORMAL(CHIPS)':
+ C_PATH='@cc1310launchpad.schematic1(sch_1):ins46022@discrete.\resistor.normal\(chips)',
+ P_PATH='@cc1310launchpad.schematic1(sch_1):page1_ins46022@discrete.\resistor.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ R2 'RESISTOR_R0805_220 OHM':;
+
+SECTION_NUMBER 1
+ '@CC1310LAUNCHPAD.SCHEMATIC1(SCH_1):INS46848@DISCRETE.RESISTOR.NORMAL(CHIPS)':
+ C_PATH='@cc1310launchpad.schematic1(sch_1):ins46848@discrete.\resistor.normal\(chips)',
+ P_PATH='@cc1310launchpad.schematic1(sch_1):page1_ins46848@discrete.\resistor.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ R3 'RESISTOR_R0805_220 OHM':;
+
+SECTION_NUMBER 1
+ '@CC1310LAUNCHPAD.SCHEMATIC1(SCH_1):INS46884@DISCRETE.RESISTOR.NORMAL(CHIPS)':
+ C_PATH='@cc1310launchpad.schematic1(sch_1):ins46884@discrete.\resistor.normal\(chips)',
+ P_PATH='@cc1310launchpad.schematic1(sch_1):page1_ins46884@discrete.\resistor.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ R5 'RESISTOR_R0805_220 OHM':;
+
+SECTION_NUMBER 1
+ '@CC1310LAUNCHPAD.SCHEMATIC1(SCH_1):INS47862@DISCRETE.RESISTOR.NORMAL(CHIPS)':
+ C_PATH='@cc1310launchpad.schematic1(sch_1):ins47862@discrete.\resistor.normal\(chips)',
+ P_PATH='@cc1310launchpad.schematic1(sch_1):page1_ins47862@discrete.\resistor.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ R6 'RESISTOR VAR_R3296W_100K':;
+
+SECTION_NUMBER 1
+ '@CC1310LAUNCHPAD.SCHEMATIC1(SCH_1):INS45734@DISCRETE.RESISTOR VAR.NORMAL(CHIPS)':
+ C_PATH='@cc1310launchpad.schematic1(sch_1):ins45734@discrete.\resistor var.normal\(chips)',
+ P_PATH='@cc1310launchpad.schematic1(sch_1):page1_ins45734@discrete.\resistor var.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ R7 'RESISTOR_R0805_220 OHM':;
+
+SECTION_NUMBER 1
+ '@CC1310LAUNCHPAD.SCHEMATIC1(SCH_1):INS46208@DISCRETE.RESISTOR.NORMAL(CHIPS)':
+ C_PATH='@cc1310launchpad.schematic1(sch_1):ins46208@discrete.\resistor.normal\(chips)',
+ P_PATH='@cc1310launchpad.schematic1(sch_1):page1_ins46208@discrete.\resistor.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ R8 'RESISTOR_R0805_220 OHM':;
+
+SECTION_NUMBER 1
+ '@CC1310LAUNCHPAD.SCHEMATIC1(SCH_1):INS46308@DISCRETE.RESISTOR.NORMAL(CHIPS)':
+ C_PATH='@cc1310launchpad.schematic1(sch_1):ins46308@discrete.\resistor.normal\(chips)',
+ P_PATH='@cc1310launchpad.schematic1(sch_1):page1_ins46308@discrete.\resistor.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ R9 'RESISTOR_R0805_10K':;
+
+SECTION_NUMBER 1
+ '@CC1310LAUNCHPAD.SCHEMATIC1(SCH_1):INS46476@DISCRETE.RESISTOR.NORMAL(CHIPS)':
+ C_PATH='@cc1310launchpad.schematic1(sch_1):ins46476@discrete.\resistor.normal\(chips)',
+ P_PATH='@cc1310launchpad.schematic1(sch_1):page1_ins46476@discrete.\resistor.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ U10 'LM393_LM393_LM393':;
+
+SECTION_NUMBER 1
+ '@CC1310LAUNCHPAD.SCHEMATIC1(SCH_1):INS46790@LIBRARY1.LM393.NORMAL(CHIPS)':
+ C_PATH='@cc1310launchpad.schematic1(sch_1):ins46790@library1.\lm393.normal\(chips)',
+ P_PATH='@cc1310launchpad.schematic1(sch_1):page1_ins46790@library1.\lm393.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ U11 'PH_PH_PH':;
+
+SECTION_NUMBER 1
+ '@CC1310LAUNCHPAD.SCHEMATIC1(SCH_1):INS46810@LIBRARY1.PH.NORMAL(CHIPS)':
+ C_PATH='@cc1310launchpad.schematic1(sch_1):ins46810@library1.\ph.normal\(chips)',
+ P_PATH='@cc1310launchpad.schematic1(sch_1):page1_ins46810@library1.\ph.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ U12 'CC1310LAOUCHPAD_CC1310CONNECTOR':;
+
+SECTION_NUMBER 1
+ '@CC1310LAUNCHPAD.SCHEMATIC1(SCH_1):INS47010@LIBRARY1.CC1310LAOUCHPAD.NORMAL(CHIPS)':
+ C_PATH='@cc1310launchpad.schematic1(sch_1):ins47010@library1.\cc1310laouchpad.normal\(chips)',
+ P_PATH='@cc1310launchpad.schematic1(sch_1):page1_ins47010@library1.\cc1310laouchpad.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ U13 'LM2576HV-ADJ_LM2576_LM2576HV-AD':;
+
+SECTION_NUMBER 1
+ '@CC1310LAUNCHPAD.SCHEMATIC1(SCH_1):INS47892@LIBRARY1.LM2576HV-ADJ.NORMAL(CHIPS)':
+ C_PATH='@cc1310launchpad.schematic1(sch_1):ins47892@library1.\lm2576hv-adj.normal\(chips)',
+ P_PATH='@cc1310launchpad.schematic1(sch_1):page1_ins47892@library1.\lm2576hv-adj.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ U14 'LM393_LM393_LM393':;
+
+SECTION_NUMBER 1
+ '@CC1310LAUNCHPAD.SCHEMATIC1(SCH_1):INS46960@LIBRARY1.LM393.NORMAL(CHIPS)':
+ C_PATH='@cc1310launchpad.schematic1(sch_1):ins46960@library1.\lm393.normal\(chips)',
+ P_PATH='@cc1310launchpad.schematic1(sch_1):page1_ins46960@library1.\lm393.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ U15 'LM35_LM35_LM35':;
+
+SECTION_NUMBER 1
+ '@CC1310LAUNCHPAD.SCHEMATIC1(SCH_1):INS46996@LIBRARY1.LM35.NORMAL(CHIPS)':
+ C_PATH='@cc1310launchpad.schematic1(sch_1):ins46996@library1.\lm35.normal\(chips)',
+ P_PATH='@cc1310launchpad.schematic1(sch_1):page1_ins46996@library1.\lm35.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ U16 'LM393_LM393_LM393':;
+
+SECTION_NUMBER 1
+ '@CC1310LAUNCHPAD.SCHEMATIC1(SCH_1):INS45926@LIBRARY1.LM393.NORMAL(CHIPS)':
+ C_PATH='@cc1310launchpad.schematic1(sch_1):ins45926@library1.\lm393.normal\(chips)',
+ P_PATH='@cc1310launchpad.schematic1(sch_1):page1_ins45926@library1.\lm393.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ U7 'ULN2003A_ULN2003A_ULN2003A':;
+
+SECTION_NUMBER 1
+ '@CC1310LAUNCHPAD.SCHEMATIC1(SCH_1):INS46678@LIBRARY1.ULN2003A.NORMAL(CHIPS)':
+ C_PATH='@cc1310launchpad.schematic1(sch_1):ins46678@library1.\uln2003a.normal\(chips)',
+ P_PATH='@cc1310launchpad.schematic1(sch_1):page1_ins46678@library1.\uln2003a.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ U8 'AM2320_AM2320_AM2320':;
+
+SECTION_NUMBER 1
+ '@CC1310LAUNCHPAD.SCHEMATIC1(SCH_1):INS46744@LIBRARY1.AM2320.NORMAL(CHIPS)':
+ C_PATH='@cc1310launchpad.schematic1(sch_1):ins46744@library1.\am2320.normal\(chips)',
+ P_PATH='@cc1310launchpad.schematic1(sch_1):page1_ins46744@library1.\am2320.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ U9 'BH1750_BH1750_BH1750':;
+
+SECTION_NUMBER 1
+ '@CC1310LAUNCHPAD.SCHEMATIC1(SCH_1):INS46768@LIBRARY1.BH1750.NORMAL(CHIPS)':
+ C_PATH='@cc1310launchpad.schematic1(sch_1):ins46768@library1.\bh1750.normal\(chips)',
+ P_PATH='@cc1310launchpad.schematic1(sch_1):page1_ins46768@library1.\bh1750.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+END.

@@ -1,0 +1,113 @@
+\t (00:00:03) allegro 16.6 P004 (v16-6-112G) Windows 32
+\t (00:00:03)     Journal start - Fri Jul 22 01:41:00 2016
+\t (00:00:03)         Host=SANGPTSE61252 User=Sang Phan Thanh Pid=5612 CPUs=4
+\t (00:00:03) 
+\t (00:00:05) Opening existing design...
+\d (00:00:05) Database opened: F:/CP_SmartGarden/OrCAD/SmartGardenShield/Shield.brd
+\i (00:00:06) trapsize 6743
+\i (00:00:06) trapsize 6557
+\i (00:00:06) trapsize 6775
+\i (00:00:06) trapsize 5489
+\i (00:00:06) trapsize 5489
+\i (00:00:06) generaledit 
+\i (00:00:10) open 
+\i (00:00:18) fillin "MICROUSB.dra"
+\t (00:00:18) Opening existing design...
+\i (00:00:18) trapsize 4
+\i (00:00:19) trapsize 5
+\d (00:00:19) Database opened: F:/CP_SmartGarden/OrCAD/SmartGardenShield/MICROUSB.dra
+\i (00:00:19) generaledit 
+\i (00:00:20) zoom out 1 
+\i (00:00:20) setwindow pcb
+\i (00:00:20) zoom out 81 73
+\i (00:00:20) trapsize 10
+\i (00:00:20) zoom in 1 
+\i (00:00:20) setwindow pcb
+\i (00:00:20) zoom in 208 175
+\i (00:00:20) trapsize 5
+\i (00:00:23) zoom in 1 
+\i (00:00:24) setwindow pcb
+\i (00:00:24) zoom in -104 54
+\i (00:00:24) trapsize 3
+\i (00:00:24) zoom in 1 
+\i (00:00:24) setwindow pcb
+\i (00:00:24) zoom in -104 54
+\i (00:00:24) trapsize 1
+\i (00:00:26) zoom out 1 
+\i (00:00:26) setwindow pcb
+\i (00:00:26) zoom out 5 56
+\i (00:00:26) trapsize 3
+\i (00:00:34) padeditdb 
+\i (00:00:39) pick grid -141 64
+\t (00:00:39) last pick:  -100  100
+\i (00:02:07) zoom out 1 
+\i (00:02:07) setwindow pcb
+\i (00:02:07) zoom out -169 92
+\i (00:02:07) trapsize 5
+\i (00:02:07) zoom out 1 
+\i (00:02:07) setwindow pcb
+\i (00:02:07) zoom out -17 89
+\i (00:02:07) trapsize 10
+\i (00:02:07) zoom out 1 
+\i (00:02:07) setwindow pcb
+\i (00:02:07) zoom out 556 85
+\i (00:02:07) trapsize 14
+\i (00:02:07) zoom in 1 
+\i (00:02:07) setwindow pcb
+\i (00:02:07) zoom in 354 223
+\i (00:02:07) trapsize 7
+\i (00:02:07) zoom in 1 
+\i (00:02:07) setwindow pcb
+\i (00:02:07) zoom in -138 218
+\i (00:02:07) trapsize 3
+\i (00:04:48) xname_flush 
+\i (00:04:51) xname_flush 
+\i (00:06:15) xname_flush 
+\i (00:06:27) xname_flush 
+\i (00:10:13) xname_flush 
+\i (00:12:05) zoom out 1 
+\i (00:12:05) setwindow pcb
+\i (00:12:05) zoom out -51 131
+\i (00:12:05) trapsize 7
+\i (00:12:05) zoom out 1 
+\i (00:12:05) setwindow pcb
+\i (00:12:05) zoom out 35 132
+\i (00:12:05) trapsize 14
+\i (00:12:05) zoom out 1 
+\i (00:12:05) setwindow pcb
+\i (00:12:05) zoom out 671 -137
+\i (00:12:05) trapsize 14
+\i (00:12:05) zoom out 1 
+\i (00:12:05) setwindow pcb
+\i (00:12:05) zoom out 674 -139
+\i (00:12:05) trapsize 14
+\i (00:12:06) zoom in 1 
+\i (00:12:06) setwindow pcb
+\i (00:12:06) zoom in 141 15
+\i (00:12:06) trapsize 7
+\i (00:12:06) zoom in 1 
+\i (00:12:06) setwindow pcb
+\i (00:12:06) zoom in -245 20
+\i (00:12:06) trapsize 3
+\i (00:12:06) zoom in 1 
+\i (00:12:06) setwindow pcb
+\i (00:12:06) zoom in -251 22
+\i (00:12:06) trapsize 2
+\i (00:12:06) zoom out 1 
+\i (00:12:06) setwindow pcb
+\i (00:12:06) zoom out -149 40
+\i (00:12:06) trapsize 3
+\i (00:12:07) zoom out 1 
+\i (00:12:07) setwindow pcb
+\i (00:12:07) zoom out -136 37
+\i (00:12:07) trapsize 7
+\i (00:12:07) zoom out 1 
+\i (00:12:07) setwindow pcb
+\i (00:12:07) zoom out 181 32
+\i (00:12:07) trapsize 14
+\i (00:12:07) zoom in 1 
+\i (00:12:07) setwindow pcb
+\i (00:12:07) zoom in 495 64
+\i (00:12:07) trapsize 7
+\i (00:12:09) exit 
+\t (00:12:09)     Journal end - Fri Jul 22 01:53:06 2016

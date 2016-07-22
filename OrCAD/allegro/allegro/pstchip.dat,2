@@ -1,0 +1,575 @@
+FILE_TYPE=LIBRARY_PARTS;
+{ Using PSTWRITER 16.6.0 d001Jul-22-2016 at 11:50:59}
+primitive 'CAP NP_C0805_0.1UF';
+  pin
+    '1':
+      PIN_NUMBER='(1)';
+      PINUSE='UNSPEC';
+    '2':
+      PIN_NUMBER='(2)';
+      PINUSE='UNSPEC';
+  end_pin;
+  body
+    PART_NAME='CAP NP';
+    JEDEC_TYPE='C0805';
+    VALUE='0.1uF';
+  end_body;
+end_primitive;
+primitive 'CAP NP_C0805_10UF';
+  pin
+    '1':
+      PIN_NUMBER='(1)';
+      PINUSE='UNSPEC';
+    '2':
+      PIN_NUMBER='(2)';
+      PINUSE='UNSPEC';
+  end_pin;
+  body
+    PART_NAME='CAP NP';
+    JEDEC_TYPE='C0805';
+    VALUE='10uF';
+  end_body;
+end_primitive;
+primitive 'CAP POL_C1210_100UF';
+  pin
+    '1':
+      PIN_NUMBER='(1)';
+      PINUSE='UNSPEC';
+    '2':
+      PIN_NUMBER='(2)';
+      PINUSE='UNSPEC';
+  end_pin;
+  body
+    PART_NAME='CAP POL';
+    JEDEC_TYPE='C1210';
+    VALUE='100uF';
+  end_body;
+end_primitive;
+primitive 'LED_D0805_LED';
+  pin
+    'ANODE':
+      PIN_NUMBER='(2)';
+      PINUSE='UNSPEC';
+    'CATHODE':
+      PIN_NUMBER='(1)';
+      PINUSE='UNSPEC';
+  end_pin;
+  body
+    PART_NAME='LED';
+    JEDEC_TYPE='D0805';
+    VALUE='LED';
+  end_body;
+end_primitive;
+primitive 'DIODE SCHOTTKY_SS34_MBR360';
+  pin
+    'ANODE':
+      PIN_NUMBER='(1)';
+      PINUSE='UNSPEC';
+    'CATHODE':
+      PIN_NUMBER='(2)';
+      PINUSE='UNSPEC';
+  end_pin;
+  body
+    PART_NAME='DIODE SCHOTTKY';
+    JEDEC_TYPE='SS34';
+    VALUE='MBR360';
+  end_body;
+end_primitive;
+primitive 'HEADER 3_KF3013P_HEADER 3';
+  pin
+    '1':
+      PIN_NUMBER='(1)';
+      PINUSE='UNSPEC';
+    '2':
+      PIN_NUMBER='(2)';
+      PINUSE='UNSPEC';
+    '3':
+      PIN_NUMBER='(3)';
+      PINUSE='UNSPEC';
+  end_pin;
+  body
+    PART_NAME='HEADER 3';
+    JEDEC_TYPE='KF3013P';
+    VALUE='HEADER 3';
+  end_body;
+end_primitive;
+primitive 'HEADER 5_MICROUSB_HEADER 5';
+  pin
+    '1':
+      PIN_NUMBER='(1)';
+      PINUSE='UNSPEC';
+    '2':
+      PIN_NUMBER='(2)';
+      PINUSE='UNSPEC';
+    '3':
+      PIN_NUMBER='(3)';
+      PINUSE='UNSPEC';
+    '4':
+      PIN_NUMBER='(4)';
+      PINUSE='UNSPEC';
+    '5':
+      PIN_NUMBER='(5)';
+      PINUSE='UNSPEC';
+  end_pin;
+  body
+    PART_NAME='HEADER 5';
+    JEDEC_TYPE='MICROUSB';
+    VALUE='HEADER 5';
+  end_body;
+end_primitive;
+primitive 'INDUCTOR_RH127_47UH';
+  pin
+    '1':
+      PIN_NUMBER='(1)';
+      PINUSE='UNSPEC';
+    '2':
+      PIN_NUMBER='(2)';
+      PINUSE='UNSPEC';
+  end_pin;
+  body
+    PART_NAME='INDUCTOR';
+    JEDEC_TYPE='RH127';
+    VALUE='47uH';
+  end_body;
+end_primitive;
+primitive 'RELAY SPDT_HK33F_RELAY SPDT';
+  pin
+    'COMMON':
+      PIN_NUMBER='(3)';
+      PINUSE='UNSPEC';
+    'NC':
+      PIN_NUMBER='(5)';
+      PINUSE='UNSPEC';
+    'NO':
+      PIN_NUMBER='(4)';
+      PINUSE='UNSPEC';
+    'COIL1':
+      PIN_NUMBER='(1)';
+      PINUSE='UNSPEC';
+    'COIL2':
+      PIN_NUMBER='(2)';
+      PINUSE='UNSPEC';
+  end_pin;
+  body
+    PART_NAME='RELAY SPDT';
+    JEDEC_TYPE='HK33F';
+    VALUE='RELAY SPDT';
+  end_body;
+end_primitive;
+primitive 'RESISTOR_R0805_220 OHM';
+  pin
+    '1':
+      PIN_NUMBER='(1)';
+      PINUSE='UNSPEC';
+    '2':
+      PIN_NUMBER='(2)';
+      PINUSE='UNSPEC';
+  end_pin;
+  body
+    PART_NAME='RESISTOR';
+    JEDEC_TYPE='R0805';
+    VALUE='220 Ohm';
+  end_body;
+end_primitive;
+primitive 'RESISTOR VAR_R3296W_100K';
+  pin
+    'A':
+      PIN_NUMBER='(1)';
+      PINUSE='UNSPEC';
+    'B':
+      PIN_NUMBER='(3)';
+      PINUSE='UNSPEC';
+    'WIPER':
+      PIN_NUMBER='(2)';
+      PINUSE='UNSPEC';
+  end_pin;
+  body
+    PART_NAME='RESISTOR VAR';
+    JEDEC_TYPE='R3296W';
+    VALUE='100k';
+  end_body;
+end_primitive;
+primitive 'RESISTOR_R0805_10K';
+  pin
+    '1':
+      PIN_NUMBER='(1)';
+      PINUSE='UNSPEC';
+    '2':
+      PIN_NUMBER='(2)';
+      PINUSE='UNSPEC';
+  end_pin;
+  body
+    PART_NAME='RESISTOR';
+    JEDEC_TYPE='R0805';
+    VALUE='10K';
+  end_body;
+end_primitive;
+primitive 'LM393_LM393_LM393';
+  pin
+    'VCC':
+      PIN_NUMBER='(1)';
+      PINUSE='POWER';
+    'GND':
+      PIN_NUMBER='(2)';
+      PINUSE='UNSPEC';
+    'DO':
+      PIN_NUMBER='(3)';
+      OUTPUT_LOAD='(*)';
+    'AO':
+      PIN_NUMBER='(4)';
+      OUTPUT_LOAD='(*)';
+  end_pin;
+  body
+    PART_NAME='LM393';
+    JEDEC_TYPE='LM393';
+    VALUE='LM393';
+  end_body;
+end_primitive;
+primitive 'PH_PH_PH';
+  pin
+    'GND':
+      PIN_NUMBER='(1)';
+      PINUSE='UNSPEC';
+    'VCC':
+      PIN_NUMBER='(2)';
+      PINUSE='POWER';
+    'AO':
+      PIN_NUMBER='(3)';
+      INPUT_LOAD='(*)';
+  end_pin;
+  body
+    PART_NAME='pH';
+    JEDEC_TYPE='pH';
+    VALUE='pH';
+  end_body;
+end_primitive;
+primitive 'CC1310LAOUCHPAD_CC1310CONNECTOR';
+  pin
+    '3V3':
+      PIN_NUMBER='(1)';
+      PINUSE='POWER';
+    'DIO23 / A0':
+      PIN_NUMBER='(2)';
+      INPUT_LOAD='(*)';
+      OUTPUT_LOAD='(*)';
+      OUTPUT_TYPE='(TS,TS)';
+    'DIO3 / TXD':
+      PIN_NUMBER='(3)';
+      INPUT_LOAD='(*)';
+      OUTPUT_LOAD='(*)';
+      OUTPUT_TYPE='(TS,TS)';
+    'DIO2 / RXD':
+      PIN_NUMBER='(4)';
+      INPUT_LOAD='(*)';
+      OUTPUT_LOAD='(*)';
+      OUTPUT_TYPE='(TS,TS)';
+    'DIO22':
+      PIN_NUMBER='(5)';
+      INPUT_LOAD='(*)';
+      OUTPUT_LOAD='(*)';
+      OUTPUT_TYPE='(TS,TS)';
+    'DIO24 / A1':
+      PIN_NUMBER='(6)';
+      INPUT_LOAD='(*)';
+      OUTPUT_LOAD='(*)';
+      OUTPUT_TYPE='(TS,TS)';
+    'DIO10 / SPI CLK':
+      PIN_NUMBER='(7)';
+      INPUT_LOAD='(*)';
+      OUTPUT_LOAD='(*)';
+      OUTPUT_TYPE='(TS,TS)';
+    'DIO21':
+      PIN_NUMBER='(8)';
+      INPUT_LOAD='(*)';
+      OUTPUT_LOAD='(*)';
+      OUTPUT_TYPE='(TS,TS)';
+    'DIO4 / I2C SCL':
+      PIN_NUMBER='(9)';
+      INPUT_LOAD='(*)';
+      OUTPUT_LOAD='(*)';
+      OUTPUT_TYPE='(TS,TS)';
+    'DIO5 / I2C SDA':
+      PIN_NUMBER='(10)';
+      INPUT_LOAD='(*)';
+      OUTPUT_LOAD='(*)';
+      OUTPUT_TYPE='(TS,TS)';
+    '5V':
+      PIN_NUMBER='(21)';
+      PINUSE='POWER';
+    'GND0':
+      PIN_NUMBER='(22)';
+      PINUSE='UNSPEC';
+    'DIO25 / A2':
+      PIN_NUMBER='(23)';
+      INPUT_LOAD='(*)';
+      OUTPUT_LOAD='(*)';
+      OUTPUT_TYPE='(TS,TS)';
+    'DIO26 / A3':
+      PIN_NUMBER='(24)';
+      INPUT_LOAD='(*)';
+      OUTPUT_LOAD='(*)';
+      OUTPUT_TYPE='(TS,TS)';
+    'DIO27 / A4':
+      PIN_NUMBER='(25)';
+      INPUT_LOAD='(*)';
+      OUTPUT_LOAD='(*)';
+      OUTPUT_TYPE='(TS,TS)';
+    'DIO28 / A5':
+      PIN_NUMBER='(26)';
+      INPUT_LOAD='(*)';
+      OUTPUT_LOAD='(*)';
+      OUTPUT_TYPE='(TS,TS)';
+    'DIO29 / A6':
+      PIN_NUMBER='(27)';
+      INPUT_LOAD='(*)';
+      OUTPUT_LOAD='(*)';
+      OUTPUT_TYPE='(TS,TS)';
+    'DIO30 / A7':
+      PIN_NUMBER='(28)';
+      INPUT_LOAD='(*)';
+      OUTPUT_LOAD='(*)';
+      OUTPUT_TYPE='(TS,TS)';
+    'GPIO2':
+      PIN_NUMBER='(29)';
+      INPUT_LOAD='(*)';
+    'DIO1':
+      PIN_NUMBER='(30)';
+      INPUT_LOAD='(*)';
+    'DIO15':
+      PIN_NUMBER='(11)';
+      INPUT_LOAD='(*)';
+      OUTPUT_LOAD='(*)';
+      OUTPUT_TYPE='(TS,TS)';
+    'DIO14 / BTN2':
+      PIN_NUMBER='(12)';
+      INPUT_LOAD='(*)';
+      OUTPUT_LOAD='(*)';
+      OUTPUT_TYPE='(TS,TS)';
+    'DIO13 / BTN1':
+      PIN_NUMBER='(13)';
+      INPUT_LOAD='(*)';
+      OUTPUT_LOAD='(*)';
+      OUTPUT_TYPE='(TS,TS)';
+    'DIO8 / MISO':
+      PIN_NUMBER='(14)';
+      INPUT_LOAD='(*)';
+      OUTPUT_LOAD='(*)';
+      OUTPUT_TYPE='(TS,TS)';
+    'DIO9 / MOSI':
+      PIN_NUMBER='(15)';
+      INPUT_LOAD='(*)';
+      OUTPUT_LOAD='(*)';
+      OUTPUT_TYPE='(TS,TS)';
+    'LP RST':
+      PIN_NUMBER='(16)';
+      INPUT_LOAD='(*)';
+    'GPIO1':
+      PIN_NUMBER='(17)';
+      INPUT_LOAD='(*)';
+    'DIO11 / SPI CS':
+      PIN_NUMBER='(18)';
+      INPUT_LOAD='(*)';
+      OUTPUT_LOAD='(*)';
+      OUTPUT_TYPE='(TS,TS)';
+    'DIO12 / PWM1':
+      PIN_NUMBER='(19)';
+      INPUT_LOAD='(*)';
+      OUTPUT_LOAD='(*)';
+      OUTPUT_TYPE='(TS,TS)';
+    'GND1':
+      PIN_NUMBER='(20)';
+      PINUSE='UNSPEC';
+    'TDI':
+      PIN_NUMBER='(31)';
+      INPUT_LOAD='(*)';
+    'TDO':
+      PIN_NUMBER='(32)';
+      INPUT_LOAD='(*)';
+    'TCK':
+      PIN_NUMBER='(33)';
+      INPUT_LOAD='(*)';
+    'TMS':
+      PIN_NUMBER='(34)';
+      INPUT_LOAD='(*)';
+    'RESET':
+      PIN_NUMBER='(35)';
+      INPUT_LOAD='(*)';
+    'DIO18 / RTS / SWO':
+      PIN_NUMBER='(36)';
+      INPUT_LOAD='(*)';
+      OUTPUT_LOAD='(*)';
+      OUTPUT_TYPE='(TS,TS)';
+    'DIO19 / CTS':
+      PIN_NUMBER='(37)';
+      INPUT_LOAD='(*)';
+      OUTPUT_LOAD='(*)';
+      OUTPUT_TYPE='(TS,TS)';
+    'DIO20 / FLASH CS':
+      PIN_NUMBER='(38)';
+      INPUT_LOAD='(*)';
+      OUTPUT_LOAD='(*)';
+      OUTPUT_TYPE='(TS,TS)';
+    'DIO8 / RED LED':
+      PIN_NUMBER='(39)';
+      INPUT_LOAD='(*)';
+      OUTPUT_LOAD='(*)';
+      OUTPUT_TYPE='(TS,TS)';
+    'DIO7 / GRN LED':
+      PIN_NUMBER='(40)';
+      INPUT_LOAD='(*)';
+      OUTPUT_LOAD='(*)';
+      OUTPUT_TYPE='(TS,TS)';
+  end_pin;
+  body
+    PART_NAME='CC1310LaouchPad';
+    JEDEC_TYPE='CC1310CONNECTOR';
+    VALUE='CC1310LauchPad';
+  end_body;
+end_primitive;
+primitive 'LM2576HV-ADJ_LM2576_LM2576HV-AD';
+  pin
+    'VIN':
+      PIN_NUMBER='(1)';
+      PINUSE='POWER';
+    'OUTPUT':
+      PIN_NUMBER='(2)';
+      OUTPUT_LOAD='(*)';
+    'GND':
+      PIN_NUMBER='(3)';
+      PINUSE='UNSPEC';
+    'FEEDBACK':
+      PIN_NUMBER='(4)';
+      OUTPUT_LOAD='(*)';
+      OUTPUT_TYPE='(OC,AND)';
+    'ON/OFF':
+      PIN_NUMBER='(5)';
+      OUTPUT_LOAD='(*)';
+      OUTPUT_TYPE='(OC,AND)';
+  end_pin;
+  body
+    PART_NAME='LM2576HV-ADJ';
+    JEDEC_TYPE='LM2576';
+    VALUE='LM2576HV-ADJ';
+  end_body;
+end_primitive;
+primitive 'LM35_LM35_LM35';
+  pin
+    'VCC':
+      PIN_NUMBER='(1)';
+      PINUSE='POWER';
+    'OUT':
+      PIN_NUMBER='(2)';
+      OUTPUT_LOAD='(*)';
+    'GND':
+      PIN_NUMBER='(3)';
+      PINUSE='UNSPEC';
+  end_pin;
+  body
+    PART_NAME='LM35';
+    JEDEC_TYPE='LM35';
+    VALUE='LM35';
+  end_body;
+end_primitive;
+primitive 'ULN2003A_ULN2003A_ULN2003A';
+  pin
+    '1B':
+      PIN_NUMBER='(1)';
+      INPUT_LOAD='(*)';
+    '2B':
+      PIN_NUMBER='(2)';
+      INPUT_LOAD='(*)';
+    '3B':
+      PIN_NUMBER='(3)';
+      INPUT_LOAD='(*)';
+    '4B':
+      PIN_NUMBER='(4)';
+      INPUT_LOAD='(*)';
+    '5B':
+      PIN_NUMBER='(5)';
+      INPUT_LOAD='(*)';
+    '6B':
+      PIN_NUMBER='(6)';
+      INPUT_LOAD='(*)';
+    '7B':
+      PIN_NUMBER='(7)';
+      INPUT_LOAD='(*)';
+    'E':
+      PIN_NUMBER='(8)';
+      PINUSE='UNSPEC';
+    'COM':
+      PIN_NUMBER='(9)';
+      PINUSE='POWER';
+    '7C':
+      PIN_NUMBER='(10)';
+      INPUT_LOAD='(*)';
+    '6C':
+      PIN_NUMBER='(11)';
+      INPUT_LOAD='(*)';
+    '5C':
+      PIN_NUMBER='(12)';
+      INPUT_LOAD='(*)';
+    '4C':
+      PIN_NUMBER='(13)';
+      INPUT_LOAD='(*)';
+    '3C':
+      PIN_NUMBER='(14)';
+      INPUT_LOAD='(*)';
+    '2C':
+      PIN_NUMBER='(15)';
+      INPUT_LOAD='(*)';
+    '1C':
+      PIN_NUMBER='(16)';
+      INPUT_LOAD='(*)';
+  end_pin;
+  body
+    PART_NAME='ULN2003A';
+    JEDEC_TYPE='ULN2003A';
+    VALUE='ULN2003A';
+  end_body;
+end_primitive;
+primitive 'AM2320_AM2320_AM2320';
+  pin
+    'VDD':
+      PIN_NUMBER='(1)';
+      PINUSE='POWER';
+    'SDA':
+      PIN_NUMBER='(2)';
+      INPUT_LOAD='(*)';
+    'GND':
+      PIN_NUMBER='(3)';
+      PINUSE='UNSPEC';
+    'SCL':
+      PIN_NUMBER='(4)';
+      INPUT_LOAD='(*)';
+  end_pin;
+  body
+    PART_NAME='AM2320';
+    JEDEC_TYPE='AM2320';
+    VALUE='AM2320';
+  end_body;
+end_primitive;
+primitive 'BH1750_BH1750_BH1750';
+  pin
+    'VCC':
+      PIN_NUMBER='(1)';
+      PINUSE='POWER';
+    'GND':
+      PIN_NUMBER='(2)';
+      PINUSE='UNSPEC';
+    'SCL':
+      PIN_NUMBER='(3)';
+      INPUT_LOAD='(*)';
+    'SDA':
+      PIN_NUMBER='(4)';
+      INPUT_LOAD='(*)';
+    'ADD':
+      PIN_NUMBER='(5)';
+      INPUT_LOAD='(*)';
+  end_pin;
+  body
+    PART_NAME='bh1750';
+    JEDEC_TYPE='BH1750';
+    VALUE='bh1750';
+  end_body;
+end_primitive;
+END.

@@ -48,20 +48,19 @@
     (FALSE)
     (LAYOUT_Units "0")
     ("Create Allegro Netlist" "TRUE")
-    ("Allegro Netlist Directory" "G:\CP_SMARTGARDEN\ORCAD\ALLEGRO")
-    ("View Allegro Netlist Files" "FALSE")
+    ("Allegro Netlist Directory" "F:\CP_SMARTGARDEN\ORCAD\ALLEGRO")
+    ("View Allegro Netlist Files" "TRUE")
     ("Allegro Netlist Create DCF File" "FALSE")
     ("Update Allegro Board" "TRUE")
-    ("Allegro Netlist Output Board File"
-       "G:\CP_SmartGarden\OrCAD\SmartGardenShield\Shield.brd")
+    ("Allegro Netlist Output Board File" "allegro\CP_CC1310LAUNCHPAD.brd")
     ("Allegro Netlist Remove Etch" "FALSE")
     ("Allegro Netlist Place Changed Component" "ALWAYS_REPLACE")
-    ("Allegro Netlist Open Board in Allegro" "ALLEGRO")
+    ("Allegro Netlist Open Board in Allegro" "NEITHER")
     ("Allegro Setup Backup Versions" "3")
     ("Allegro Setup Output Warnings" "TRUE")
     ("Allegro Setup Ignore Constraints" "FALSE")
     ("Allegro Setup Part Type Length" "31")
-    ("Allegro Netlist Combine Property String" "PCB Footprint")
+    ("Allegro Netlist Combine Property String" "PCBFootprint")
     ("Allegro Netlist Ignore Fixed Property" "FALSE")
     ("Allegro Netlist User Defined Property" "FALSE"))
   (Folder "Outputs"
@@ -181,27 +180,32 @@
   (GlobalState
     (FileView
       (Path "Design Resources")
-      (Path "Design Resources" ".\cp_cc1310launchpad.dsn")
-      (Path "Design Resources" ".\cp_cc1310launchpad.dsn" "SCHEMATIC1")
+      (Path "Design Resources" "F:\CP_SmartGarden\OrCAD\cp_cc1310launchpad.dsn")
+      (Path "Design Resources" "F:\CP_SmartGarden\OrCAD\cp_cc1310launchpad.dsn"
+         "SCHEMATIC1")
+      (Path "Design Resources" "F:\CP_SmartGarden\OrCAD\cp_cc1310launchpad.dsn"
+         "Design Cache")
       (Path "Design Resources" "Library")
-      (Path "Design Resources" "Library" ".\library1.olb")
-      (Path "Outputs"))
+      (Path "Design Resources" "Library" "F:\CP_SmartGarden\OrCAD\library1.olb")
+      (Path "Outputs")
+      (Select "Design Resources" "Library"
+         "F:\CP_SmartGarden\OrCAD\library1.olb"))
     (HierarchyView)
     (Doc
       (Type "COrCapturePMDoc")
       (Frame
-        (Placement "44 0 1 -1 -1 -8 -31 0 200 0 223"))
+        (Placement "44 2 3 -1 -1 -8 -31 0 257 0 362"))
       (Tab 0))
     (Doc
       (Type "COrSchematicDoc")
       (Frame
-        (Placement "44 2 3 -1 -1 -8 -31 78 1264 78 340")
-        (Scroll "818 0")
-        (Zoom "64")
+        (Placement "44 0 1 -1 -1 -8 -31 258 1297 0 362")
+        (Scroll "0 0")
+        (Zoom "32")
         (Occurrence "/"))
-      (Path "G:\CP_SMARTGARDEN\ORCAD\CP_CC1310LAUNCHPAD.DSN")
+      (Path "F:\CP_SMARTGARDEN\ORCAD\CP_CC1310LAUNCHPAD.DSN")
       (Schematic "SCHEMATIC1")
       (Page "PAGE1")))
-  (MPSSessionName "Thanh Sang")
+  (MPSSessionName "Sang Phan Thanh")
   (LastUsedLibraryBrowseDirectory "C:\Cadence\SPB_16.6\tools\capture\library")
   (ISPCBBASICLICENSE "false"))

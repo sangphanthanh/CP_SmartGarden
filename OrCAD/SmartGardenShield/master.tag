@@ -1,1 +1,1 @@
-MICROUSB.dra
+CC1310LP.dra

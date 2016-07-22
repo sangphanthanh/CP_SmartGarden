@@ -1,0 +1,75 @@
+\t (00:00:03) allegro 16.6 P004 (v16-6-112G) Windows 32
+\t (00:00:03)     Journal start - Fri Jul 22 11:51:44 2016
+\t (00:00:03)         Host=SANGPTSE61252 User=Sang Phan Thanh Pid=165012 CPUs=4
+\t (00:00:03) 
+\t (00:00:05) Opening existing design...
+\d (00:00:05) Database opened: F:/CP_SMARTGARDEN/ORCAD/ALLEGRO/ALLEGRO/CC1310LAUNCHPAD.brd
+\i (00:00:05) trapsize 16114
+\i (00:00:05) trapsize 15668
+\i (00:00:05) trapsize 16190
+\i (00:00:05) trapsize 17259
+\i (00:00:05) trapsize 21956
+\i (00:00:06) generaledit 
+\i (00:00:09) place manual 
+\i (00:00:12) setwindow form.plc_manual
+\i (00:00:12) FORM plc_manual tree 'MULTISEL YES' U13 'Components by refdes' 
+\t (00:00:12) Placing U13 / LM2576HV-ADJ_LM2576_LM2576HV-AD / LM2576 on Top.
+\i (00:00:12) FORM plc_manual tree  U13 'Components by refdes' 
+\i (00:00:12) FORM plc_manual done  
+\i (00:00:12) setwindow pcb
+\i (00:00:12) generaledit 
+\i (00:00:13) pick grid 17257.48 13173.65
+\t (00:00:13) last pick:  17300.00  13200.00
+\i (00:00:15) place manual 
+\i (00:00:17) setwindow form.plc_manual
+\i (00:00:17) FORM plc_manual tree 'MULTISEL YES' U13 'Components by refdes' 
+\t (00:00:17) Placing U13 / LM2576HV-ADJ_LM2576_LM2576HV-AD / LM2576 on Top.
+\i (00:00:17) FORM plc_manual tree  U13 'Components by refdes' 
+\i (00:00:18) setwindow pcb
+\i (00:00:18) pick grid 17213.57 14491.02
+\t (00:00:18) last pick:  17200.00  14500.00
+\i (00:00:19) zoom in 1 
+\i (00:00:19) setwindow pcb
+\i (00:00:19) zoom in 16467.06 17960.08
+\i (00:00:19) trapsize 10978
+\i (00:00:19) zoom in 1 
+\i (00:00:19) setwindow pcb
+\i (00:00:19) zoom in 16445.11 17652.70
+\i (00:00:19) trapsize 5489
+\i (00:00:19) zoom in 1 
+\i (00:00:19) setwindow pcb
+\i (00:00:19) zoom in 16609.78 17026.95
+\i (00:00:19) trapsize 2745
+\i (00:00:20) zoom out 1 
+\i (00:00:20) setwindow pcb
+\i (00:00:20) zoom out 17219.06 15868.77
+\i (00:00:20) trapsize 5489
+\i (00:00:20) zoom out 1 
+\i (00:00:20) setwindow pcb
+\i (00:00:20) zoom out 17273.96 15737.03
+\i (00:00:20) trapsize 10978
+\i (00:00:21) setwindow form.plc_manual
+\i (00:00:21) FORM plc_manual done  
+\i (00:00:21) setwindow pcb
+\i (00:00:21) generaledit 
+\i (00:00:21) zoom in 1 
+\i (00:00:21) setwindow pcb
+\i (00:00:21) zoom in 18218.06 14556.88
+\i (00:00:21) trapsize 5489
+\i (00:00:21) zoom in 1 
+\i (00:00:21) setwindow pcb
+\i (00:00:21) zoom in 18152.19 14545.91
+\i (00:00:21) trapsize 2745
+\i (00:00:22) save 
+\i (00:00:23) fillin yes 
+\i (00:00:23) generaledit 
+\i (00:00:24) zoom in 1 
+\i (00:00:24) setwindow pcb
+\i (00:00:24) zoom in 17317.86 14809.39
+\i (00:00:24) trapsize 1372
+\i (00:00:25) zoom out 1 
+\i (00:00:25) setwindow pcb
+\i (00:00:25) zoom out 17164.17 14710.59
+\i (00:00:25) trapsize 2745
+\i (00:00:27) exit 
+\t (00:00:27)     Journal end - Fri Jul 22 11:52:08 2016

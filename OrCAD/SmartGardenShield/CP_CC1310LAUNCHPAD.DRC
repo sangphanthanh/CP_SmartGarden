@@ -1,0 +1,42 @@
+Date and Time : 07/05/16 11:19:05
+
+--------------------------------------------------
+Checking Schematic: SCHEMATIC1
+--------------------------------------------------
+Checking Electrical Rules 
+ERROR(ORCAP-1628): Possible pin type conflict U12,DIO25 / A2  3 State Connected to Output
+                    SCHEMATIC1, PAGE1  (11.90, 10.10) 
+WARNING(ORCAP-1831): Unconnected pin U7,6B 
+                    SCHEMATIC1, PAGE1  (16.10, 10.10) 
+WARNING(ORCAP-1831): Unconnected pin U7,7B 
+                    SCHEMATIC1, PAGE1  (16.10, 10.20) 
+WARNING(ORCAP-1831): Unconnected pin U7,7C 
+                    SCHEMATIC1, PAGE1  (17.70, 10.20) 
+WARNING(ORCAP-1831): Unconnected pin U7,6C 
+                    SCHEMATIC1, PAGE1  (17.70, 10.10) 
+WARNING(ORCAP-1831): Unconnected pin U12,GPIO2 
+                    SCHEMATIC1, PAGE1  (11.90, 10.70) 
+WARNING(ORCAP-1831): Unconnected pin U12,DIO1 
+                    SCHEMATIC1, PAGE1  (11.90, 10.80) 
+WARNING(ORCAP-1831): Unconnected pin U12,LP RST 
+                    SCHEMATIC1, PAGE1  (14.00, 9.30) 
+WARNING(ORCAP-1831): Unconnected pin U12,GPIO1 
+                    SCHEMATIC1, PAGE1  (14.00, 9.20) 
+WARNING(ORCAP-1831): Unconnected pin U12,TDI 
+                    SCHEMATIC1, PAGE1  (14.00, 10.80) 
+WARNING(ORCAP-1831): Unconnected pin U12,TDO 
+                    SCHEMATIC1, PAGE1  (14.00, 10.70) 
+WARNING(ORCAP-1831): Unconnected pin U12,TCK 
+                    SCHEMATIC1, PAGE1  (14.00, 10.60) 
+WARNING(ORCAP-1831): Unconnected pin U12,TMS 
+                    SCHEMATIC1, PAGE1  (14.00, 10.50) 
+WARNING(ORCAP-1831): Unconnected pin U12,RESET 
+                    SCHEMATIC1, PAGE1  (14.00, 10.40) 
+WARNING(ORCAP-1831): Unconnected pin U9,ADD 
+                    SCHEMATIC1, PAGE1  (7.30, 9.90) 
+
+Checking For Single Node Nets
+WARNING(ORCAP-1600): Net has fewer than two connections 3V3 
+                    SCHEMATIC1, PAGE1  (11.90, 8.90) 
+
+Checking For Unconnected Bus Nets

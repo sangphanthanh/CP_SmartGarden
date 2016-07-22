@@ -1,0 +1,94 @@
+(ExpressProject "CC1310Launchpad"
+  (ProjectVersion "19981106")
+  (ProjectType "PCB")
+  (Folder "Design Resources"
+    (Folder "Library"
+      (File "..\smartgardenshield\library1.olb"
+        (Type "Schematic Library")))
+    (NoModify)
+    (File ".\cc1310launchpad.dsn"
+      (Type "Schematic Design"))
+    (BuildFileAddedOrDeleted "x")
+    (CompileFileAddedOrDeleted "x")
+    (Netlist_TAB "0")
+    ("Create Allegro Netlist" "TRUE")
+    ("Allegro Netlist Directory" "F:\CP_SMARTGARDEN\ORCAD\ALLEGRO\ALLEGRO")
+    ("View Allegro Netlist Files" "FALSE")
+    ("Allegro Netlist Create DCF File" "FALSE")
+    ("Update Allegro Board" "TRUE")
+    ("Allegro Netlist Output Board File" "allegro\CC1310LAUNCHPAD.brd")
+    ("Allegro Netlist Remove Etch" "FALSE")
+    ("Allegro Netlist Place Changed Component" "ALWAYS_REPLACE")
+    ("Allegro Netlist Open Board in Allegro" "ALLEGRO")
+    ("Allegro Setup Backup Versions" "3")
+    ("Allegro Setup Output Warnings" "TRUE")
+    ("Allegro Setup Ignore Constraints" "FALSE")
+    ("Allegro Setup Part Type Length" "31")
+    ("Allegro Netlist Combine Property String" "PCB Footprint")
+    ("Allegro Netlist Ignore Fixed Property" "FALSE")
+    ("Allegro Netlist User Defined Property" "FALSE")
+    ("Allegro Netlist Input Board File"
+       "F:\CP_SmartGarden\OrCAD\allegro\allegro\CC1310LAUNCHPAD.brd"))
+  (Folder "Outputs"
+    (File ".\allegro\pstxnet.dat"
+      (Type "Report")
+      (DisplayName "pstxnet.dat"))
+    (File ".\allegro\pstxprt.dat"
+      (Type "Report")
+      (DisplayName "pstxprt.dat"))
+    (File ".\allegro\pstchip.dat"
+      (Type "Report")
+      (DisplayName "pstchip.dat")))
+  (Folder "Referenced Projects")
+  (PartMRUSelector
+    (bh1750
+      (FullPartName "bh1750.Normal")
+      (LibraryName "F:\CP_SMARTGARDEN\ORCAD\SMARTGARDENSHIELD\LIBRARY1.OLB")
+      (DeviceIndex "0"))
+    (CC1310LaouchPad
+      (FullPartName "CC1310LaouchPad.Normal")
+      (LibraryName "F:\CP_SMARTGARDEN\ORCAD\SMARTGARDENSHIELD\LIBRARY1.OLB")
+      (DeviceIndex "0")))
+  (ISPCBBASICLICENSE "false")
+  (GlobalState
+    (FileView
+      (Path "Design Resources")
+      (Path "Design Resources"
+         "f:\cp_smartgarden\orcad\allegro\cc1310launchpad.dsn")
+      (Path "Design Resources"
+         "f:\cp_smartgarden\orcad\allegro\cc1310launchpad.dsn" "SCHEMATIC1")
+      (Path "Design Resources" "Library")
+      (Path "Design Resources" "Library"
+         "f:\cp_smartgarden\orcad\smartgardenshield\library1.olb")
+      (Path "Outputs")
+      (Select "Design Resources" "Library"
+         "f:\cp_smartgarden\orcad\smartgardenshield\library1.olb"
+         "CC1310LaouchPad"))
+    (HierarchyView)
+    (Doc
+      (Type "COrCapturePMDoc")
+      (Frame
+        (Placement "44 0 1 -1 -1 -8 -31 0 200 0 223"))
+      (Tab 0))
+    (Doc
+      (Type "COrSchematicDoc")
+      (Frame
+        (Placement "44 2 3 -1 -1 -8 -31 52 1238 52 314")
+        (Scroll "1357 2778")
+        (Zoom "160")
+        (Occurrence "/"))
+      (Path "F:\CP_SMARTGARDEN\ORCAD\ALLEGRO\CC1310LAUNCHPAD.DSN")
+      (Schematic "SCHEMATIC1")
+      (Page "PAGE1"))
+    (Doc
+      (Type "COrPartDoc")
+      (Frame
+        (Placement "44 0 1 -1 -1 -8 -31 104 948 104 366")
+        (PackageScroll "0 0")
+        (PackageZoom "1")
+        (PartPackage "Part")
+        (Scroll "0 0")
+        (Zoom "18"))
+      (Path "F:\CP_SMARTGARDEN\ORCAD\SMARTGARDENSHIELD\LIBRARY1.OLB")
+      (Package "CC1310LaouchPad")))
+  (MPSSessionName "Sang Phan Thanh"))
