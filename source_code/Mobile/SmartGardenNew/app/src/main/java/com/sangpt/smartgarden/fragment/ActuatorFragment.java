@@ -11,6 +11,7 @@ import android.view.ViewGroup;
 import android.widget.CheckBox;
 import android.widget.CompoundButton;
 import android.widget.EditText;
+import android.widget.Switch;
 import android.widget.Toast;
 
 import com.sangpt.smartgarden.R;
@@ -27,7 +28,9 @@ import retrofit.client.Response;
 /**
  * Created by ManhNV on 7/12/2016.
  */
-public class ActuatorFragment extends Fragment implements CompoundButton.OnCheckedChangeListener {
+public class ActuatorFragment extends Fragment implements View.OnClickListener , CompoundButton.OnCheckedChangeListener
+
+{
     private int zoneId;
     private ZoneIndex zoneIndex;
     private RestService restService;
@@ -54,6 +57,7 @@ public class ActuatorFragment extends Fragment implements CompoundButton.OnCheck
                     viewHolder.scMisting.setChecked(responseModel.isStatusMisting());
                     viewHolder.scPump.setChecked(responseModel.isStatusPump());
                     viewHolder.scFertilize.setChecked(responseModel.isStatusFertilize());
+                    viewHolder.cbAutomatically.setChecked(responseModel.isAutomatically());
                 }
             }
 
@@ -79,16 +83,31 @@ public class ActuatorFragment extends Fragment implements CompoundButton.OnCheck
         viewHolder.scPump.setChecked(false);
         viewHolder.scFertilize.setChecked(false);
         viewHolder.cbAutomatically.setChecked(false);
+        viewHolder.cbAutomatically.setOnClickListener(this);
+        viewHolder.scFertilize.setOnClickListener(this);
+        viewHolder.scPump.setOnClickListener(this);
+        viewHolder.scMisting.setOnClickListener(this);
+        viewHolder.scCovered.setOnClickListener(this);
         viewHolder.cbAutomatically.setOnCheckedChangeListener(this);
-        viewHolder.scFertilize.setOnCheckedChangeListener(this);
-        viewHolder.scPump.setOnCheckedChangeListener(this);
-        viewHolder.scMisting.setOnCheckedChangeListener(this);
-        viewHolder.scCovered.setOnCheckedChangeListener(this);
-
     }
 
     @Override
-    public void onCheckedChanged(CompoundButton buttonView, boolean isChecked) {
+    public void onClick(View v) {
+        int id = v.getId();
+        switch ( id){
+            case R.id.cb_automatically:
+                if (viewHolder.cbAutomatically.isChecked()) {
+                    viewHolder.scCovered.setEnabled(false);
+                    viewHolder.scMisting.setEnabled(false);
+                    viewHolder.scPump.setEnabled(false);
+                    viewHolder.scFertilize.setEnabled(false);
+                }else{
+                    viewHolder.scCovered.setEnabled(true);
+                    viewHolder.scMisting.setEnabled(true);
+                    viewHolder.scPump.setEnabled(true);
+                    viewHolder.scFertilize.setEnabled(true);
+                }
+        }
         ZoneActuator actuator = new ZoneActuator();
         actuator.setEndDeviceId(zoneActuator.getEndDeviceId());
         actuator.setZoneId(zoneActuator.getZoneId());
@@ -108,6 +127,24 @@ public class ActuatorFragment extends Fragment implements CompoundButton.OnCheck
                 Toast.makeText(getActivity(), error.getResponse().getReason(), Toast.LENGTH_SHORT).show();
             }
         });
+    }
+
+    @Override
+    public void onCheckedChanged(CompoundButton buttonView, boolean isChecked) {
+        int id = buttonView.getId();
+        if (id==R.id.cb_automatically){
+            if (isChecked) {
+                viewHolder.scCovered.setEnabled(false);
+                viewHolder.scMisting.setEnabled(false);
+                viewHolder.scPump.setEnabled(false);
+                viewHolder.scFertilize.setEnabled(false);
+            }else{
+                viewHolder.scCovered.setEnabled(true);
+                viewHolder.scMisting.setEnabled(true);
+                viewHolder.scPump.setEnabled(true);
+                viewHolder.scFertilize.setEnabled(true);
+            }
+        }
     }
 
     private class ViewHolder {

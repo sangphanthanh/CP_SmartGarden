@@ -54,7 +54,7 @@ public interface IZoneService {
     void updateZone(@Body ZoneIndex requestModel,
                  Callback<String> callback);
 
-    @POST("/rest/enddeviceId/postupdateenddevice")
+    @POST("/rest/enddevice/postupdateenddevice")
     void updateActuator(@Body ZoneActuator requestModel,
                         Callback<String> callback);
 }

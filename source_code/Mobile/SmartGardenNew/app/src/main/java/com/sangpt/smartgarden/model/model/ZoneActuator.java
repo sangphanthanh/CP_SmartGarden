@@ -7,7 +7,7 @@ import com.google.gson.annotations.SerializedName;
  */
 public class ZoneActuator {
     @SerializedName("enddeviceId")
-    private int endDeviceId;
+    private String endDeviceId;
     @SerializedName("statuscovered")
     private boolean statusCovered;
     @SerializedName("statusmisting")
@@ -17,15 +17,15 @@ public class ZoneActuator {
     @SerializedName("statusFertilize")
     private boolean statusFertilize;
     @SerializedName("zoneId")
-    private int zoneId;
+    private String zoneId;
     @SerializedName("automatically")
     private boolean automatically;
 
-    public int getEndDeviceId() {
+    public String getEndDeviceId() {
         return endDeviceId;
     }
 
-    public void setEndDeviceId(int endDeviceId) {
+    public void setEndDeviceId(String endDeviceId) {
         this.endDeviceId = endDeviceId;
     }
 
@@ -53,11 +53,11 @@ public class ZoneActuator {
         this.statusPump = statusPump;
     }
 
-    public int getZoneId() {
+    public String getZoneId() {
         return zoneId;
     }
 
-    public void setZoneId(int zoneId) {
+    public void setZoneId(String zoneId) {
         this.zoneId = zoneId;
     }
 

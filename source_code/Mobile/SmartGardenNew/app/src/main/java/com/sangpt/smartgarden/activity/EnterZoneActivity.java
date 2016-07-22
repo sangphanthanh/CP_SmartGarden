@@ -143,6 +143,7 @@ public class EnterZoneActivity extends AppCompatActivity {
         viewHolder.btnLibrary.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
+
                 restService.getiZoneService().getLibrary(username, new Callback<ListLibResponseModel>() {
                     @Override
                     public void success(final ListLibResponseModel responseModel, Response response) {
