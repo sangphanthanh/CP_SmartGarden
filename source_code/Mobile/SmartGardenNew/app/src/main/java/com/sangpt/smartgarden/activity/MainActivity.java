@@ -76,6 +76,7 @@ public class MainActivity extends AppCompatActivity {
                             public void success(String s, Response response) {
                                 Toast.makeText(MainActivity.this, "This zone is deleted", Toast.LENGTH_SHORT).show();
                                 finalDialogInterface.dismiss();
+                                getList();
                             }
 
                             @Override
