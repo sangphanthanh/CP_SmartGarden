@@ -57,4 +57,8 @@ public interface IZoneService {
     @POST("/rest/enddevice/postupdateenddevice")
     void updateActuator(@Body ZoneActuator requestModel,
                         Callback<String> callback);
+
+    @GET("/rest/zone/{zoneid}/deletezone")
+    void deleteZone(@Path("zoneid") int zoneId,
+                    Callback<String> callback);
 }

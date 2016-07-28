@@ -1,7 +1,9 @@
 package com.sangpt.smartgarden.activity;
 
+import android.content.DialogInterface;
 import android.content.Intent;
 import android.os.Bundle;
+import android.support.v7.app.AlertDialog;
 import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.Toolbar;
 import android.view.Menu;
@@ -36,7 +38,7 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
         Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
-        toolbar.setTitle("Danh sách khu");
+        toolbar.setTitle("Zone List");
         setSupportActionBar(toolbar);
         init();
         event();
@@ -55,6 +57,41 @@ public class MainActivity extends AppCompatActivity {
                 intent.putExtra("zoneName",zone.getZoneName());
                 startActivity(intent);
                 overridePendingTransition(R.anim.right_in,R.anim.left_out);
+            }
+        });
+
+        viewHolder.gvZones.setOnItemLongClickListener(new AdapterView.OnItemLongClickListener() {
+            @Override
+            public boolean onItemLongClick(AdapterView<?> parent, View view, int position, long id) {
+                AlertDialog.Builder builder  = new AlertDialog.Builder(MainActivity.this);
+                builder.setTitle("Warning");
+                final Zone zone = zonesAdapter.getItem(position);
+                builder.setMessage("Do you want to delete this zone");
+                builder.setPositiveButton("Yes", new DialogInterface.OnClickListener() {
+                    @Override
+                    public void onClick(DialogInterface dialog, int which) {
+                        final DialogInterface finalDialogInterface = dialog;
+                        restService.getiZoneService().deleteZone(zone.getZoneId(), new Callback<String>() {
+                            @Override
+                            public void success(String s, Response response) {
+                                Toast.makeText(MainActivity.this, "This zone is deleted", Toast.LENGTH_SHORT).show();
+                                finalDialogInterface.dismiss();
+                            }
+
+                            @Override
+                            public void failure(RetrofitError error) {
+                                Toast.makeText(MainActivity.this, "Some thing wrong. Please check your connection", Toast.LENGTH_SHORT).show();
+                            }
+                        });
+                    }
+                }).setNegativeButton("No", new DialogInterface.OnClickListener() {
+                    @Override
+                    public void onClick(DialogInterface dialog, int which) {
+                        dialog.dismiss();
+                    }
+                });
+                builder.create().show();
+                return false;
             }
         });
     }
