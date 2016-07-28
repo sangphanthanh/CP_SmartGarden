@@ -4,15 +4,15 @@
 (                                                                     )
 (    Drawing          : CC1310CONNECTOR.dra                           )
 (    Software Version : 16.6P004                                      )
-(    Date/Time        : Sun Jul 17 01:37:09 2016                      )
+(    Date/Time        : Tue Jul 26 16:13:33 2016                      )
 (                                                                     )
 (---------------------------------------------------------------------)
 
 
 Create Symbol of type: PACKAGE
-    Directory = G:/CP_SmartGarden/OrCAD/SmartGardenShield
+    Directory = F:/CP_SmartGarden/OrCAD/allegro
     Name      = cc1310connector.psm
-    User      = Thanh Sang
+    User      = Sang Phan Thanh
     Machine   = SANGPTSE61252
 
 

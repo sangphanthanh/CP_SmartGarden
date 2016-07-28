@@ -1,113 +1,430 @@
-\t (00:00:03) allegro 16.6 P004 (v16-6-112G) Windows 32
-\t (00:00:03)     Journal start - Fri Jul 22 01:41:00 2016
-\t (00:00:03)         Host=SANGPTSE61252 User=Sang Phan Thanh Pid=5612 CPUs=4
-\t (00:00:03) 
-\t (00:00:05) Opening existing design...
-\d (00:00:05) Database opened: F:/CP_SmartGarden/OrCAD/SmartGardenShield/Shield.brd
-\i (00:00:06) trapsize 6743
-\i (00:00:06) trapsize 6557
-\i (00:00:06) trapsize 6775
-\i (00:00:06) trapsize 5489
-\i (00:00:06) trapsize 5489
-\i (00:00:06) generaledit 
-\i (00:00:10) open 
-\i (00:00:18) fillin "MICROUSB.dra"
-\t (00:00:18) Opening existing design...
-\i (00:00:18) trapsize 4
-\i (00:00:19) trapsize 5
-\d (00:00:19) Database opened: F:/CP_SmartGarden/OrCAD/SmartGardenShield/MICROUSB.dra
-\i (00:00:19) generaledit 
-\i (00:00:20) zoom out 1 
-\i (00:00:20) setwindow pcb
-\i (00:00:20) zoom out 81 73
-\i (00:00:20) trapsize 10
-\i (00:00:20) zoom in 1 
-\i (00:00:20) setwindow pcb
-\i (00:00:20) zoom in 208 175
-\i (00:00:20) trapsize 5
-\i (00:00:23) zoom in 1 
+\t (00:00:02) allegro 16.6 P004 (v16-6-112G) Windows 32
+\t (00:00:02)     Journal start - Wed Jul 27 23:45:09 2016
+\t (00:00:02)         Host=SANGPTSE61252 User=Sang Phan Thanh Pid=417740 CPUs=4
+\t (00:00:02) 
+\t (00:00:02) Opening existing design...
+\d (00:00:02) Database opened: F:/CP_SmartGarden/OrCAD/allegro/USBFemale.dra
+\i (00:00:02) trapsize 3
+\i (00:00:03) trapsize 2
+\i (00:00:03) trapsize 2
+\i (00:00:03) generaledit 
+\i (00:00:04) zoom out 1 
+\i (00:00:04) setwindow pcb
+\i (00:00:04) zoom out -359 132
+\i (00:00:04) trapsize 5
+\i (00:00:04) zoom out 1 
+\i (00:00:04) setwindow pcb
+\i (00:00:04) zoom out -344 127
+\t (00:00:04) Grids are drawn 20, 20 apart for enhanced viewability.
+\i (00:00:04) trapsize 9
+\i (00:00:06) open 
+\i (00:00:15) fillin "DC002POWER.dra"
+\t (00:00:15) Opening existing design...
+\t (00:00:15) Grids are drawn 20, 20 apart for enhanced viewability.
+\i (00:00:15) trapsize 10
+\d (00:00:15) Database opened: F:/CP_SmartGarden/OrCAD/allegro/DC002POWER.dra
+\i (00:00:15) generaledit 
+\i (00:00:16) zoom in 1 
+\i (00:00:16) setwindow pcb
+\i (00:00:16) zoom in 46 11
+\i (00:00:16) trapsize 5
+\i (00:00:16) zoom in 1 
+\i (00:00:16) setwindow pcb
+\i (00:00:16) zoom in 46 10
+\i (00:00:16) trapsize 3
+\i (00:00:16) zoom in 1 
+\i (00:00:16) setwindow pcb
+\i (00:00:16) zoom in 47 9
+\i (00:00:16) trapsize 1
+\i (00:00:16) zoom in 1 
+\i (00:00:16) setwindow pcb
+\i (00:00:16) zoom in 46 7
+\i (00:00:16) trapsize 1
+\i (00:00:17) zoom out 1 
+\i (00:00:17) setwindow pcb
+\i (00:00:17) zoom out 46 7
+\i (00:00:17) trapsize 1
+\i (00:00:17) zoom out 1 
+\i (00:00:17) setwindow pcb
+\i (00:00:17) zoom out 46 6
+\i (00:00:17) trapsize 3
+\i (00:00:17) zoom out 1 
+\i (00:00:17) setwindow pcb
+\i (00:00:17) zoom out 53 41
+\i (00:00:17) trapsize 5
+\i (00:00:21) dimension edit 
+\i (00:00:21) zoom in 1 
+\i (00:00:21) setwindow pcb
+\i (00:00:21) zoom in 76 44
+\i (00:00:21) trapsize 3
+\i (00:00:21) zoom in 1 
+\i (00:00:21) setwindow pcb
+\i (00:00:21) zoom in 77 43
+\i (00:00:21) trapsize 1
+\i (00:00:22) zoom out 1 
+\i (00:00:22) setwindow pcb
+\i (00:00:22) zoom out 201 13
+\i (00:00:22) trapsize 3
+\i (00:00:23) zoom out 1 
+\i (00:00:23) setwindow pcb
+\i (00:00:23) zoom out 205 33
+\i (00:00:23) trapsize 5
+\i (00:00:24) zoom in 1 
 \i (00:00:24) setwindow pcb
-\i (00:00:24) zoom in -104 54
+\i (00:00:24) zoom in 208 178
 \i (00:00:24) trapsize 3
 \i (00:00:24) zoom in 1 
 \i (00:00:24) setwindow pcb
-\i (00:00:24) zoom in -104 54
+\i (00:00:24) zoom in 208 179
 \i (00:00:24) trapsize 1
-\i (00:00:26) zoom out 1 
-\i (00:00:26) setwindow pcb
-\i (00:00:26) zoom out 5 56
-\i (00:00:26) trapsize 3
-\i (00:00:34) padeditdb 
-\i (00:00:39) pick grid -141 64
-\t (00:00:39) last pick:  -100  100
-\i (00:02:07) zoom out 1 
-\i (00:02:07) setwindow pcb
-\i (00:02:07) zoom out -169 92
-\i (00:02:07) trapsize 5
-\i (00:02:07) zoom out 1 
-\i (00:02:07) setwindow pcb
-\i (00:02:07) zoom out -17 89
-\i (00:02:07) trapsize 10
-\i (00:02:07) zoom out 1 
-\i (00:02:07) setwindow pcb
-\i (00:02:07) zoom out 556 85
-\i (00:02:07) trapsize 14
-\i (00:02:07) zoom in 1 
-\i (00:02:07) setwindow pcb
-\i (00:02:07) zoom in 354 223
-\i (00:02:07) trapsize 7
-\i (00:02:07) zoom in 1 
-\i (00:02:07) setwindow pcb
-\i (00:02:07) zoom in -138 218
-\i (00:02:07) trapsize 3
-\i (00:04:48) xname_flush 
-\i (00:04:51) xname_flush 
-\i (00:06:15) xname_flush 
-\i (00:06:27) xname_flush 
-\i (00:10:13) xname_flush 
-\i (00:12:05) zoom out 1 
-\i (00:12:05) setwindow pcb
-\i (00:12:05) zoom out -51 131
-\i (00:12:05) trapsize 7
-\i (00:12:05) zoom out 1 
-\i (00:12:05) setwindow pcb
-\i (00:12:05) zoom out 35 132
-\i (00:12:05) trapsize 14
-\i (00:12:05) zoom out 1 
-\i (00:12:05) setwindow pcb
-\i (00:12:05) zoom out 671 -137
-\i (00:12:05) trapsize 14
-\i (00:12:05) zoom out 1 
-\i (00:12:05) setwindow pcb
-\i (00:12:05) zoom out 674 -139
-\i (00:12:05) trapsize 14
-\i (00:12:06) zoom in 1 
-\i (00:12:06) setwindow pcb
-\i (00:12:06) zoom in 141 15
-\i (00:12:06) trapsize 7
-\i (00:12:06) zoom in 1 
-\i (00:12:06) setwindow pcb
-\i (00:12:06) zoom in -245 20
-\i (00:12:06) trapsize 3
-\i (00:12:06) zoom in 1 
-\i (00:12:06) setwindow pcb
-\i (00:12:06) zoom in -251 22
-\i (00:12:06) trapsize 2
-\i (00:12:06) zoom out 1 
-\i (00:12:06) setwindow pcb
-\i (00:12:06) zoom out -149 40
-\i (00:12:06) trapsize 3
-\i (00:12:07) zoom out 1 
-\i (00:12:07) setwindow pcb
-\i (00:12:07) zoom out -136 37
-\i (00:12:07) trapsize 7
-\i (00:12:07) zoom out 1 
-\i (00:12:07) setwindow pcb
-\i (00:12:07) zoom out 181 32
-\i (00:12:07) trapsize 14
-\i (00:12:07) zoom in 1 
-\i (00:12:07) setwindow pcb
-\i (00:12:07) zoom in 495 64
-\i (00:12:07) trapsize 7
-\i (00:12:09) exit 
-\t (00:12:09)     Journal end - Fri Jul 22 01:53:06 2016
+\i (00:00:25) roam y 96 
+\i (00:00:25) roam y 96
+\i (00:00:26) roam y 96 
+\i (00:00:26) roam y 96
+\i (00:00:26) roam y 96 
+\i (00:00:26) roam y 96
+\i (00:00:26) roam y 96 
+\i (00:00:26) roam y 96
+\i (00:00:29) roam y -96 
+\i (00:00:29) roam y -96
+\i (00:00:29) roam y -96 
+\i (00:00:29) roam y -96
+\i (00:00:29) roam y -96 
+\i (00:00:29) roam y -96
+\i (00:00:29) roam y -96 
+\i (00:00:29) roam y -96
+\i (00:00:29) roam y -96 
+\i (00:00:29) roam y -96
+\i (00:00:30) roam y -96 
+\i (00:00:30) roam y -96
+\i (00:00:30) roam y -96 
+\i (00:00:30) roam y -96
+\i (00:00:33) pick grid 200 180
+\t (00:00:33) last pick:  200  180
+\w (00:00:33) WARNING(SPMHDI-55): No dimension found.
+\i (00:00:34) prepopup 201 181
+\i (00:00:35) pop dyn_option_select '@:@Linear dimension' 
+\t (00:00:35) Pick an element or point to dimension ...
+\i (00:00:37) pick grid 200 180
+\t (00:00:37) last pick:  200  180
+\t (00:00:37) First point found ... pick the second point.
+\w (00:00:37) WARNING(SPMHDI-89): Dimension point at (200, 180) is not being associated with an object.
+\i (00:00:37) zoom out 1 
+\i (00:00:37) setwindow pcb
+\i (00:00:37) zoom out 204 171
+\i (00:00:37) trapsize 3
+\i (00:00:37) zoom out 1 
+\i (00:00:37) setwindow pcb
+\i (00:00:37) zoom out 204 170
+\i (00:00:37) trapsize 5
+\i (00:00:37) zoom out 1 
+\i (00:00:38) setwindow pcb
+\i (00:00:38) zoom out 184 48
+\i (00:00:38) trapsize 10
+\i (00:00:38) zoom in 1 
+\i (00:00:38) setwindow pcb
+\i (00:00:38) zoom in 161 -47
+\i (00:00:38) trapsize 5
+\i (00:00:38) zoom in 1 
+\i (00:00:38) setwindow pcb
+\i (00:00:38) zoom in 152 -47
+\i (00:00:38) trapsize 3
+\i (00:00:39) zoom in 1 
+\i (00:00:39) setwindow pcb
+\i (00:00:39) zoom in -20 33
+\i (00:00:39) trapsize 1
+\i (00:00:39) zoom in 1 
+\i (00:00:39) setwindow pcb
+\i (00:00:39) zoom in -20 33
+\i (00:00:39) trapsize 1
+\i (00:00:41) roam y -96 
+\i (00:00:41) roam y -96
+\i (00:00:41) roam y -96 
+\i (00:00:41) roam y -96
+\i (00:00:41) roam y -96 
+\i (00:00:41) roam y -96
+\i (00:00:41) roam y -96 
+\i (00:00:41) roam y -96
+\i (00:00:41) roam y -96 
+\i (00:00:41) roam y -96
+\i (00:00:42) roam y -96 
+\i (00:00:42) roam y -96
+\i (00:00:42) roam y -96 
+\i (00:00:42) roam y -96
+\i (00:00:42) roam y -96 
+\i (00:00:42) roam y -96
+\i (00:00:42) roam y -96 
+\i (00:00:42) roam y -96
+\i (00:00:42) roam y -96 
+\i (00:00:42) roam y -96
+\i (00:00:42) roam y -96 
+\i (00:00:42) roam y -96
+\i (00:00:42) roam y -96 
+\i (00:00:42) roam y -96
+\i (00:00:43) roam y -96 
+\i (00:00:43) roam y -96
+\i (00:00:46) pick grid 0 180
+\t (00:00:46) last pick:  0  180
+\t (00:00:46) Pick location for the dimension value.
+\w (00:00:46) WARNING(SPMHDI-89): Dimension point at (0, 180) is not being associated with an object.
+\i (00:00:46) zoom out 1 
+\i (00:00:46) setwindow pcb
+\i (00:00:46) zoom out 21 187
+\i (00:00:46) trapsize 1
+\i (00:00:46) zoom out 1 
+\i (00:00:46) setwindow pcb
+\i (00:00:46) zoom out 24 187
+\i (00:00:46) trapsize 3
+\i (00:00:46) zoom out 1 
+\i (00:00:46) setwindow pcb
+\i (00:00:46) zoom out 28 189
+\i (00:00:46) trapsize 5
+\i (00:01:11) done 
+\i (00:01:11) generaledit 
+\i (00:01:12) pick grid 4 -13
+\t (00:01:12) last pick:  5  -15
+\i (00:01:13) move 
+\t (00:01:13) last pick:  0  0
+\t (00:01:13) Pick new location for the element(s).
+\i (00:01:32) ipick -38 0 
+\t (00:01:32) last pick:  -38  0
+\i (00:01:33) generaledit 
+\i (00:01:35) prepopup 81 295
+\i (00:01:36) pick grid 9 252
+\t (00:01:36) last pick:  10  250
+\i (00:01:37) zoom in 1 
+\i (00:01:37) setwindow pcb
+\i (00:01:37) zoom in 4 25
+\i (00:01:37) trapsize 3
+\i (00:01:38) zoom in 1 
+\i (00:01:38) setwindow pcb
+\i (00:01:38) zoom in 2 22
+\i (00:01:38) trapsize 1
+\i (00:01:38) zoom out 1 
+\i (00:01:38) setwindow pcb
+\i (00:01:38) zoom out 5 22
+\i (00:01:38) trapsize 3
+\i (00:01:38) zoom out 1 
+\i (00:01:38) setwindow pcb
+\i (00:01:38) zoom out 52 9
+\i (00:01:38) trapsize 5
+\i (00:01:39) zoom out 1 
+\i (00:01:39) setwindow pcb
+\i (00:01:39) zoom out 149 -39
+\i (00:01:39) trapsize 10
+\i (00:01:39) zoom in 1 
+\i (00:01:40) setwindow pcb
+\i (00:01:40) zoom in 127 -43
+\i (00:01:40) trapsize 5
+\i (00:01:56) zoom in 1 
+\i (00:01:56) setwindow pcb
+\i (00:01:56) zoom in 311 -140
+\i (00:01:56) trapsize 3
+\i (00:01:56) zoom in 1 
+\i (00:01:56) setwindow pcb
+\i (00:01:56) zoom in 309 -138
+\i (00:01:56) trapsize 1
+\i (00:01:56) prepopup 288 -109
+\i (00:01:59) dimension edit 
+\t (00:01:59) Pick an element or point to dimension ...
+\i (00:01:59) zoom out 1 
+\i (00:01:59) setwindow pcb
+\i (00:01:59) zoom out 273 -62
+\i (00:01:59) trapsize 3
+\i (00:02:01) roam y -96 
+\i (00:02:01) roam y -96
+\i (00:02:03) pick grid 256 1
+\t (00:02:03) last pick:  255  0
+\t (00:02:03) First point found ... pick the second point.
+\w (00:02:03) WARNING(SPMHDI-89): Dimension point at (255, 0) is not being associated with an object.
+\i (00:02:06) zoom in 1 
+\i (00:02:06) setwindow pcb
+\i (00:02:06) zoom in 117 -110
+\i (00:02:06) trapsize 1
+\i (00:02:09) pick grid 255 -109
+\t (00:02:09) last pick:  255  -110
+\t (00:02:09) Pick location for the dimension value.
+\w (00:02:09) WARNING(SPMHDI-89): Dimension point at (255, -110) is not being associated with an object.
+\i (00:02:09) zoom out 1 
+\i (00:02:09) setwindow pcb
+\i (00:02:09) zoom out 255 -106
+\i (00:02:09) trapsize 3
+\i (00:02:09) zoom out 1 
+\i (00:02:09) setwindow pcb
+\i (00:02:09) zoom out 254 -106
+\i (00:02:09) trapsize 5
+\i (00:02:26) prepopup 326 -23
+\i (00:02:27) done 
+\i (00:02:27) generaledit 
+\i (00:02:28) pick grid 100 -113
+\t (00:02:28) last pick:  100  -115
+\i (00:02:30) move 
+\t (00:02:30) last pick:  100  -110
+\t (00:02:30) Pick new location for the element(s).
+\i (00:02:38) ipick 0 -50 
+\t (00:02:38) last pick:  100  -160
+\i (00:02:38) generaledit 
+\i (00:02:43) replace padstack 
+\i (00:02:44) pick grid 211 22
+\t (00:02:44) last pick:  210  20
+\i (00:02:48) setwindow form.mini
+\i (00:02:48) FORM mini newname_browse  
+\t (00:02:52) No valid name selected.
+\i (00:03:13) fillin "menu_cancel"
+\i (00:03:14) setwindow pcb
+\i (00:03:14) zoom out 1 
+\i (00:03:14) setwindow pcb
+\i (00:03:14) zoom out 331 -47
+\i (00:03:14) trapsize 10
+\i (00:03:15) zoom in 1 
+\i (00:03:15) setwindow pcb
+\i (00:03:15) zoom in 800 123
+\i (00:03:15) trapsize 5
+\i (00:04:06) zoom in 1 
+\i (00:04:06) setwindow pcb
+\i (00:04:06) zoom in -19 76
+\i (00:04:06) trapsize 3
+\i (00:04:09) dimension edit 
+\t (00:04:09) Pick an element or point to dimension ...
+\i (00:04:10) prepopup -62 185
+\i (00:04:11) pop dyn_option_select '@:@Linear dimension' 
+\i (00:04:13) zoom in 1 
+\i (00:04:13) setwindow pcb
+\i (00:04:13) zoom in 272 14
+\i (00:04:13) trapsize 1
+\i (00:04:16) pick grid 260 40
+\t (00:04:16) last pick:  260  40
+\t (00:04:16) First point found ... pick the second point.
+\w (00:04:16) WARNING(SPMHDI-89): Dimension point at (260, 40) is not being associated with an object.
+\i (00:04:16) zoom out 1 
+\i (00:04:16) setwindow pcb
+\i (00:04:16) zoom out 267 15
+\i (00:04:16) trapsize 3
+\i (00:04:17) zoom in 1 
+\i (00:04:17) setwindow pcb
+\i (00:04:17) zoom in 254 -17
+\i (00:04:17) trapsize 1
+\i (00:04:17) zoom in 1 
+\i (00:04:17) setwindow pcb
+\i (00:04:17) zoom in 254 -17
+\i (00:04:17) trapsize 1
+\i (00:04:17) zoom out 1 
+\i (00:04:17) setwindow pcb
+\i (00:04:17) zoom out 254 -21
+\i (00:04:17) trapsize 1
+\i (00:04:17) zoom out 1 
+\i (00:04:17) setwindow pcb
+\i (00:04:17) zoom out 254 -24
+\i (00:04:17) trapsize 3
+\i (00:04:18) zoom in 1 
+\i (00:04:18) setwindow pcb
+\i (00:04:18) zoom in 257 -41
+\i (00:04:18) trapsize 1
+\i (00:04:20) pick grid 261 -40
+\t (00:04:20) last pick:  260  -40
+\t (00:04:20) Pick location for the dimension value.
+\w (00:04:20) WARNING(SPMHDI-89): Dimension point at (260, -40) is not being associated with an object.
+\i (00:04:21) zoom out 1 
+\i (00:04:21) setwindow pcb
+\i (00:04:21) zoom out 229 -6
+\i (00:04:21) trapsize 3
+\i (00:04:21) zoom out 1 
+\i (00:04:21) setwindow pcb
+\i (00:04:21) zoom out 227 -5
+\i (00:04:21) trapsize 5
+\i (00:04:21) zoom out 1 
+\i (00:04:21) setwindow pcb
+\i (00:04:21) zoom out 225 -5
+\i (00:04:21) trapsize 10
+\i (00:04:25) prepopup 375 95
+\i (00:04:27) cancel 
+\i (00:04:27) generaledit 
+\i (00:04:33) padeditdb 
+\i (00:04:35) pick grid 224 -7
+\t (00:04:35) last pick:  225  -5
+\i (00:04:38) setwindow form.mini
+\i (00:04:38) FORM mini pad_stack_edit  
+\i (00:04:47) setwindow form.padedit
+\i (00:04:47) FORM padedit layers  
+\i (00:04:48) FORM padedit grid row top 
+\i (00:04:52) FORM padedit grid row default_internal 
+\i (00:04:54) FORM padedit grid row top 
+\i (00:04:55) FORM padedit grid row default_internal 
+\i (00:04:58) FORM padedit grid row bottom 
+\i (00:04:59) FORM padedit grid row soldermask_top 
+\i (00:05:01) FORM padedit grid row soldermask_bottom 
+\i (00:05:02) FORM padedit grid row pastemask_top 
+\i (00:05:02) FORM padedit grid row pastemask_bottom 
+\i (00:05:04) FORM padedit grid row top 
+\i (00:05:19) FORM padedit width 110 
+\i (00:05:25) FORM padedit width_th 130 
+\i (00:05:29) FORM padedit width_ant 130 
+\i (00:05:32) FORM padedit grid row default_internal 
+\i (00:05:35) FORM padedit width 90 
+\i (00:05:40) FORM padedit width_th 110 
+\i (00:05:43) FORM padedit width_ant 110 
+\i (00:05:45) FORM padedit grid row bottom 
+\i (00:05:49) FORM padedit width 90 
+\i (00:05:52) FORM padedit width_th 110 
+\i (00:05:54) FORM padedit width_ant 110 
+\i (00:05:56) FORM padedit grid row soldermask_top 
+\i (00:06:03) FORM padedit width 100 
+\i (00:06:05) FORM padedit grid row soldermask_bottom 
+\i (00:06:08) FORM padedit width 100 
+\i (00:06:09) FORM padedit grid row pastemask_top 
+\i (00:06:09) FORM padedit grid row soldermask_bottom 
+\i (00:06:10) FORM padedit grid row soldermask_top 
+\i (00:06:10) FORM padedit grid row pastemask_top 
+\i (00:06:10) FORM padedit grid row pastemask_bottom 
+\i (00:06:13) FORM padedit grid row filmmask_top 
+\i (00:06:13) FORM padedit grid row filmmask_bottom 
+\i (00:06:16) FORM padedit parameters  
+\i (00:06:23) FORM padedit hole_size_x 70 
+\i (00:06:28) FORM padedit hole_size_x 40 
+\i (00:06:45) FORM padedit hole_size_x 110 
+\i (00:06:50) FORM padedit hole_size_x 70 
+\i (00:06:55) pse_save_as 
+\i (00:07:21) fillin "pad90x110c.pad"
+\i (00:07:23) pse_exit
+\i (00:07:26) setwindow pcb
+\i (00:07:26) replace padstack 
+\i (00:07:28) setwindow form.mini
+\i (00:07:28) FORM mini oldname_browse  
+\i (00:07:30) fillin "menu_cancel"
+\i (00:07:31) setwindow pcb
+\i (00:07:31) pick grid 215 24
+\t (00:07:31) last pick:  215  25
+\i (00:07:33) setwindow form.mini
+\i (00:07:33) FORM mini newname_browse  
+\t (00:07:36) No valid name selected.
+\i (00:07:44) fillin "Pad90x110c"
+\i (00:07:47) FORM mini replace  
+\i (00:07:48) setwindow pcb
+\i (00:07:48) zoom in 1 
+\i (00:07:48) setwindow pcb
+\i (00:07:48) zoom in 75 11
+\i (00:07:48) trapsize 5
+\i (00:07:48) zoom in 1 
+\i (00:07:48) setwindow pcb
+\i (00:07:48) zoom in 75 11
+\i (00:07:48) trapsize 3
+\i (00:07:48) zoom in 1 
+\i (00:07:48) setwindow pcb
+\i (00:07:48) zoom in 75 11
+\i (00:07:48) trapsize 1
+\i (00:07:50) zoom out 1 
+\i (00:07:50) setwindow pcb
+\i (00:07:50) zoom out 75 -6
+\i (00:07:50) trapsize 3
+\i (00:07:50) zoom out 1 
+\i (00:07:50) setwindow pcb
+\i (00:07:50) zoom out 78 -19
+\i (00:07:50) trapsize 5
+\i (00:07:54) save 
+\t (00:07:54) Performing DRC...
+\t (00:07:54) No DRC errors detected.
+\i (00:07:55) fillin yes 
+\t (00:07:55) Symbol 'dc002power.psm' created.
+\i (00:07:55) generaledit 
+\i (00:07:59) exit 
+\t (00:07:59)     Journal end - Wed Jul 27 23:53:06 2016

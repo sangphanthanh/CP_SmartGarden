@@ -2,9 +2,9 @@
 (                                                                     )
 (    Allegro Netrev Import Logic                                      )
 (                                                                     )
-(    Drawing          : CC1310LAUNCHPAD.brd                           )
+(    Drawing          : CC1310LAUNCHPAD1.brd                          )
 (    Software Version : 16.6P004                                      )
-(    Date/Time        : Fri Jul 22 11:52:17 2016                      )
+(    Date/Time        : Thu Jul 28 01:35:33 2016                      )
 (                                                                     )
 (---------------------------------------------------------------------)
 
@@ -18,15 +18,15 @@ RIPUP_SYMBOLS ALWAYS;
 Missing symbol has error FALSE;
 SCHEMATIC_DIRECTORY 'F:\CP_SMARTGARDEN\ORCAD\ALLEGRO\ALLEGRO';
 BOARD_DIRECTORY 'F:/CP_SMARTGARDEN/ORCAD/ALLEGRO/allegro';
-OLD_BOARD_NAME 'F:/CP_SmartGarden/OrCAD/allegro/allegro/CC1310LAUNCHPAD.brd';
-NEW_BOARD_NAME 'F:/CP_SMARTGARDEN/ORCAD/ALLEGRO/allegro/CC1310LAUNCHPAD.brd';
+OLD_BOARD_NAME 'F:/CP_SmartGarden/OrCAD/allegro/allegro/CC1310LAUNCHPAD1.brd';
+NEW_BOARD_NAME 'F:/CP_SMARTGARDEN/ORCAD/ALLEGRO/allegro/CC1310LAUNCHPAD1.brd';
 
-CmdLine: netrev.exe -y 1 -i F:\CP_SMARTGARDEN\ORCAD\ALLEGRO\ALLEGRO F:\CP_SmartGarden\OrCAD\allegro\allegro\CC1310LAUNCHPAD.brd F:\CP_SMARTGARDEN\ORCAD\ALLEGRO\allegro\CC1310LAUNCHPAD.brd
+CmdLine: netrev.exe -y 1 -i F:\CP_SMARTGARDEN\ORCAD\ALLEGRO\ALLEGRO F:\CP_SmartGarden\OrCAD\allegro\allegro\CC1310LAUNCHPAD1.brd F:\CP_SMARTGARDEN\ORCAD\ALLEGRO\allegro\CC1310LAUNCHPAD1.brd
 
 ------ Preparing to read pst files ------
 
 Starting to read F:/CP_SMARTGARDEN/ORCAD/ALLEGRO/ALLEGRO/pstchip.dat 
-   Finished reading F:/CP_SMARTGARDEN/ORCAD/ALLEGRO/ALLEGRO/pstchip.dat (00:00:00.04)
+   Finished reading F:/CP_SMARTGARDEN/ORCAD/ALLEGRO/ALLEGRO/pstchip.dat (00:00:00.03)
 Starting to read F:/CP_SMARTGARDEN/ORCAD/ALLEGRO/ALLEGRO/pstxprt.dat 
    Finished reading F:/CP_SMARTGARDEN/ORCAD/ALLEGRO/ALLEGRO/pstxprt.dat (00:00:00.00)
 Starting to read F:/CP_SMARTGARDEN/ORCAD/ALLEGRO/ALLEGRO/pstxnet.dat 
@@ -59,7 +59,7 @@ PADPATH =  .
 ------ Summary Statistics ------
 
 
-netrev run on Jul 22 11:52:17 2016
+netrev run on Jul 28 1:35:33 2016
    DESIGN NAME : 'CC1310LAUNCHPAD'
    PACKAGING ON Sep 10 2012 04:46:09
 
@@ -84,6 +84,6 @@ netrev run on Jul 22 11:52:17 2016
  No oversight detected
  No warning detected
 
-cpu time      0:00:42
-elapsed time  0:00:00
+cpu time      0:01:39
+elapsed time  0:00:01
 

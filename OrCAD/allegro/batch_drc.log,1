@@ -2,9 +2,9 @@
 (                                                                     )
 (    DRC Update                                                       )
 (                                                                     )
-(    Drawing          : MICROUSB.dra                                  )
+(    Drawing          : USB.dra                                       )
 (    Software Version : 16.6P004                                      )
-(    Date/Time        : Sun Jul 17 17:29:24 2016                      )
+(    Date/Time        : Wed Jul 27 23:25:03 2016                      )
 (                                                                     )
 (---------------------------------------------------------------------)
 
@@ -20,7 +20,7 @@
  ========= check standalone text              0:00:00
  ========= check standalone rectangles        0:00:00
 
- ..... Total number of DRC errors  33
+ ..... Total number of DRC errors  3
 
  ..... DRC update completed, total CPU time   0:00:00
  *************************************************************************

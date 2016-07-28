@@ -1,0 +1,23 @@
+(---------------------------------------------------------------------)
+(                                                                     )
+(    CREATE SYMBOL                                                    )
+(                                                                     )
+(    Drawing          : PC817X2NIP0F.dra                              )
+(    Software Version : 16.6P004                                      )
+(    Date/Time        : Tue Jul 26 10:29:46 2016                      )
+(                                                                     )
+(---------------------------------------------------------------------)
+
+
+Create Symbol of type: PACKAGE
+    Directory = F:/CP_SmartGarden/OrCAD/allegro
+    Name      = pc817x2nip0f.psm
+    User      = Sang Phan Thanh
+    Machine   = SANGPTSE61252
+
+
+Create symbol started.
+ 
+
+Create symbol completed.
+

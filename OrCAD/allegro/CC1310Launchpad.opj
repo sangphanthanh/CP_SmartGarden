@@ -16,7 +16,7 @@
     ("View Allegro Netlist Files" "FALSE")
     ("Allegro Netlist Create DCF File" "FALSE")
     ("Update Allegro Board" "TRUE")
-    ("Allegro Netlist Output Board File" "allegro\CC1310LAUNCHPAD.brd")
+    ("Allegro Netlist Output Board File" "allegro\CC1310LAUNCHPAD1.brd")
     ("Allegro Netlist Remove Etch" "FALSE")
     ("Allegro Netlist Place Changed Component" "ALWAYS_REPLACE")
     ("Allegro Netlist Open Board in Allegro" "ALLEGRO")
@@ -28,7 +28,7 @@
     ("Allegro Netlist Ignore Fixed Property" "FALSE")
     ("Allegro Netlist User Defined Property" "FALSE")
     ("Allegro Netlist Input Board File"
-       "F:\CP_SmartGarden\OrCAD\allegro\allegro\CC1310LAUNCHPAD.brd"))
+       "F:\CP_SmartGarden\OrCAD\allegro\allegro\CC1310LAUNCHPAD1.brd"))
   (Folder "Outputs"
     (File ".\allegro\pstxnet.dat"
       (Type "Report")
@@ -41,6 +41,38 @@
       (DisplayName "pstchip.dat")))
   (Folder "Referenced Projects")
   (PartMRUSelector
+    (HDC100X
+      (FullPartName "HDC100X.Normal")
+      (LibraryName "F:\CP_SMARTGARDEN\ORCAD\SMARTGARDENSHIELD\LIBRARY1.OLB")
+      (DeviceIndex "0"))
+    (MSS-22D18
+      (FullPartName "MSS-22D18.Normal")
+      (LibraryName "F:\CP_SMARTGARDEN\ORCAD\SMARTGARDENSHIELD\LIBRARY1.OLB")
+      (DeviceIndex "0"))
+    (PC817XxNiP0F
+      (FullPartName "PC817XxNiP0F.Normal")
+      (LibraryName "F:\CP_SMARTGARDEN\ORCAD\SMARTGARDENSHIELD\LIBRARY1.OLB")
+      (DeviceIndex "0"))
+    (PS2801
+      (FullPartName "PS2801.Normal")
+      (LibraryName "F:\CP_SMARTGARDEN\ORCAD\SMARTGARDENSHIELD\LIBRARY1.OLB")
+      (DeviceIndex "0"))
+    (PS2801-4/SM
+      (FullPartName "PS2801-4/SM.Normal")
+      (LibraryName "C:\CADENCE\SPB_16.6\TOOLS\CAPTURE\LIBRARY\DISCRETE.OLB")
+      (DeviceIndex "3"))
+    (USB
+      (FullPartName "USB.Normal")
+      (LibraryName "F:\CP_SMARTGARDEN\ORCAD\SMARTGARDENSHIELD\LIBRARY1.OLB")
+      (DeviceIndex "0"))
+    (DIODE
+      (FullPartName "DIODE.Normal")
+      (LibraryName "C:\CADENCE\SPB_16.6\TOOLS\CAPTURE\LIBRARY\DISCRETE.OLB")
+      (DeviceIndex "0"))
+    (DC002
+      (FullPartName "DC002.Normal")
+      (LibraryName "F:\CP_SMARTGARDEN\ORCAD\SMARTGARDENSHIELD\LIBRARY1.OLB")
+      (DeviceIndex "0"))
     (bh1750
       (FullPartName "bh1750.Normal")
       (LibraryName "F:\CP_SMARTGARDEN\ORCAD\SMARTGARDENSHIELD\LIBRARY1.OLB")
@@ -53,42 +85,29 @@
   (GlobalState
     (FileView
       (Path "Design Resources")
-      (Path "Design Resources"
-         "f:\cp_smartgarden\orcad\allegro\cc1310launchpad.dsn")
-      (Path "Design Resources"
-         "f:\cp_smartgarden\orcad\allegro\cc1310launchpad.dsn" "SCHEMATIC1")
+      (Path "Design Resources" ".\cc1310launchpad.dsn")
+      (Path "Design Resources" ".\cc1310launchpad.dsn" "SCHEMATIC1")
+      (Path "Design Resources" ".\cc1310launchpad.dsn" "Design Cache")
       (Path "Design Resources" "Library")
-      (Path "Design Resources" "Library"
-         "f:\cp_smartgarden\orcad\smartgardenshield\library1.olb")
+      (Path "Design Resources" "Library" "..\smartgardenshield\library1.olb")
       (Path "Outputs")
-      (Select "Design Resources" "Library"
-         "f:\cp_smartgarden\orcad\smartgardenshield\library1.olb"
+      (Select "Design Resources" "Library" "..\smartgardenshield\library1.olb"
          "CC1310LaouchPad"))
     (HierarchyView)
     (Doc
       (Type "COrCapturePMDoc")
       (Frame
-        (Placement "44 0 1 -1 -1 -8 -31 0 200 0 223"))
+        (Placement "44 0 1 -1 -1 -8 -31 242 442 -19 204"))
       (Tab 0))
     (Doc
       (Type "COrSchematicDoc")
       (Frame
-        (Placement "44 2 3 -1 -1 -8 -31 52 1238 52 314")
-        (Scroll "1357 2778")
-        (Zoom "160")
+        (Placement "44 2 3 -1 -1 -8 -31 104 997 104 366")
+        (Scroll "898 1488")
+        (Zoom "96")
         (Occurrence "/"))
       (Path "F:\CP_SMARTGARDEN\ORCAD\ALLEGRO\CC1310LAUNCHPAD.DSN")
       (Schematic "SCHEMATIC1")
-      (Page "PAGE1"))
-    (Doc
-      (Type "COrPartDoc")
-      (Frame
-        (Placement "44 0 1 -1 -1 -8 -31 104 948 104 366")
-        (PackageScroll "0 0")
-        (PackageZoom "1")
-        (PartPackage "Part")
-        (Scroll "0 0")
-        (Zoom "18"))
-      (Path "F:\CP_SMARTGARDEN\ORCAD\SMARTGARDENSHIELD\LIBRARY1.OLB")
-      (Package "CC1310LaouchPad")))
-  (MPSSessionName "Sang Phan Thanh"))
+      (Page "PAGE1")))
+  (MPSSessionName "Sang Phan Thanh")
+  (LastUsedLibraryBrowseDirectory "C:\Cadence\SPB_16.6\tools\capture\library"))

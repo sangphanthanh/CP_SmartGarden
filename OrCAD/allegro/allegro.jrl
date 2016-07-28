@@ -1,55 +1,31 @@
-\t (06:43:20) allegro 16.6 P004 (v16-6-112G) Windows 32
-\t (06:43:20)     Journal start - Fri Jul 22 08:46:03 2016
-\t (06:43:20)         Host=SANGPTSE61252 User=Sang Phan Thanh Pid=28288 CPUs=4
-\t (06:43:20) 
-\d (06:43:20) Database opened: F:/CP_SmartGarden/OrCAD/allegro/AM2320.dra
-\i (06:43:21) generaledit 
-\i (06:43:26) padeditdb 
-\i (06:43:31) trapsize 8
-\i (06:43:33) pick grid -11 -121
-\t (06:43:33) last pick:  0  -100
-\i (06:43:35) setwindow form.mini
-\i (06:43:35) FORM mini padlist PAD40X60C 
-\i (06:43:40) FORM mini pmreset  
-\i (06:43:41) FORM mini pmreset  
-\i (06:43:48) FORM mini padlist PAD40X60C 
-\i (06:43:52) FORM mini pad_stack_edit  
-\i (06:43:56) setwindow form.padedit
-\i (06:43:56) FORM padedit layers  
-\i (06:43:58) FORM padedit grid row top 
-\i (06:43:59) FORM padedit grid row default_internal 
-\i (06:43:59) FORM padedit grid row top 
-\i (06:43:59) FORM padedit grid row default_internal 
-\i (06:44:00) FORM padedit grid row top 
-\i (06:44:00) FORM padedit grid row default_internal 
-\i (06:44:01) pse_exit
-\i (06:49:09) setwindow form.mini
-\i (06:49:09) FORM mini pad_stack_edit  
-\i (06:49:15) setwindow form.padedit
-\i (06:49:15) FORM padedit parameters  
-\i (06:49:15) FORM padedit layers  
-\i (06:49:17) pse_save_as 
-\i (06:49:21) fillin "pad40x60c.pad"
-\i (06:49:23) pse_exit
-\i (06:49:29) setwindow pcb
-\i (06:49:29) replace padstack 
-\i (06:49:30) setwindow form.mini
-\i (06:49:30) FORM mini oldname_browse  
-\i (06:49:32) fillin "Pad40x60c"
-\i (06:49:33) FORM mini newname_browse  
-\t (06:49:38) No valid name selected.
-\i (06:49:41) fillin "Pad40x60c"
-\i (06:49:42) FORM mini replace  
-\i (06:49:45) setwindow pcb
-\i (06:49:45) save 
-\t (06:49:45) Performing DRC...
-\t (06:49:45) No DRC errors detected.
-\i (06:49:46) fillin yes 
-\t (06:49:47) Symbol 'am2320.psm' created.
-\i (06:49:47) generaledit 
-\e (06:51:47) Command not found: xhilite
-\i (06:51:47) xname_flush 
-\i (06:51:47) done 
-\i (06:51:47) generaledit 
-\i (07:35:48) exit 
-\t (07:35:49)     Journal end - Fri Jul 22 09:38:32 2016
+\t (00:00:18) allegro 16.6 P004 (v16-6-112G) Windows 32
+\t (00:00:18)     Journal start - Wed Jul 27 23:57:21 2016
+\t (00:00:18)         Host=SANGPTSE61252 User=Sang Phan Thanh Pid=426156 CPUs=4
+\t (00:00:18) 
+\d (00:00:18) Database opened: F:/CP_SmartGarden/OrCAD/allegro/DC002POWER.dra
+\i (00:00:18) generaledit 
+\i (00:00:19) zoom out 1 
+\i (00:00:19) setwindow pcb
+\i (00:00:19) zoom out 267 1
+\i (00:00:19) trapsize 10
+\i (00:00:20) zoom in 1 
+\i (00:00:20) setwindow pcb
+\i (00:00:20) zoom in 44 35
+\i (00:00:20) trapsize 5
+\i (00:00:20) zoom in 1 
+\i (00:00:20) setwindow pcb
+\i (00:00:20) zoom in 44 35
+\i (00:00:20) trapsize 3
+\i (00:00:20) zoom out 1 
+\i (00:00:20) setwindow pcb
+\i (00:00:20) zoom out 42 32
+\i (00:00:20) trapsize 5
+\i (00:00:20) zoom out 1 
+\i (00:00:20) setwindow pcb
+\i (00:00:20) zoom out 44 21
+\i (00:00:20) trapsize 10
+\i (00:00:27) open 
+\i (00:00:34) fillin "menu_cancel"
+\i (00:00:34) generaledit 
+\i (00:01:06) exit 
+\t (00:01:07)     Journal end - Wed Jul 27 23:58:10 2016

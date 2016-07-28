@@ -2,8 +2,8 @@
 |                                 ECO   REPORT                                 |
 |                                                                    Page   1  |
 |------------------------------------------------------------------------------|
-|  F:/CP_SmartGarden/OrCAD/allegro/allegro/CC1310LAUNCHPAD.brd                 |
-|                                                    Fri Jul 22 11:52:17 2016  |
+|  F:/CP_SmartGarden/OrCAD/allegro/allegro/CC1310LAUNCHPAD1.brd                |
+|                                                    Thu Jul 28 01:35:34 2016  |
 |------------------------------------------------------------------------------|
 |------------------------------------------------------------------------------|
 |   total ECO changes reported  0                                              |
