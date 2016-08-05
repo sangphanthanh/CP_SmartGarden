@@ -1,0 +1,13 @@
+Cross Section Report
+F:/CP_SMARTGARDEN/ORCAD/ALLEGRO/ALLEGRO/CC1310LAUNCHPAD2.brd
+Fri Jul 29 09:52:38 2016
+
+Design Cross Section
+Subclass Name,Type,Material,Thickness (MIL),Conductivity (mho/cm),Dielectric Constant,Loss Tangent,Negative Artwork,Shield,Width (MIL),Unused Pin Pad Suppression,Unused Via Pad Suppression
+,SURFACE,AIR,,0,1,0,,,,,
+TOP,CONDUCTOR,COPPER,1.200000,595900,4.5,0,,,5,,
+,DIELECTRIC,FR-4,8.000000,0,4.5,0.035,,,,,
+BOTTOM,CONDUCTOR,COPPER,1.200000,595900,4.5,0,,,5,,
+,SURFACE,AIR,,0,1,0,,,,,
+
+Total Thickness: 10.4 MIL

@@ -16,7 +16,7 @@
     ("View Allegro Netlist Files" "FALSE")
     ("Allegro Netlist Create DCF File" "FALSE")
     ("Update Allegro Board" "TRUE")
-    ("Allegro Netlist Output Board File" "allegro\CC1310LAUNCHPAD1.brd")
+    ("Allegro Netlist Output Board File" "allegro\CC1310LAUNCHPAD2.brd")
     ("Allegro Netlist Remove Etch" "FALSE")
     ("Allegro Netlist Place Changed Component" "ALWAYS_REPLACE")
     ("Allegro Netlist Open Board in Allegro" "ALLEGRO")
@@ -41,6 +41,25 @@
       (DisplayName "pstchip.dat")))
   (Folder "Referenced Projects")
   (PartMRUSelector
+    ("CAP NP"
+      (FullPartName "CAP NP.Normal")
+      (LibraryName "C:\CADENCE\SPB_16.6\TOOLS\CAPTURE\LIBRARY\DISCRETE.OLB")
+      (DeviceIndex "0"))
+    ("SW KEY-SPST"
+      (FullPartName "SW KEY-SPST.Normal")
+      (LibraryName "C:\CADENCE\SPB_16.6\TOOLS\CAPTURE\LIBRARY\DISCRETE.OLB")
+      (DeviceIndex "0"))
+    (0
+      (LibraryName
+         "C:\CADENCE\SPB_16.6\TOOLS\CAPTURE\LIBRARY\PSPICE\SOURCE.OLB")
+      (DeviceIndex "0"))
+    (GND_POWER
+      (LibraryName "C:\CADENCE\SPB_16.6\TOOLS\CAPTURE\LIBRARY\CAPSYM.OLB")
+      (DeviceIndex "0"))
+    ("HEADER 2"
+      (FullPartName "HEADER 2.Normal")
+      (LibraryName "C:\CADENCE\SPB_16.6\TOOLS\CAPTURE\LIBRARY\CONNECTOR.OLB")
+      (DeviceIndex "0"))
     (HDC100X
       (FullPartName "HDC100X.Normal")
       (LibraryName "F:\CP_SMARTGARDEN\ORCAD\SMARTGARDENSHIELD\LIBRARY1.OLB")
@@ -91,8 +110,7 @@
       (Path "Design Resources" "Library")
       (Path "Design Resources" "Library" "..\smartgardenshield\library1.olb")
       (Path "Outputs")
-      (Select "Design Resources" "Library" "..\smartgardenshield\library1.olb"
-         "CC1310LaouchPad"))
+      (Select "Design Resources" ".\cc1310launchpad.dsn" "SCHEMATIC1" "PAGE1"))
     (HierarchyView)
     (Doc
       (Type "COrCapturePMDoc")
@@ -102,9 +120,9 @@
     (Doc
       (Type "COrSchematicDoc")
       (Frame
-        (Placement "44 2 3 -1 -1 -8 -31 104 997 104 366")
-        (Scroll "898 1488")
-        (Zoom "96")
+        (Placement "44 2 3 -1 -1 -8 -31 45 938 13 275")
+        (Scroll "4333 3341")
+        (Zoom "192")
         (Occurrence "/"))
       (Path "F:\CP_SMARTGARDEN\ORCAD\ALLEGRO\CC1310LAUNCHPAD.DSN")
       (Schematic "SCHEMATIC1")

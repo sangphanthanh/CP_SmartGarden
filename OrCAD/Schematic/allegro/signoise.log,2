@@ -1,0 +1,95 @@
+INFO: Loaded existing interconnect file 'F:\CP_SMARTGARDEN\ORCAD\ALLEGRO\ALLEGRO\interconn.iml'
+INFO: Loaded existing interconnect file 'C:\Cadence\SPB_16.6\share\pcb\signal\cds_interconn.iml'
+INFO: Finished loading SigNoise interconnect libraries
+INFO: Field Solver bem2d for STL_0S_1R_1
+INFO: Executing command: bem2d 0 "C:/Users/SANGPH~1/AppData/Local/Temp/#Taaaaan44444.in" 0.00127
+INFO: Field Solver bem2d for STL_0S_1R_2
+INFO: Executing command: bem2d 0 "C:/Users/SANGPH~1/AppData/Local/Temp/#Taaaaao44444.in" 0.00127
+INFO: Field Solver bem2d for STL_0S_1R_3
+INFO: Executing command: bem2d 0 "C:/Users/SANGPH~1/AppData/Local/Temp/#Taaaaap44444.in" 0.00127
+INFO: Field Solver bem2d for STL_0S_1R_4
+INFO: Executing command: bem2d 0 "C:/Users/SANGPH~1/AppData/Local/Temp/#Taaaaaq44444.in" 0.00127
+INFO: Field Solver bem2d for STL_0S_1R_5
+INFO: Executing command: bem2d 0 "C:/Users/SANGPH~1/AppData/Local/Temp/#Taaaaar44444.in" 0.00127
+INFO: Field Solver bem2d for STL_0S_1R_6
+INFO: Executing command: bem2d 0 "C:/Users/SANGPH~1/AppData/Local/Temp/#Taaaaas44444.in" 0.00127
+INFO: Field Solver bem2d for STL_0S_1R_7
+INFO: Executing command: bem2d 0 "C:/Users/SANGPH~1/AppData/Local/Temp/#Taaaaat44444.in" 0.00127
+INFO: Field Solver bem2d for STL_0S_1R_8
+INFO: Executing command: bem2d 0 "C:/Users/SANGPH~1/AppData/Local/Temp/#Taaaaau44444.in" 0.00127
+INFO: Field Solver bem2d for STL_0S_1R_9
+INFO: Executing command: bem2d 0 "C:/Users/SANGPH~1/AppData/Local/Temp/#Taaaaav44444.in" 0.00127
+INFO: Field Solver bem2d for STL_0S_1R_10
+INFO: Executing command: bem2d 0 "C:/Users/SANGPH~1/AppData/Local/Temp/#Taaaaaw44444.in" 0.00127
+INFO: Field Solver bem2d for STL_0S_1R_11
+INFO: Executing command: bem2d 0 "C:/Users/SANGPH~1/AppData/Local/Temp/#Taaaaax44444.in" 0.00127
+INFO: Field Solver bem2d for STL_0S_1R_12
+INFO: Executing command: bem2d 0 "C:/Users/SANGPH~1/AppData/Local/Temp/#Taaaaay44444.in" 0.00127
+INFO: Field Solver bem2d for STL_0S_1R_13
+INFO: Executing command: bem2d 0 "C:/Users/SANGPH~1/AppData/Local/Temp/#Taaaaaz44444.in" 0.00127
+INFO: Field Solver bem2d for STL_0S_1R_14
+INFO: Executing command: bem2d 0 "C:/Users/SANGPH~1/AppData/Local/Temp/#Taaaaba44444.in" 0.00127
+INFO: Field Solver bem2d for STL_0S_1R_15
+INFO: Executing command: bem2d 0 "C:/Users/SANGPH~1/AppData/Local/Temp/#Taaaabb44444.in" 0.00127
+INFO: Field Solver bem2d for STL_0S_1R_16
+INFO: Executing command: bem2d 0 "C:/Users/SANGPH~1/AppData/Local/Temp/#Taaaabc44444.in" 0.00127
+INFO: Field Solver bem2d for STL_0S_1R_17
+INFO: Executing command: bem2d 0 "C:/Users/SANGPH~1/AppData/Local/Temp/#Taaaabd44444.in" 0.00127
+INFO: Field Solver bem2d for STL_0S_1R_18
+INFO: Executing command: bem2d 0 "C:/Users/SANGPH~1/AppData/Local/Temp/#Taaaabe44444.in" 0.00127
+INFO: Field Solver bem2d for STL_0S_1R_19
+INFO: Executing command: bem2d 0 "C:/Users/SANGPH~1/AppData/Local/Temp/#Taaaabf44444.in" 0.00127
+INFO: Field Solver bem2d for STL_0S_1R_20
+INFO: Executing command: bem2d 0 "C:/Users/SANGPH~1/AppData/Local/Temp/#Taaaabg44444.in" 0.00127
+INFO: Field Solver bem2d for STL_0S_1R_21
+INFO: Executing command: bem2d 0 "C:/Users/SANGPH~1/AppData/Local/Temp/#Taaaabh44444.in" 0.00127
+INFO: Field Solver bem2d for STL_0S_1R_22
+INFO: Executing command: bem2d 0 "C:/Users/SANGPH~1/AppData/Local/Temp/#Taaaabi44444.in" 0.00127
+INFO: Field Solver bem2d for STL_0S_1R_23
+INFO: Executing command: bem2d 0 "C:/Users/SANGPH~1/AppData/Local/Temp/#Taaaabj44444.in" 0.00127
+INFO: Field Solver bem2d for STL_0S_1R_24
+INFO: Executing command: bem2d 0 "C:/Users/SANGPH~1/AppData/Local/Temp/#Taaaabk44444.in" 0.00127
+INFO: Field Solver bem2d for STL_0S_1R_25
+INFO: Executing command: bem2d 0 "C:/Users/SANGPH~1/AppData/Local/Temp/#Taaaabl44444.in" 0.00127
+INFO: Field Solver bem2d for STL_0S_1R_26
+INFO: Executing command: bem2d 0 "C:/Users/SANGPH~1/AppData/Local/Temp/#Taaaabm44444.in" 0.00127
+INFO: Field Solver bem2d for STL_0S_1R_27
+INFO: Executing command: bem2d 0 "C:/Users/SANGPH~1/AppData/Local/Temp/#Taaaabn44444.in" 0.00127
+INFO: Field Solver bem2d for STL_0S_1R_28
+INFO: Executing command: bem2d 0 "C:/Users/SANGPH~1/AppData/Local/Temp/#Taaaabo44444.in" 0.00127
+INFO: Field Solver bem2d for STL_0S_1R_29
+INFO: Executing command: bem2d 0 "C:/Users/SANGPH~1/AppData/Local/Temp/#Taaaabp44444.in" 0.00127
+INFO: Field Solver bem2d for STL_0S_1R_30
+INFO: Executing command: bem2d 0 "C:/Users/SANGPH~1/AppData/Local/Temp/#Taaaabq44444.in" 0.00127
+INFO: Field Solver bem2d for STL_0S_1R_31
+INFO: Executing command: bem2d 0 "C:/Users/SANGPH~1/AppData/Local/Temp/#Taaaabr44444.in" 0.00127
+INFO: Field Solver bem2d for STL_0S_1R_32
+INFO: Executing command: bem2d 0 "C:/Users/SANGPH~1/AppData/Local/Temp/#Taaaabs44444.in" 0.00127
+INFO: Field Solver bem2d for STL_0S_1R_33
+INFO: Executing command: bem2d 0 "C:/Users/SANGPH~1/AppData/Local/Temp/#Taaaabt44444.in" 0.00127
+INFO: Field Solver bem2d for STL_0S_1R_34
+INFO: Executing command: bem2d 0 "C:/Users/SANGPH~1/AppData/Local/Temp/#Taaaabu44444.in" 0.00127
+INFO: Field Solver bem2d for STL_0S_1R_35
+INFO: Executing command: bem2d 0 "C:/Users/SANGPH~1/AppData/Local/Temp/#Taaaabv44444.in" 0.00127
+INFO: Field Solver bem2d for STL_0S_1R_36
+INFO: Executing command: bem2d 0 "C:/Users/SANGPH~1/AppData/Local/Temp/#Taaaabw44444.in" 0.00127
+INFO: Field Solver bem2d for STL_0S_1R_37
+INFO: Executing command: bem2d 0 "C:/Users/SANGPH~1/AppData/Local/Temp/#Taaaabx44444.in" 0.00127
+INFO: Field Solver bem2d for STL_0S_1R_38
+INFO: Executing command: bem2d 0 "C:/Users/SANGPH~1/AppData/Local/Temp/#Taaaaby44444.in" 0.00127
+INFO: Field Solver bem2d for STL_0S_1R_39
+INFO: Executing command: bem2d 0 "C:/Users/SANGPH~1/AppData/Local/Temp/#Taaaabz44444.in" 0.00127
+INFO: Field Solver bem2d for STL_0S_1R_40
+INFO: Executing command: bem2d 0 "C:/Users/SANGPH~1/AppData/Local/Temp/#Taaaaca44444.in" 0.00127
+INFO: Field Solver bem2d for STL_0S_1R_41
+INFO: Executing command: bem2d 0 "C:/Users/SANGPH~1/AppData/Local/Temp/#Taaaacb44444.in" 0.00127
+INFO: Field Solver bem2d for STL_0S_1R_42
+INFO: Executing command: bem2d 0 "C:/Users/SANGPH~1/AppData/Local/Temp/#Taaaacc44444.in" 0.00127
+INFO: Field Solver bem2d for STL_0S_1R_43
+INFO: Executing command: bem2d 0 "C:/Users/SANGPH~1/AppData/Local/Temp/#Taaaacd44444.in" 0.00127
+INFO: Field Solver bem2d for STL_0S_1R_44
+INFO: Executing command: bem2d 0 "C:/Users/SANGPH~1/AppData/Local/Temp/#Taaaace44444.in" 0.00127
+INFO: Field Solver bem2d for STL_0S_1R_45
+INFO: Executing command: bem2d 0 "C:/Users/SANGPH~1/AppData/Local/Temp/#Taaaacf44444.in" 0.00127
+INFO: Field Solver bem2d for STL_0S_1R_46
+INFO: Executing command: bem2d 0 "C:/Users/SANGPH~1/AppData/Local/Temp/#Taaaacg44444.in" 0.00127

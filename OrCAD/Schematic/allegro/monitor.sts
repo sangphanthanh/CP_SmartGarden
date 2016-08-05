@@ -1,0 +1,18 @@
+#Allegro PCB Router v16-6-112 made 2012/09/12 at 23:00:45
+#Host 
+#ROUTING STATUS <<< F:/CP_SMARTGARDEN/ORCAD/ALLEGRO/ALLEGRO\CC1310LAUNCHPAD.dsn >>>
+Start  Time: Report Time: Sun Jul 24 07:37:51 2016
+
+Nets         =       57   Connections         =      126
+Current Wire =       33   Reroute wires       =       33
+Completion   =   17.46%   Unconnections       =      104
+| ROUTING HISTORY ================================================================
+|     Pass     |   Conflicts |    |     |     |     |    |Red|      CPU Time     |
+|   Name   |No.| Cross| Clear|Fail|Unrte| Vias|XTalk|Len.| % |  Pass   |  Total  |
+|----------+---+------+------+----+-----+-----+-----+----+---+---------+---------|
+| Route    |  1|     5|     0|   0|  104|    0|    0|   0|  0|  0:00:00|  0:00:00|
+| Route    |  2|     0|     0|   0|  104|    8|    0|   0|100|  0:00:00|  0:00:00|
+| Route    |  3|     0|     0|   0|  104|    8|    0|   0|  0|  0:00:00|  0:00:00|
+| Clean    |  4|     0|     0|   0|  104|    7|    0|   0|   |  0:00:00|  0:00:00|
+| Clean    |  5|     0|     0|   0|  104|    7|    0|   0|   |  0:00:00|  0:00:00|
+| Conflicts between polygon wires and fixed objects:   0

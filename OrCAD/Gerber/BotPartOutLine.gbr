@@ -1,0 +1,19 @@
+G04 CAM350 V10.0.1 (Build 312) Date:  Fri Jul 29 09:56:09 2016 *
+G04 Database: C:\arctmp\odbjob_v7\odbjob_v7.cam *
+G04 Layer 11: BotPartOutLine *
+%FSLAX23Y23*%
+%MOIN*%
+%SFA1.000B1.000*%
+
+%MIA0B0*%
+%IPPOS*%
+%ADD25C,0.00500*%
+%LNBotPartOutLine*%
+%LPD*%
+G54D25*
+X17000Y6500D02*
+G01Y8300D01*
+X15000*
+Y6500*
+X17000*
+M02*
