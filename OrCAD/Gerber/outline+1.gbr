@@ -1,0 +1,21 @@
+G04 CAM350 V10.0.1 (Build 312) Date:  Fri Jul 29 09:56:06 2016 *
+G04 Database: C:\arctmp\odbjob_v7\odbjob_v7.cam *
+G04 Layer 7: outline+1 *
+%FSLAX23Y23*%
+%MOIN*%
+%SFA1.000B1.000*%
+
+%MIA0B0*%
+%IPPOS*%
+%LNoutline+1*%
+%LPD*%
+G54D10*
+X14305Y10085D02*
+G01Y5620D01*
+X18880*
+Y10085*
+X14305*
+X15675Y7506D02*
+G01X15462D01*
+Y7581*
+M02*

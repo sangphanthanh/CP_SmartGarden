@@ -1,0 +1,23 @@
+(---------------------------------------------------------------------)
+(                                                                     )
+(    CREATE SYMBOL                                                    )
+(                                                                     )
+(    Drawing          : HDC100X.dra                                   )
+(    Software Version : 16.6P004                                      )
+(    Date/Time        : Tue Jul 26 21:45:51 2016                      )
+(                                                                     )
+(---------------------------------------------------------------------)
+
+
+Create Symbol of type: PACKAGE
+    Directory = F:/CP_SmartGarden/OrCAD/allegro
+    Name      = hdc100x.psm
+    User      = Sang Phan Thanh
+    Machine   = SANGPTSE61252
+
+
+Create symbol started.
+ 
+
+Create symbol completed.
+

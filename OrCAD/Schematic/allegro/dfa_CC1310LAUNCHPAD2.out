@@ -1,0 +1,13 @@
+// 
+// Allegro DFA Constraints table 
+// Last modified on Friday, July 29, 2016
+// 
+DFA_TABLE_NAME=dfa_CC1310LAUNCHPAD2.out
+READONLY=NO
+UNITS=MILS
+// 
+// 
+TAB=Top
+ENDTAB
+TAB=Bottom
+ENDTAB

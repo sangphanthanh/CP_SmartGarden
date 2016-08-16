@@ -1,0 +1,389 @@
+|------------------------------------------------------------------------------|
+|                                 ECO   REPORT                                 |
+|                                                                    Page   1  |
+|------------------------------------------------------------------------------|
+|  G:/CP_SmartGarden/OrCAD/SmartGardenShield/Shield.brd                        |
+|                                                    Sun Jul 17 01:27:27 2016  |
+|------------------------------------------------------------------------------|
+| NET CHANGES                                                                  |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+|   net  name |  type of change |                net     pins                  |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+  3V3          pins ADDED TO this new net
+                                 U12.1          
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  4.2V         pins ADDED TO this new net
+                                 C2.1           C4.1           C5.1           
+                                 C7.1           C9.1           C10.1          
+                                 C12.1          C13.2          L1.2           
+                                 R6.3           U8.1           U9.1           
+                                 U10.1          U14.1          U16.1          
+                                 U17.5          
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  5V           pins ADDED TO this new net
+                                 C1.2           C3.2           C6.2           
+                                 C8.1           C11.1          J3.1           
+                                 LS1.1          LS2.1          LS3.1          
+                                 LS4.1          LS5.1          R1.1           
+                                 R2.1           R3.1           R5.1           
+                                 R7.1           R8.1           U7.9           
+                                 U11.2          U12.21         U13.1          
+                                 U15.1          
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  GND          pins ADDED TO this new net
+                                 C1.1           C2.2           C3.1           
+                                 C4.2           C5.2           C6.1           
+                                 C7.2           C8.2           C9.2           
+                                 C10.2          C11.2          C12.2          
+                                 C13.1          D5.1           D6.1           
+                                 J3.2           R9.2           U7.8           
+                                 U8.3           U9.2           U10.2          
+                                 U11.1          U13.3          U13.5          
+                                 U14.2          U15.3          U16.2          
+                                 U17.1          
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  N01064       pins ADDED TO this new net
+                                 U8.4           U9.3           U12.9          
+                                 U17.4          
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  N01092       pins ADDED TO this new net
+                                 U8.2           U9.4           U12.10         
+                                 U17.3          
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  N01298       pins ADDED TO this new net
+                                 U10.4          U12.23         
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  N01310       pins ADDED TO this new net
+|------------------------------------------------------------------------------|
+|                                 ECO   REPORT                                 |
+|                                                                    Page   2  |
+|------------------------------------------------------------------------------|
+|  G:/CP_SmartGarden/OrCAD/SmartGardenShield/Shield.brd                        |
+|                                                    Sun Jul 17 01:27:27 2016  |
+|------------------------------------------------------------------------------|
+| NET CHANGES                                                                  |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+|   net  name |  type of change |                net     pins                  |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+                                 U11.3          U12.24         
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  N01510       pins ADDED TO this new net
+                                 D2.1           LS2.2          U7.15          
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  N01526       pins ADDED TO this new net
+                                 D3.1           LS3.2          U7.14          
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  N05348       pins ADDED TO this new net
+                                 D1.1           LS1.2          U7.16          
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  N13508       pins ADDED TO this new net
+                                 D6.2           L1.1           U13.2          
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  N13949       pins ADDED TO this new net
+                                 R6.2           U13.4          
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  N14964       pins ADDED TO this new net
+                                 D7.1           LS4.2          U7.12          
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  N15186       pins ADDED TO this new net
+                                 D8.1           LS5.2          U7.13          
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  N21352       pins ADDED TO this new net
+                                 U12.2          U14.4          
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  N23744       pins ADDED TO this new net
+                                 U12.6          U15.2          
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  N23798       pins ADDED TO this new net
+                                 J4.2           LS1.3          
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  N23816       pins ADDED TO this new net
+                                 J4.1           LS1.5          
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  N23834       pins ADDED TO this new net
+                                 J4.3           LS1.4          
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  N23920       pins ADDED TO this new net
+                                 J5.2           LS2.3          
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  N23950       pins ADDED TO this new net
+                                 J5.1           LS2.5          
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  N23962       pins ADDED TO this new net
+|------------------------------------------------------------------------------|
+|                                 ECO   REPORT                                 |
+|                                                                    Page   3  |
+|------------------------------------------------------------------------------|
+|  G:/CP_SmartGarden/OrCAD/SmartGardenShield/Shield.brd                        |
+|                                                    Sun Jul 17 01:27:27 2016  |
+|------------------------------------------------------------------------------|
+| NET CHANGES                                                                  |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+|   net  name |  type of change |                net     pins                  |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+                                 J5.3           LS2.4          
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  N24085       pins ADDED TO this new net
+                                 J6.2           LS3.3          
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  N24115       pins ADDED TO this new net
+                                 J6.1           LS3.5          
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  N24127       pins ADDED TO this new net
+                                 J6.3           LS3.4          
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  N24238       pins ADDED TO this new net
+                                 J7.2           LS5.3          
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  N24268       pins ADDED TO this new net
+                                 J7.1           LS5.5          
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  N24280       pins ADDED TO this new net
+                                 J7.3           LS5.4          
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  N24391       pins ADDED TO this new net
+                                 J8.2           LS4.3          
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  N24421       pins ADDED TO this new net
+                                 J8.1           LS4.5          
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  N24433       pins ADDED TO this new net
+                                 J8.3           LS4.4          
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  N27287       pins ADDED TO this new net
+                                 U12.25         U12.26         U12.27         
+                                 U12.28         U12.29         U12.30         
+                                 U16.4          
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  N36458       pins ADDED TO this new net
+                                 U7.1           U12.15         
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  N36465       pins ADDED TO this new net
+                                 U7.2           U12.14         
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  N36482       pins ADDED TO this new net
+                                 U7.3           U12.13         
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  N36513       pins ADDED TO this new net
+                                 U7.4           U12.12         
+|------------------------------------------------------------------------------|
+|                                 ECO   REPORT                                 |
+|                                                                    Page   4  |
+|------------------------------------------------------------------------------|
+|  G:/CP_SmartGarden/OrCAD/SmartGardenShield/Shield.brd                        |
+|                                                    Sun Jul 17 01:27:27 2016  |
+|------------------------------------------------------------------------------|
+| NET CHANGES                                                                  |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+|   net  name |  type of change |                net     pins                  |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+  N36525       pins ADDED TO this new net
+                                 U7.5           U12.11         
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  N36537       pins ADDED TO this new net
+                                 U7.6           U12.40         
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  N36549       pins ADDED TO this new net
+                                 U7.7           U12.39         
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  N055830      pins ADDED TO this new net
+                                 D1.2           R1.2           
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  N082030      pins ADDED TO this new net
+                                 D2.2           R2.2           
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  N082660      pins ADDED TO this new net
+                                 D3.2           R3.2           
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  N122330      pins ADDED TO this new net
+                                 D5.2           R5.2           
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  N138620      pins ADDED TO this new net
+                                 R6.1           R9.1           
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  N149900      pins ADDED TO this new net
+                                 D7.2           R7.2           
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  N152120      pins ADDED TO this new net
+                                 D8.2           R8.2           
+|------------------------------------------------------------------------------|
+|                                 ECO   REPORT                                 |
+|                                                                    Page   5  |
+|------------------------------------------------------------------------------|
+|  G:/CP_SmartGarden/OrCAD/SmartGardenShield/Shield.brd                        |
+|                                                    Sun Jul 17 01:27:27 2016  |
+|------------------------------------------------------------------------------|
+| COMPONENT DEFINITION added to board drawing                                  |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+|    device type                                                               |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+ AM2320_AM2320_AM2320
+ BH1750GY30_BH1750GY30_BH1750
+ BH1750_BH1750_BH1750
+ CAP NP_C0805_0.1UF
+ CAP NP_C0805_10UF
+ CAP POL_C1210_100UF
+ CC1310LAOUCHPAD_CC1310CONNECTOR
+ DIODE SCHOTTKY_SS34_MBR360
+ HEADER 2_MICROUSB_IN
+ HEADER 3_KF3013P_HEADER 3
+ INDUCTOR_RH127_47UH
+ LED_D0805_LED
+ LM2576HV-ADJ_LM2576_LM2576HV-AD
+ LM35_LM35_LM35
+ LM393_LM393_LM393
+ PH_PH_PH
+ RELAY SPDT_HK33F_RELAY SPDT
+ RESISTOR VAR_R3296W_100K
+ RESISTOR_R0805_10K
+ RESISTOR_R0805_220 OHM
+ ULN2003A_ULN2003A_ULN2003A
+|------------------------------------------------------------------------------|
+|                                 ECO   REPORT                                 |
+|                                                                    Page   6  |
+|------------------------------------------------------------------------------|
+|  G:/CP_SmartGarden/OrCAD/SmartGardenShield/Shield.brd                        |
+|                                                    Sun Jul 17 01:27:27 2016  |
+|------------------------------------------------------------------------------|
+| COMPONENTS ADDED to board drawing                                            |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+|    ref des        |    device type                                           |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+ C1                  CAP NP_C0805_0.1UF    
+ C2                  CAP NP_C0805_0.1UF    
+ C3                  CAP NP_C0805_10UF     
+ C4                  CAP NP_C0805_0.1UF    
+ C5                  CAP NP_C0805_0.1UF    
+ C6                  CAP NP_C0805_0.1UF    
+ C7                  CAP NP_C0805_10UF     
+ C8                  CAP POL_C1210_100UF   
+ C9                  CAP POL_C1210_100UF   
+ C10                 CAP NP_C0805_0.1UF    
+ C11                 CAP NP_C0805_0.1UF    
+ C12                 CAP NP_C0805_0.1UF    
+ C13                 CAP NP_C0805_0.1UF    
+ D1                  LED_D0805_LED         
+ D2                  LED_D0805_LED         
+ D3                  LED_D0805_LED         
+ D5                  LED_D0805_LED         
+ D6                  DIODE SCHOTTKY_SS34_MBR360 
+ D7                  LED_D0805_LED         
+ D8                  LED_D0805_LED         
+ J3                  HEADER 2_MICROUSB_IN  
+ J4                  HEADER 3_KF3013P_HEADER 3 
+ J5                  HEADER 3_KF3013P_HEADER 3 
+ J6                  HEADER 3_KF3013P_HEADER 3 
+ J7                  HEADER 3_KF3013P_HEADER 3 
+ J8                  HEADER 3_KF3013P_HEADER 3 
+ L1                  INDUCTOR_RH127_47UH   
+ LS1                 RELAY SPDT_HK33F_RELAY SPDT 
+ LS2                 RELAY SPDT_HK33F_RELAY SPDT 
+ LS3                 RELAY SPDT_HK33F_RELAY SPDT 
+ LS4                 RELAY SPDT_HK33F_RELAY SPDT 
+ LS5                 RELAY SPDT_HK33F_RELAY SPDT 
+ R1                  RESISTOR_R0805_220 OHM 
+ R2                  RESISTOR_R0805_220 OHM 
+ R3                  RESISTOR_R0805_220 OHM 
+ R5                  RESISTOR_R0805_220 OHM 
+ R6                  RESISTOR VAR_R3296W_100K 
+ R7                  RESISTOR_R0805_220 OHM 
+ R8                  RESISTOR_R0805_220 OHM 
+ R9                  RESISTOR_R0805_10K    
+ U7                  ULN2003A_ULN2003A_ULN2003A 
+ U8                  AM2320_AM2320_AM2320  
+ U9                  BH1750_BH1750_BH1750  
+ U10                 LM393_LM393_LM393     
+ U11                 PH_PH_PH              
+|------------------------------------------------------------------------------|
+|                                 ECO   REPORT                                 |
+|                                                                    Page   7  |
+|------------------------------------------------------------------------------|
+|  G:/CP_SmartGarden/OrCAD/SmartGardenShield/Shield.brd                        |
+|                                                    Sun Jul 17 01:27:27 2016  |
+|------------------------------------------------------------------------------|
+| COMPONENTS ADDED to board drawing                                            |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+|    ref des        |    device type                                           |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+ U12                 CC1310LAOUCHPAD_CC1310CONNECTOR 
+ U13                 LM2576HV-ADJ_LM2576_LM2576HV-AD 
+ U14                 LM393_LM393_LM393     
+ U15                 LM35_LM35_LM35        
+ U16                 LM393_LM393_LM393     
+ U17                 BH1750GY30_BH1750GY30_BH1750 
+|------------------------------------------------------------------------------|
+|                                 ECO   REPORT                                 |
+|                                                                    Page   8  |
+|------------------------------------------------------------------------------|
+|  G:/CP_SmartGarden/OrCAD/SmartGardenShield/Shield.brd                        |
+|                                                    Sun Jul 17 01:27:27 2016  |
+|------------------------------------------------------------------------------|
+| SLOT PROPERTIES added to board drawing                                       |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+|   slot_id    |   x   |   y   |   property   |             value              |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+ C1.2                           PRIM_FILE      .\pstchip.dat
+ C2.2                           PRIM_FILE      .\pstchip.dat
+ C3.2                           PRIM_FILE      .\pstchip.dat
+ C4.2                           PRIM_FILE      .\pstchip.dat
+ C5.2                           PRIM_FILE      .\pstchip.dat
+ C6.2                           PRIM_FILE      .\pstchip.dat
+ C7.2                           PRIM_FILE      .\pstchip.dat
+ C8.2                           PRIM_FILE      .\pstchip.dat
+ C9.2                           PRIM_FILE      .\pstchip.dat
+ C10.2                          PRIM_FILE      .\pstchip.dat
+ C11.2                          PRIM_FILE      .\pstchip.dat
+ C12.2                          PRIM_FILE      .\pstchip.dat
+ C13.2                          PRIM_FILE      .\pstchip.dat
+ D1.1                           PRIM_FILE      .\pstchip.dat
+ D2.1                           PRIM_FILE      .\pstchip.dat
+ D3.1                           PRIM_FILE      .\pstchip.dat
+ D5.1                           PRIM_FILE      .\pstchip.dat
+ D6.2                           PRIM_FILE      .\pstchip.dat
+ D7.1                           PRIM_FILE      .\pstchip.dat
+ D8.1                           PRIM_FILE      .\pstchip.dat
+ J3.2                           PRIM_FILE      .\pstchip.dat
+ J4.3                           PRIM_FILE      .\pstchip.dat
+ J5.3                           PRIM_FILE      .\pstchip.dat
+ J6.3                           PRIM_FILE      .\pstchip.dat
+ J7.3                           PRIM_FILE      .\pstchip.dat
+ J8.3                           PRIM_FILE      .\pstchip.dat
+ L1.2                           PRIM_FILE      .\pstchip.dat
+ LS1.4                          PRIM_FILE      .\pstchip.dat
+ LS2.4                          PRIM_FILE      .\pstchip.dat
+ LS3.4                          PRIM_FILE      .\pstchip.dat
+ LS4.4                          PRIM_FILE      .\pstchip.dat
+ LS5.4                          PRIM_FILE      .\pstchip.dat
+ R1.2                           PRIM_FILE      .\pstchip.dat
+ R2.2                           PRIM_FILE      .\pstchip.dat
+ R3.2                           PRIM_FILE      .\pstchip.dat
+ R5.2                           PRIM_FILE      .\pstchip.dat
+ R6.2                           PRIM_FILE      .\pstchip.dat
+ R7.2                           PRIM_FILE      .\pstchip.dat
+ R8.2                           PRIM_FILE      .\pstchip.dat
+ R9.2                           PRIM_FILE      .\pstchip.dat
+ U7.8                           PRIM_FILE      .\pstchip.dat
+ U8.1                           PRIM_FILE      .\pstchip.dat
+ U9.1                           PRIM_FILE      .\pstchip.dat
+ U10.1                          PRIM_FILE      .\pstchip.dat
+ U11.2                          PRIM_FILE      .\pstchip.dat
+|------------------------------------------------------------------------------|
+|                                 ECO   REPORT                                 |
+|                                                                    Page   9  |
+|------------------------------------------------------------------------------|
+|  G:/CP_SmartGarden/OrCAD/SmartGardenShield/Shield.brd                        |
+|                                                    Sun Jul 17 01:27:27 2016  |
+|------------------------------------------------------------------------------|
+| SLOT PROPERTIES added to board drawing                                       |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+|   slot_id    |   x   |   y   |   property   |             value              |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+ U12.34                         PRIM_FILE      .\pstchip.dat
+ U13.1                          PRIM_FILE      .\pstchip.dat
+ U14.1                          PRIM_FILE      .\pstchip.dat
+ U15.1                          PRIM_FILE      .\pstchip.dat
+ U16.1                          PRIM_FILE      .\pstchip.dat
+ U17.5                          PRIM_FILE      .\pstchip.dat
+|------------------------------------------------------------------------------|
+|   total ECO changes reported  291                                            |
+|------------------------------------------------------------------------------|

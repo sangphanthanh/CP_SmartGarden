@@ -1,0 +1,149 @@
+(ExpressProject "CC1310Launchpad"
+  (ProjectVersion "19981106")
+  (ProjectType "PCB")
+  (Folder "Design Resources"
+    (Folder "Library"
+      (File "..\smartgardenshield\library1.olb"
+        (Type "Schematic Library")))
+    (NoModify)
+    (File ".\cc1310launchpad.dsn"
+      (Type "Schematic Design"))
+    (BuildFileAddedOrDeleted "x")
+    (CompileFileAddedOrDeleted "x")
+    (Netlist_TAB "0")
+    ("Create Allegro Netlist" "TRUE")
+    ("Allegro Netlist Directory" "F:\CP_SMARTGARDEN\ORCAD\ALLEGRO\ALLEGRO")
+    ("View Allegro Netlist Files" "FALSE")
+    ("Allegro Netlist Create DCF File" "FALSE")
+    ("Update Allegro Board" "TRUE")
+    ("Allegro Netlist Output Board File" "allegro\CC1310LAUNCHPAD2.brd")
+    ("Allegro Netlist Remove Etch" "FALSE")
+    ("Allegro Netlist Place Changed Component" "ALWAYS_REPLACE")
+    ("Allegro Netlist Open Board in Allegro" "ALLEGRO")
+    ("Allegro Setup Backup Versions" "3")
+    ("Allegro Setup Output Warnings" "TRUE")
+    ("Allegro Setup Ignore Constraints" "FALSE")
+    ("Allegro Setup Part Type Length" "31")
+    ("Allegro Netlist Combine Property String" "PCB Footprint")
+    ("Allegro Netlist Ignore Fixed Property" "FALSE")
+    ("Allegro Netlist User Defined Property" "FALSE")
+    ("Allegro Netlist Input Board File"
+       "F:\CP_SmartGarden\OrCAD\allegro\allegro\CC1310LAUNCHPAD1.brd"))
+  (Folder "Outputs"
+    (File ".\allegro\pstxnet.dat"
+      (Type "Report")
+      (DisplayName "pstxnet.dat"))
+    (File ".\allegro\pstxprt.dat"
+      (Type "Report")
+      (DisplayName "pstxprt.dat"))
+    (File ".\allegro\pstchip.dat"
+      (Type "Report")
+      (DisplayName "pstchip.dat")))
+  (Folder "Referenced Projects")
+  (PartMRUSelector
+    (ULN2003A
+      (FullPartName "ULN2003A.Normal")
+      (LibraryName "C:\CADENCE\SPB_16.6\TOOLS\CAPTURE\LIBRARY\TRANSISTOR.OLB")
+      (DeviceIndex "0"))
+    ("PHOTO NPN"
+      (FullPartName "PHOTO NPN.Normal")
+      (LibraryName "C:\CADENCE\SPB_16.6\TOOLS\CAPTURE\LIBRARY\DISCRETE.OLB")
+      (DeviceIndex "0"))
+    (PHOTODIODE
+      (FullPartName "PHOTODIODE.Normal")
+      (LibraryName "C:\CADENCE\SPB_16.6\TOOLS\CAPTURE\LIBRARY\DISCRETE.OLB")
+      (DeviceIndex "0"))
+    (VCC
+      (LibraryName "C:\CADENCE\SPB_16.6\TOOLS\CAPTURE\LIBRARY\CAPSYM.OLB")
+      (DeviceIndex "0"))
+    (LM2576ADJ/TO220
+      (FullPartName "LM2576ADJ/TO220.Normal")
+      (LibraryName "C:\CADENCE\SPB_16.6\TOOLS\CAPTURE\LIBRARY\REGULATOR.OLB")
+      (DeviceIndex "0"))
+    ("CAP NP"
+      (FullPartName "CAP NP.Normal")
+      (LibraryName "C:\CADENCE\SPB_16.6\TOOLS\CAPTURE\LIBRARY\DISCRETE.OLB")
+      (DeviceIndex "0"))
+    ("SW KEY-SPST"
+      (FullPartName "SW KEY-SPST.Normal")
+      (LibraryName "C:\CADENCE\SPB_16.6\TOOLS\CAPTURE\LIBRARY\DISCRETE.OLB")
+      (DeviceIndex "0"))
+    (0
+      (LibraryName
+         "C:\CADENCE\SPB_16.6\TOOLS\CAPTURE\LIBRARY\PSPICE\SOURCE.OLB")
+      (DeviceIndex "0"))
+    (GND_POWER
+      (LibraryName "C:\CADENCE\SPB_16.6\TOOLS\CAPTURE\LIBRARY\CAPSYM.OLB")
+      (DeviceIndex "0"))
+    ("HEADER 2"
+      (FullPartName "HEADER 2.Normal")
+      (LibraryName "C:\CADENCE\SPB_16.6\TOOLS\CAPTURE\LIBRARY\CONNECTOR.OLB")
+      (DeviceIndex "0"))
+    (HDC100X
+      (FullPartName "HDC100X.Normal")
+      (LibraryName "F:\CP_SMARTGARDEN\ORCAD\SMARTGARDENSHIELD\LIBRARY1.OLB")
+      (DeviceIndex "0"))
+    (MSS-22D18
+      (FullPartName "MSS-22D18.Normal")
+      (LibraryName "F:\CP_SMARTGARDEN\ORCAD\SMARTGARDENSHIELD\LIBRARY1.OLB")
+      (DeviceIndex "0"))
+    (PC817XxNiP0F
+      (FullPartName "PC817XxNiP0F.Normal")
+      (LibraryName "F:\CP_SMARTGARDEN\ORCAD\SMARTGARDENSHIELD\LIBRARY1.OLB")
+      (DeviceIndex "0"))
+    (PS2801
+      (FullPartName "PS2801.Normal")
+      (LibraryName "F:\CP_SMARTGARDEN\ORCAD\SMARTGARDENSHIELD\LIBRARY1.OLB")
+      (DeviceIndex "0"))
+    (PS2801-4/SM
+      (FullPartName "PS2801-4/SM.Normal")
+      (LibraryName "C:\CADENCE\SPB_16.6\TOOLS\CAPTURE\LIBRARY\DISCRETE.OLB")
+      (DeviceIndex "3"))
+    (USB
+      (FullPartName "USB.Normal")
+      (LibraryName "F:\CP_SMARTGARDEN\ORCAD\SMARTGARDENSHIELD\LIBRARY1.OLB")
+      (DeviceIndex "0"))
+    (DIODE
+      (FullPartName "DIODE.Normal")
+      (LibraryName "C:\CADENCE\SPB_16.6\TOOLS\CAPTURE\LIBRARY\DISCRETE.OLB")
+      (DeviceIndex "0"))
+    (DC002
+      (FullPartName "DC002.Normal")
+      (LibraryName "F:\CP_SMARTGARDEN\ORCAD\SMARTGARDENSHIELD\LIBRARY1.OLB")
+      (DeviceIndex "0"))
+    (bh1750
+      (FullPartName "bh1750.Normal")
+      (LibraryName "F:\CP_SMARTGARDEN\ORCAD\SMARTGARDENSHIELD\LIBRARY1.OLB")
+      (DeviceIndex "0"))
+    (CC1310LaouchPad
+      (FullPartName "CC1310LaouchPad.Normal")
+      (LibraryName "F:\CP_SMARTGARDEN\ORCAD\SMARTGARDENSHIELD\LIBRARY1.OLB")
+      (DeviceIndex "0")))
+  (ISPCBBASICLICENSE "false")
+  (GlobalState
+    (FileView
+      (Path "Design Resources")
+      (Path "Design Resources" ".\cc1310launchpad.dsn")
+      (Path "Design Resources" ".\cc1310launchpad.dsn" "SCHEMATIC1")
+      (Path "Design Resources" ".\cc1310launchpad.dsn" "Design Cache")
+      (Path "Design Resources" "Library")
+      (Path "Design Resources" "Library" "..\smartgardenshield\library1.olb")
+      (Path "Outputs"))
+    (HierarchyView)
+    (Doc
+      (Type "COrCapturePMDoc")
+      (Frame
+        (Placement "44 2 3 -1 -1 -8 -31 242 442 -19 204"))
+      (Tab 0))
+    (Doc
+      (Type "COrSchematicDoc")
+      (Frame
+        (Placement "44 0 1 -1 -1 -8 -31 52 1238 52 314")
+        (Scroll "-147 161")
+        (Zoom "20")
+        (Occurrence "/"))
+      (Path "F:\CP_SMARTGARDEN\ORCAD\SCHEMATIC\CC1310LAUNCHPAD.DSN")
+      (Schematic "SCHEMATIC1")
+      (Page "PAGE1")))
+  (MPSSessionName "Sang Phan Thanh")
+  (LastUsedLibraryBrowseDirectory "C:\Cadence\SPB_16.6\tools\capture\library"))

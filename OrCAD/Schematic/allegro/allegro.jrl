@@ -1,0 +1,450 @@
+\t (00:00:08) allegro 16.6 P004 (v16-6-112G) Windows 32
+\t (00:00:08)     Journal start - Thu Aug 04 00:38:41 2016
+\t (00:00:08)         Host=SANGPTSE61252 User=Sang Phan Thanh Pid=8564 CPUs=4
+\t (00:00:08) 
+\t (00:00:09) Opening existing design...
+\d (00:00:09) Database opened: F:/CP_SMARTGARDEN/ORCAD/ALLEGRO/ALLEGRO/CC1310LAUNCHPAD2.brd
+\t (00:00:09) Grids are drawn 320.00, 320.00 apart for enhanced viewability.
+\i (00:00:09) trapsize 13122
+\i (00:00:09) trapsize 12759
+\i (00:00:09) trapsize 13184
+\i (00:00:10) trapsize 13969
+\i (00:00:10) trapsize 13969
+\i (00:00:10) generaledit 
+\i (00:13:16) xhilite 
+\i (00:13:17) xrefdes U17 
+\i (00:13:17) xname_flush 
+\t (00:13:17) Grids are drawn 20.00, 20.00 apart for enhanced viewability.
+\i (00:13:17) trapsize 893
+\t (00:13:17) Symbol "U17" highlighted.
+\i (00:13:17) done 
+\i (00:13:17) generaledit 
+\i (00:13:21) xdehilite 
+\i (00:13:21) xrefdes U17 
+\i (00:13:21) xname_flush 
+\t (00:13:21) Symbol "U17" dehighlighted.
+\i (00:13:21) done 
+\i (00:13:21) generaledit 
+\i (00:13:21) xhilite 
+\i (00:13:21) xrefdes U17 
+\i (00:13:21) xname_flush 
+\i (00:13:21) trapsize 893
+\t (00:13:21) Symbol "U17" highlighted.
+\i (00:13:21) done 
+\i (00:13:21) generaledit 
+\i (00:15:50) xdehilite 
+\i (00:15:50) xrefdes U17 
+\i (00:15:50) xname_flush 
+\t (00:15:50) Symbol "U17" dehighlighted.
+\i (00:15:50) done 
+\i (00:15:50) generaledit 
+\i (00:15:50) xhilite 
+\i (00:15:50) xrefdes U17 
+\i (00:15:50) xname_flush 
+\i (00:15:50) trapsize 893
+\t (00:15:50) Symbol "U17" highlighted.
+\i (00:15:50) done 
+\i (00:15:50) generaledit 
+\i (00:21:59) xdehilite 
+\i (00:21:59) xrefdes U17 
+\i (00:21:59) xname_flush 
+\t (00:21:59) Symbol "U17" dehighlighted.
+\i (00:21:59) done 
+\i (00:21:59) generaledit 
+\i (00:22:00) xhilite 
+\i (00:22:00) xname_flush 
+\i (00:22:00) done 
+\i (00:22:00) generaledit 
+\i (00:22:04) xdehilite 
+\i (00:22:04) xname_flush 
+\i (00:22:04) done 
+\i (00:22:04) xhilite 
+\i (00:22:04) xrefdes U17 
+\i (00:22:04) xname_flush 
+\i (00:22:04) trapsize 893
+\t (00:22:04) Symbol "U17" highlighted.
+\i (00:22:04) done 
+\i (00:22:04) generaledit 
+\i (00:22:07) xhilite 
+\i (00:22:07) xNet Gnd 
+\i (00:22:07) xname_flush 
+\t (00:22:07) Grids are drawn 80.00, 80.00 apart for enhanced viewability.
+\i (00:22:07) trapsize 4456
+\t (00:22:07) Net "Gnd" highlighted.
+\i (00:22:07) done 
+\i (00:22:07) generaledit 
+\i (00:22:08) xhilite 
+\i (00:22:08) xname_flush 
+\i (00:22:08) done 
+\i (00:22:08) generaledit 
+\i (00:22:12) xhilite 
+\i (00:22:12) xname_flush 
+\i (00:22:12) done 
+\i (00:22:12) generaledit 
+\i (00:22:13) xdehilite 
+\i (00:22:13) xname_flush 
+\i (00:22:13) done 
+\i (00:22:14) generaledit 
+\i (00:22:30) xhilite 
+\i (00:22:30) xname_flush 
+\i (00:22:30) done 
+\i (00:22:30) generaledit 
+\i (00:22:30) xdehilite 
+\i (00:22:30) xname_flush 
+\i (00:22:30) done 
+\i (00:22:31) generaledit 
+\i (00:22:32) xhilite 
+\i (00:22:33) xname_flush 
+\i (00:22:33) done 
+\i (00:22:33) generaledit 
+\i (00:22:33) xdehilite 
+\i (00:22:33) xname_flush 
+\i (00:22:33) done 
+\i (00:22:33) generaledit 
+\i (00:22:36) xhilite 
+\i (00:22:36) xname_flush 
+\i (00:22:36) done 
+\i (00:22:36) generaledit 
+\i (00:22:36) xdehilite 
+\i (00:22:36) xname_flush 
+\i (00:22:36) done 
+\i (00:22:36) xhilite 
+\i (00:22:36) xNet Gnd 
+\i (00:22:36) xname_flush 
+\i (00:22:36) trapsize 4456
+\t (00:22:36) Net "Gnd" highlighted.
+\i (00:22:36) done 
+\i (00:22:37) generaledit 
+\i (00:22:37) xdehilite 
+\i (00:22:37) xNet Gnd 
+\i (00:22:37) xname_flush 
+\t (00:22:37) Net "Gnd" dehighlighted.
+\i (00:22:37) done 
+\i (00:22:37) xhilite 
+\i (00:22:37) xname_flush 
+\i (00:22:37) done 
+\i (00:22:37) generaledit 
+\i (00:22:39) xdehilite 
+\i (00:22:39) xname_flush 
+\i (00:22:39) done 
+\i (00:22:39) xhilite 
+\i (00:22:39) xNet Gnd 
+\i (00:22:39) xname_flush 
+\i (00:22:39) trapsize 4456
+\t (00:22:39) Net "Gnd" highlighted.
+\i (00:22:39) done 
+\i (00:22:39) generaledit 
+\i (00:22:40) xdehilite 
+\i (00:22:40) xNet Gnd 
+\i (00:22:40) xname_flush 
+\t (00:22:40) Net "Gnd" dehighlighted.
+\i (00:22:40) done 
+\i (00:22:40) xhilite 
+\i (00:22:40) xname_flush 
+\i (00:22:40) done 
+\i (00:22:40) generaledit 
+\i (00:23:03) xdehilite 
+\i (00:23:03) xname_flush 
+\i (00:23:03) done 
+\i (00:23:03) generaledit 
+\i (00:23:16) xhilite 
+\i (00:23:16) xname_flush 
+\i (00:23:16) done 
+\i (00:23:16) generaledit 
+\i (00:23:19) xdehilite 
+\i (00:23:19) xname_flush 
+\i (00:23:19) done 
+\i (00:23:19) generaledit 
+\i (00:23:20) xhilite 
+\i (00:23:20) xname_flush 
+\i (00:23:20) done 
+\i (00:23:20) generaledit 
+\i (00:23:20) xdehilite 
+\i (00:23:20) xname_flush 
+\i (00:23:20) done 
+\i (00:23:20) xhilite 
+\i (00:23:20) xname_flush 
+\i (00:23:20) done 
+\i (00:23:20) generaledit 
+\i (00:23:26) xdehilite 
+\i (00:23:26) xname_flush 
+\i (00:23:26) done 
+\i (00:23:26) generaledit 
+\i (00:24:06) xhilite 
+\i (00:24:06) xname_flush 
+\i (00:24:06) done 
+\i (00:24:06) generaledit 
+\i (00:24:14) xdehilite 
+\i (00:24:14) xname_flush 
+\i (00:24:14) done 
+\i (00:24:14) generaledit 
+\i (00:24:21) xhilite 
+\i (00:24:21) xname_flush 
+\i (00:24:21) done 
+\i (00:24:21) generaledit 
+\i (00:24:22) xdehilite 
+\i (00:24:22) xname_flush 
+\i (00:24:22) done 
+\i (00:24:22) generaledit 
+\i (00:24:57) xhilite 
+\i (00:24:57) xname_flush 
+\i (00:24:57) done 
+\i (00:24:57) generaledit 
+\i (00:24:58) xdehilite 
+\i (00:24:58) xname_flush 
+\i (00:24:58) done 
+\i (00:24:58) generaledit 
+\i (00:25:04) xhilite 
+\i (00:25:04) xname_flush 
+\i (00:25:04) done 
+\i (00:25:04) generaledit 
+\i (00:25:06) xdehilite 
+\i (00:25:06) xname_flush 
+\i (00:25:06) done 
+\i (00:25:06) generaledit 
+\i (00:25:07) xhilite 
+\i (00:25:07) xrefdes U28 
+\i (00:25:07) xname_flush 
+\t (00:25:07) Grids are drawn 20.00, 20.00 apart for enhanced viewability.
+\i (00:25:07) trapsize 772
+\t (00:25:07) Symbol "U28" highlighted.
+\i (00:25:07) done 
+\i (00:25:07) generaledit 
+\i (00:25:07) xdehilite 
+\i (00:25:07) xrefdes U28 
+\i (00:25:07) xname_flush 
+\t (00:25:07) Symbol "U28" dehighlighted.
+\i (00:25:08) done 
+\i (00:25:08) generaledit 
+\i (00:27:54) xhilite 
+\i (00:27:54) xname_flush 
+\i (00:27:54) done 
+\i (00:27:54) generaledit 
+\i (00:27:57) xdehilite 
+\i (00:27:57) xname_flush 
+\i (00:27:57) done 
+\i (00:27:57) xhilite 
+\i (00:27:57) xrefdes U28 
+\i (00:27:57) xname_flush 
+\i (00:27:57) trapsize 772
+\t (00:27:57) Symbol "U28" highlighted.
+\i (00:27:57) done 
+\i (00:27:57) generaledit 
+\i (00:27:59) xhilite 
+\i (00:27:59) xNet N95463 
+\i (00:27:59) xname_flush 
+\i (00:27:59) trapsize 654
+\t (00:27:59) Net "N95463" highlighted.
+\i (00:27:59) done 
+\i (00:27:59) generaledit 
+\i (00:28:01) xhilite 
+\i (00:28:01) xname_flush 
+\i (00:28:01) done 
+\i (00:28:01) generaledit 
+\i (00:28:02) xhilite 
+\i (00:28:02) xNet N45592 
+\i (00:28:02) xname_flush 
+\i (00:28:02) trapsize 1187
+\t (00:28:02) Net "N45592" highlighted.
+\i (00:28:02) done 
+\i (00:28:02) generaledit 
+\i (00:28:03) xhilite 
+\i (00:28:03) xname_flush 
+\i (00:28:03) done 
+\i (00:28:03) generaledit 
+\i (00:28:03) xhilite 
+\i (00:28:03) xname_flush 
+\i (00:28:03) done 
+\i (00:28:03) generaledit 
+\i (00:28:05) xhilite 
+\i (00:28:06) xname_flush 
+\i (00:28:06) done 
+\i (00:28:06) generaledit 
+\i (00:28:06) xhilite 
+\i (00:28:06) xname_flush 
+\i (00:28:06) done 
+\i (00:28:06) generaledit 
+\i (00:28:10) xhilite 
+\i (00:28:10) xname_flush 
+\i (00:28:10) done 
+\i (00:28:10) generaledit 
+\i (00:28:16) xdehilite 
+\i (00:28:17) xname_flush 
+\i (00:28:17) done 
+\i (00:28:17) generaledit 
+\i (00:29:16) xhilite 
+\i (00:29:16) xNet N45592 
+\i (00:29:16) xname_flush 
+\i (00:29:16) trapsize 1187
+\t (00:29:16) Net "N45592" highlighted.
+\i (00:29:16) done 
+\i (00:29:16) generaledit 
+\i (00:29:18) xhilite 
+\i (00:29:18) xname_flush 
+\i (00:29:18) done 
+\i (00:29:18) generaledit 
+\i (00:29:20) xhilite 
+\i (00:29:20) xNet Gnd 
+\i (00:29:20) xname_flush 
+\t (00:29:20) Grids are drawn 80.00, 80.00 apart for enhanced viewability.
+\i (00:29:20) trapsize 4456
+\t (00:29:20) Net "Gnd" highlighted.
+\i (00:29:20) done 
+\i (00:29:20) generaledit 
+\i (00:29:25) xhilite 
+\i (00:29:25) xrefdes C8.1 
+\i (00:29:25) xname_flush 
+\i (00:29:25) trapsize 301
+\t (00:29:25) Pin "C8.1" highlighted.
+\i (00:29:25) done 
+\i (00:29:25) generaledit 
+\i (00:29:26) xdehilite 
+\i (00:29:26) xrefdes C8.1 
+\i (00:29:26) xname_flush 
+\t (00:29:26) Pin "C8.1" dehighlighted.
+\i (00:29:26) done 
+\i (00:29:26) xhilite 
+\i (00:29:26) xrefdes C8 
+\i (00:29:26) xname_flush 
+\t (00:29:26) Grids are drawn 20.00, 20.00 apart for enhanced viewability.
+\i (00:29:26) trapsize 830
+\t (00:29:26) Symbol "C8" highlighted.
+\i (00:29:26) done 
+\i (00:29:26) generaledit 
+\i (00:29:28) xdehilite 
+\i (00:29:29) xrefdes C8 
+\i (00:29:29) xname_flush 
+\t (00:29:29) Symbol "C8" dehighlighted.
+\i (00:29:29) done 
+\i (00:29:29) xhilite 
+\i (00:29:29) xname_flush 
+\i (00:29:29) done 
+\i (00:29:29) generaledit 
+\i (00:29:31) xhilite 
+\i (00:29:32) xrefdes C8 
+\i (00:29:32) xname_flush 
+\i (00:29:32) trapsize 830
+\t (00:29:32) Symbol "C8" highlighted.
+\i (00:29:32) done 
+\i (00:29:32) generaledit 
+\i (00:29:36) xdehilite 
+\i (00:29:36) xrefdes C8 
+\i (00:29:36) xname_flush 
+\t (00:29:36) Symbol "C8" dehighlighted.
+\i (00:29:36) done 
+\i (00:29:36) generaledit 
+\i (00:30:04) xhilite 
+\i (00:30:04) xname_flush 
+\i (00:30:04) done 
+\i (00:30:04) generaledit 
+\i (00:30:06) xdehilite 
+\i (00:30:06) xname_flush 
+\i (00:30:06) done 
+\i (00:30:06) generaledit 
+\i (00:30:07) xhilite 
+\i (00:30:07) xrefdes C8 
+\i (00:30:07) xname_flush 
+\i (00:30:07) trapsize 830
+\t (00:30:07) Symbol "C8" highlighted.
+\i (00:30:07) done 
+\i (00:30:07) generaledit 
+\i (00:30:11) xhilite 
+\i (00:30:11) xname_flush 
+\i (00:30:11) done 
+\i (00:30:11) generaledit 
+\i (00:30:14) xdehilite 
+\i (00:30:14) xname_flush 
+\i (00:30:14) done 
+\i (00:30:15) generaledit 
+\i (00:30:23) xhilite 
+\i (00:30:23) xname_flush 
+\i (00:30:23) done 
+\i (00:30:23) generaledit 
+\i (00:30:24) xdehilite 
+\i (00:30:24) xname_flush 
+\i (00:30:24) done 
+\i (00:30:24) generaledit 
+\i (00:30:24) xhilite 
+\i (00:30:24) xname_flush 
+\i (00:30:24) done 
+\i (00:30:24) generaledit 
+\i (00:30:26) xdehilite 
+\i (00:30:27) xname_flush 
+\i (00:30:27) done 
+\i (00:30:27) generaledit 
+\i (00:31:00) xhilite 
+\i (00:31:00) xrefdes U13 
+\i (00:31:00) xname_flush 
+\i (00:31:00) trapsize 2008
+\t (00:31:00) Symbol "U13" highlighted.
+\i (00:31:01) done 
+\i (00:31:01) generaledit 
+\i (00:31:03) xdehilite 
+\i (00:31:03) xrefdes U13 
+\i (00:31:03) xname_flush 
+\t (00:31:03) Symbol "U13" dehighlighted.
+\i (00:31:03) done 
+\i (00:31:03) generaledit 
+\i (00:31:04) xhilite 
+\i (00:31:04) xNet Gnd 
+\i (00:31:04) xname_flush 
+\t (00:31:04) Grids are drawn 80.00, 80.00 apart for enhanced viewability.
+\i (00:31:04) trapsize 4456
+\t (00:31:04) Net "Gnd" highlighted.
+\i (00:31:04) done 
+\i (00:31:04) generaledit 
+\i (00:31:05) xhilite 
+\i (00:31:05) xNet 5V 
+\i (00:31:05) xname_flush 
+\i (00:31:05) trapsize 4456
+\t (00:31:05) Net "5V" highlighted.
+\i (00:31:05) done 
+\i (00:31:05) generaledit 
+\i (00:31:06) xhilite 
+\i (00:31:06) xNet N45672 
+\i (00:31:06) xname_flush 
+\t (00:31:06) Grids are drawn 20.00, 20.00 apart for enhanced viewability.
+\i (00:31:06) trapsize 859
+\t (00:31:06) Net "N45672" highlighted.
+\i (00:31:06) done 
+\i (00:31:06) generaledit 
+\i (00:31:07) xhilite 
+\i (00:31:07) xname_flush 
+\i (00:31:07) done 
+\i (00:31:07) generaledit 
+\i (00:31:20) xhilite 
+\i (00:31:20) xrefdes U13 
+\i (00:31:20) xname_flush 
+\i (00:31:20) trapsize 2008
+\t (00:31:20) Symbol "U13" highlighted.
+\i (00:31:20) done 
+\i (00:31:20) generaledit 
+\i (00:31:20) xdehilite 
+\i (00:31:20) xrefdes U13 
+\i (00:31:20) xname_flush 
+\t (00:31:20) Symbol "U13" dehighlighted.
+\i (00:31:20) done 
+\i (00:31:20) generaledit 
+\i (00:32:28) xhilite 
+\i (00:32:29) xname_flush 
+\i (00:32:29) done 
+\i (00:32:29) generaledit 
+\i (00:32:34) xhilite 
+\i (00:32:34) xname_flush 
+\i (00:32:34) done 
+\i (00:32:34) generaledit 
+\i (00:32:36) xdehilite 
+\i (00:32:36) xname_flush 
+\i (00:32:36) done 
+\i (00:32:36) xhilite 
+\i (00:32:36) xNet Gnd 
+\i (00:32:36) xname_flush 
+\t (00:32:36) Grids are drawn 80.00, 80.00 apart for enhanced viewability.
+\i (00:32:36) trapsize 4456
+\t (00:32:36) Net "Gnd" highlighted.
+\i (00:32:36) done 
+\i (00:32:36) generaledit 
+\i (00:32:37) xdehilite 
+\i (00:32:37) xNet Gnd 
+\i (00:32:37) xname_flush 
+\t (00:32:37) Net "Gnd

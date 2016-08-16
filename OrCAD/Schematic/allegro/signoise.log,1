@@ -1,0 +1,59 @@
+INFO: Loaded existing interconnect file 'F:\CP_SMARTGARDEN\ORCAD\ALLEGRO\ALLEGRO\interconn.iml'
+INFO: Loaded existing interconnect file 'C:\Cadence\SPB_16.6\share\pcb\signal\cds_interconn.iml'
+INFO: Finished loading SigNoise interconnect libraries
+INFO: Field Solver bem2d for STL_0S_1R_1
+INFO: Executing command: bem2d 0 "C:/Users/SANGPH~1/AppData/Local/Temp/#Taaaaal99784.in" 0.00127
+INFO: Field Solver bem2d for STL_0S_1R_2
+INFO: Executing command: bem2d 0 "C:/Users/SANGPH~1/AppData/Local/Temp/#Taaaaam99784.in" 0.00127
+INFO: Field Solver bem2d for STL_0S_1R_3
+INFO: Executing command: bem2d 0 "C:/Users/SANGPH~1/AppData/Local/Temp/#Taaaaan99784.in" 0.00127
+INFO: Field Solver bem2d for STL_0S_1R_4
+INFO: Executing command: bem2d 0 "C:/Users/SANGPH~1/AppData/Local/Temp/#Taaaaao99784.in" 0.00127
+INFO: Field Solver bem2d for STL_0S_1R_5
+INFO: Executing command: bem2d 0 "C:/Users/SANGPH~1/AppData/Local/Temp/#Taaaaap99784.in" 0.00127
+INFO: Field Solver bem2d for STL_0S_1R_6
+INFO: Executing command: bem2d 0 "C:/Users/SANGPH~1/AppData/Local/Temp/#Taaaaaq99784.in" 0.00127
+INFO: Field Solver bem2d for STL_0S_1R_7
+INFO: Executing command: bem2d 0 "C:/Users/SANGPH~1/AppData/Local/Temp/#Taaaaar99784.in" 0.00127
+INFO: Field Solver bem2d for STL_0S_1R_8
+INFO: Executing command: bem2d 0 "C:/Users/SANGPH~1/AppData/Local/Temp/#Taaaaas99784.in" 0.00127
+INFO: Field Solver bem2d for STL_0S_1R_9
+INFO: Executing command: bem2d 0 "C:/Users/SANGPH~1/AppData/Local/Temp/#Taaaaat99784.in" 0.00127
+INFO: Field Solver bem2d for STL_0S_1R_10
+INFO: Executing command: bem2d 0 "C:/Users/SANGPH~1/AppData/Local/Temp/#Taaaaau99784.in" 0.00127
+INFO: Field Solver bem2d for STL_0S_1R_11
+INFO: Executing command: bem2d 0 "C:/Users/SANGPH~1/AppData/Local/Temp/#Taaaaav99784.in" 0.00127
+INFO: Field Solver bem2d for STL_0S_1R_12
+INFO: Executing command: bem2d 0 "C:/Users/SANGPH~1/AppData/Local/Temp/#Taaaaaw99784.in" 0.00127
+INFO: Field Solver bem2d for STL_0S_1R_13
+INFO: Executing command: bem2d 0 "C:/Users/SANGPH~1/AppData/Local/Temp/#Taaaaax99784.in" 0.00127
+INFO: Field Solver bem2d for STL_0S_1R_14
+INFO: Executing command: bem2d 0 "C:/Users/SANGPH~1/AppData/Local/Temp/#Taaaaay99784.in" 0.00127
+INFO: Field Solver bem2d for STL_0S_1R_15
+INFO: Executing command: bem2d 0 "C:/Users/SANGPH~1/AppData/Local/Temp/#Taaaaaz99784.in" 0.00127
+INFO: Field Solver bem2d for STL_0S_1R_16
+INFO: Executing command: bem2d 0 "C:/Users/SANGPH~1/AppData/Local/Temp/#Taaaaba99784.in" 0.00127
+INFO: Field Solver bem2d for STL_0S_1R_17
+INFO: Executing command: bem2d 0 "C:/Users/SANGPH~1/AppData/Local/Temp/#Taaaabb99784.in" 0.00127
+INFO: Field Solver bem2d for STL_0S_1R_18
+INFO: Executing command: bem2d 0 "C:/Users/SANGPH~1/AppData/Local/Temp/#Taaaabc99784.in" 0.00127
+INFO: Field Solver bem2d for STL_0S_1R_19
+INFO: Executing command: bem2d 0 "C:/Users/SANGPH~1/AppData/Local/Temp/#Taaaabd99784.in" 0.00127
+INFO: Field Solver bem2d for STL_0S_1R_20
+INFO: Executing command: bem2d 0 "C:/Users/SANGPH~1/AppData/Local/Temp/#Taaaabe99784.in" 0.00127
+INFO: Field Solver bem2d for STL_0S_1R_21
+INFO: Executing command: bem2d 0 "C:/Users/SANGPH~1/AppData/Local/Temp/#Taaaabf99784.in" 0.00127
+INFO: Field Solver bem2d for STL_0S_1R_22
+INFO: Executing command: bem2d 0 "C:/Users/SANGPH~1/AppData/Local/Temp/#Taaaabg99784.in" 0.00127
+INFO: Field Solver bem2d for STL_0S_1R_23
+INFO: Executing command: bem2d 0 "C:/Users/SANGPH~1/AppData/Local/Temp/#Taaaabh99784.in" 0.00127
+INFO: Field Solver bem2d for STL_0S_1R_24
+INFO: Executing command: bem2d 0 "C:/Users/SANGPH~1/AppData/Local/Temp/#Taaaabi99784.in" 0.00127
+INFO: Field Solver bem2d for STL_0S_1R_25
+INFO: Executing command: bem2d 0 "C:/Users/SANGPH~1/AppData/Local/Temp/#Taaaabj99784.in" 0.00127
+INFO: Field Solver bem2d for STL_0S_1R_26
+INFO: Executing command: bem2d 0 "C:/Users/SANGPH~1/AppData/Local/Temp/#Taaaabk99784.in" 0.00127
+INFO: Field Solver bem2d for STL_0S_1R_27
+INFO: Executing command: bem2d 0 "C:/Users/SANGPH~1/AppData/Local/Temp/#Taaaabl99784.in" 0.00127
+INFO: Field Solver bem2d for STL_0S_1R_28
+INFO: Executing command: bem2d 0 "C:/Users/SANGPH~1/AppData/Lo

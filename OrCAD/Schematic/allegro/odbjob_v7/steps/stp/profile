@@ -1,0 +1,17 @@
+
+#
+#Units
+#
+U INCH
+
+#
+#Layer features
+#
+S P 0
+OB 18.88 10.085 I
+OS 18.88 5.62
+OS 14.305 5.62
+OS 14.305 10.085
+OS 18.88 10.085
+OE
+SE

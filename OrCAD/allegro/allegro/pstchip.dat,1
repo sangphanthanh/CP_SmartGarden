@@ -1,5 +1,5 @@
 FILE_TYPE=LIBRARY_PARTS;
-{ Using PSTWRITER 16.6.0 d001Jul-22-2016 at 11:49:42}
+{ Using PSTWRITER 16.6.0 d001Jul-27-2016 at 23:54:38}
 primitive 'CAP NP_C0805_0.1UF';
   pin
     '1':
@@ -93,30 +93,6 @@ primitive 'HEADER 3_KF3013P_HEADER 3';
     VALUE='HEADER 3';
   end_body;
 end_primitive;
-primitive 'HEADER 5_MICROUSB_HEADER 5';
-  pin
-    '1':
-      PIN_NUMBER='(1)';
-      PINUSE='UNSPEC';
-    '2':
-      PIN_NUMBER='(2)';
-      PINUSE='UNSPEC';
-    '3':
-      PIN_NUMBER='(3)';
-      PINUSE='UNSPEC';
-    '4':
-      PIN_NUMBER='(4)';
-      PINUSE='UNSPEC';
-    '5':
-      PIN_NUMBER='(5)';
-      PINUSE='UNSPEC';
-  end_pin;
-  body
-    PART_NAME='HEADER 5';
-    JEDEC_TYPE='MICROUSB';
-    VALUE='HEADER 5';
-  end_body;
-end_primitive;
 primitive 'INDUCTOR_RH127_47UH';
   pin
     '1':
@@ -156,6 +132,21 @@ primitive 'RELAY SPDT_HK33F_RELAY SPDT';
     VALUE='RELAY SPDT';
   end_body;
 end_primitive;
+primitive 'RESISTOR_R0805_1K OHM';
+  pin
+    '1':
+      PIN_NUMBER='(1)';
+      PINUSE='UNSPEC';
+    '2':
+      PIN_NUMBER='(2)';
+      PINUSE='UNSPEC';
+  end_pin;
+  body
+    PART_NAME='RESISTOR';
+    JEDEC_TYPE='R0805';
+    VALUE='1k Ohm';
+  end_body;
+end_primitive;
 primitive 'RESISTOR_R0805_220 OHM';
   pin
     '1':
@@ -169,39 +160,6 @@ primitive 'RESISTOR_R0805_220 OHM';
     PART_NAME='RESISTOR';
     JEDEC_TYPE='R0805';
     VALUE='220 Ohm';
-  end_body;
-end_primitive;
-primitive 'RESISTOR VAR_R3296W_100K';
-  pin
-    'A':
-      PIN_NUMBER='(1)';
-      PINUSE='UNSPEC';
-    'B':
-      PIN_NUMBER='(3)';
-      PINUSE='UNSPEC';
-    'WIPER':
-      PIN_NUMBER='(2)';
-      PINUSE='UNSPEC';
-  end_pin;
-  body
-    PART_NAME='RESISTOR VAR';
-    JEDEC_TYPE='R3296W';
-    VALUE='100k';
-  end_body;
-end_primitive;
-primitive 'RESISTOR_R0805_10K';
-  pin
-    '1':
-      PIN_NUMBER='(1)';
-      PINUSE='UNSPEC';
-    '2':
-      PIN_NUMBER='(2)';
-      PINUSE='UNSPEC';
-  end_pin;
-  body
-    PART_NAME='RESISTOR';
-    JEDEC_TYPE='R0805';
-    VALUE='10K';
   end_body;
 end_primitive;
 primitive 'LM393_LM393_LM393';
@@ -470,6 +428,125 @@ primitive 'LM35_LM35_LM35';
     VALUE='LM35';
   end_body;
 end_primitive;
+primitive 'DC002_DC002POWER_DC';
+  pin
+    'VCC':
+      PIN_NUMBER='(4)';
+      PINUSE='POWER';
+    'GND2':
+      PIN_NUMBER='(5)';
+      PINUSE='UNSPEC';
+    'GND1':
+      PIN_NUMBER='(3)';
+      PINUSE='UNSPEC';
+  end_pin;
+  body
+    PART_NAME='DC002';
+    JEDEC_TYPE='DC002POWER';
+    VALUE='DC';
+  end_body;
+end_primitive;
+primitive 'USB_USBFEMALE_USB';
+  pin
+    'VCC':
+      PIN_NUMBER='(1)';
+      PINUSE='POWER';
+    'NC1':
+      PIN_NUMBER='(2)';
+      OUTPUT_LOAD='(*)';
+      OUTPUT_TYPE='(OC,AND)';
+    'NC2':
+      PIN_NUMBER='(3)';
+      OUTPUT_LOAD='(*)';
+      OUTPUT_TYPE='(OC,AND)';
+    'GND':
+      PIN_NUMBER='(4)';
+      PINUSE='UNSPEC';
+  end_pin;
+  body
+    PART_NAME='USB';
+    JEDEC_TYPE='USBFemale';
+    VALUE='USB';
+  end_body;
+end_primitive;
+primitive 'PC817XXNIP0F_PC817X2NIP0F_PC817';
+  pin
+    'ANODE':
+      PIN_NUMBER='(1)';
+      INPUT_LOAD='(*)';
+    'CATHODE':
+      PIN_NUMBER='(2)';
+      OUTPUT_LOAD='(*)';
+    'COLLECTOR':
+      PIN_NUMBER='(3)';
+      OUTPUT_LOAD='(*)';
+    'EMITTER':
+      PIN_NUMBER='(4)';
+      INPUT_LOAD='(*)';
+  end_pin;
+  body
+    PART_NAME='PC817XxNiP0F';
+    JEDEC_TYPE='PC817X2NIP0F';
+    VALUE='PC817XxNiP0F';
+  end_body;
+end_primitive;
+primitive 'MSS-22D18_MSS-22D18_MSS-22D18';
+  pin
+    'A1':
+      PIN_NUMBER='(1)';
+      INPUT_LOAD='(*)';
+    'B1':
+      PIN_NUMBER='(2)';
+      INPUT_LOAD='(*)';
+    'C1':
+      PIN_NUMBER='(3)';
+      INPUT_LOAD='(*)';
+    'C2':
+      PIN_NUMBER='(4)';
+      INPUT_LOAD='(*)';
+    'B2':
+      PIN_NUMBER='(5)';
+      INPUT_LOAD='(*)';
+    'A2':
+      PIN_NUMBER='(6)';
+      INPUT_LOAD='(*)';
+  end_pin;
+  body
+    PART_NAME='MSS-22D18';
+    JEDEC_TYPE='MSS-22D18';
+    VALUE='MSS-22D18';
+  end_body;
+end_primitive;
+primitive 'HDC100X_HDC100X_HDC100X';
+  pin
+    'A1':
+      PIN_NUMBER='(1)';
+      INPUT_LOAD='(*)';
+    'A0':
+      PIN_NUMBER='(2)';
+      INPUT_LOAD='(*)';
+    'RDY':
+      PIN_NUMBER='(3)';
+      INPUT_LOAD='(*)';
+    'SDA':
+      PIN_NUMBER='(4)';
+      INPUT_LOAD='(*)';
+    'SCL':
+      PIN_NUMBER='(5)';
+      INPUT_LOAD='(*)';
+    'GND':
+      PIN_NUMBER='(6)';
+      PINUSE='UNSPEC';
+    'VIN':
+      PIN_NUMBER='(7)';
+      PINUSE='POWER';
+  end_pin;
+  body
+    PART_NAME='HDC100X';
+    JEDEC_TYPE='HDC100X';
+    VALUE='HDC100X';
+  end_body;
+end_primitive;
 primitive 'ULN2003A_ULN2003A_ULN2003A';
   pin
     '1B':
@@ -525,27 +602,6 @@ primitive 'ULN2003A_ULN2003A_ULN2003A';
     PART_NAME='ULN2003A';
     JEDEC_TYPE='ULN2003A';
     VALUE='ULN2003A';
-  end_body;
-end_primitive;
-primitive 'AM2320_AM2320_AM2320';
-  pin
-    'VDD':
-      PIN_NUMBER='(1)';
-      PINUSE='POWER';
-    'SDA':
-      PIN_NUMBER='(2)';
-      INPUT_LOAD='(*)';
-    'GND':
-      PIN_NUMBER='(3)';
-      PINUSE='UNSPEC';
-    'SCL':
-      PIN_NUMBER='(4)';
-      INPUT_LOAD='(*)';
-  end_pin;
-  body
-    PART_NAME='AM2320';
-    JEDEC_TYPE='AM2320';
-    VALUE='AM2320';
   end_body;
 end_primitive;
 primitive 'BH1750_BH1750_BH1750';
