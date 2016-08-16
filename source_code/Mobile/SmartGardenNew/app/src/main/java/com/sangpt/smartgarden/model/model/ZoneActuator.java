@@ -20,6 +20,8 @@ public class ZoneActuator {
     private String zoneId;
     @SerializedName("automatically")
     private boolean automatically;
+    @SerializedName("statuslamp")
+    private boolean statusLamp;
 
     public String getEndDeviceId() {
         return endDeviceId;
@@ -75,5 +77,13 @@ public class ZoneActuator {
 
     public void setAutomatically(boolean automatically) {
         this.automatically = automatically;
+    }
+
+    public boolean isStatusLamp() {
+        return statusLamp;
+    }
+
+    public void setStatusLamp(boolean statusLamp) {
+        this.statusLamp = statusLamp;
     }
 }

@@ -107,7 +107,8 @@
             android:paddingBottom="10sp"
             android:paddingLeft="10sp"
             android:paddingRight="10sp"
-            android:paddingTop="10sp">
+            android:paddingTop="10sp"
+            android:visibility="gone">
 
             <TextView
                 android:layout_width="wrap_content"
@@ -126,6 +127,34 @@
                 android:textOn="ON" />
         </RelativeLayout>
 
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5sp"
+            android:layout_marginRight="5sp"
+            android:layout_marginTop="2sp"
+            android:background="#fff"
+            android:paddingBottom="10sp"
+            android:paddingLeft="10sp"
+            android:paddingRight="10sp"
+            android:paddingTop="10sp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Status Lamp"
+                android:textColor="#000"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <android.support.v7.widget.SwitchCompat
+                android:id="@+id/sc_zone_status_lamp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:textOff="OFF"
+                android:textOn="ON" />
+        </RelativeLayout>
         <RelativeLayout
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"

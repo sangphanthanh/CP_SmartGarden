@@ -1,9 +1,11 @@
 package com.sangpt.smartgarden.fragment;
 
+import android.content.DialogInterface;
 import android.os.Bundle;
 import android.support.annotation.Nullable;
 import android.support.v4.app.Fragment;
 import android.support.v7.app.ActionBar;
+import android.support.v7.app.AlertDialog;
 import android.support.v7.widget.SwitchCompat;
 import android.view.LayoutInflater;
 import android.view.View;
@@ -28,7 +30,7 @@ import retrofit.client.Response;
 /**
  * Created by ManhNV on 7/12/2016.
  */
-public class ActuatorFragment extends Fragment implements View.OnClickListener , CompoundButton.OnCheckedChangeListener
+public class ActuatorFragment extends Fragment implements View.OnClickListener, CompoundButton.OnCheckedChangeListener
 
 {
     private int zoneId;
@@ -37,10 +39,11 @@ public class ActuatorFragment extends Fragment implements View.OnClickListener ,
     private ActionBar toolbar;
     private ViewHolder viewHolder;
     private ZoneActuator zoneActuator;
+
     @Nullable
     @Override
     public View onCreateView(LayoutInflater inflater, @Nullable ViewGroup container, @Nullable Bundle savedInstanceState) {
-        View v= inflater.inflate(R.layout.fragment_actuator,container,false);
+        View v = inflater.inflate(R.layout.fragment_actuator, container, false);
         initView(v);
         event();
         return v;
@@ -51,13 +54,26 @@ public class ActuatorFragment extends Fragment implements View.OnClickListener ,
         restService.getiZoneService().getZoneActuator(zoneId, new Callback<GetZoneInfoActuatorResponseModel>() {
             @Override
             public void success(GetZoneInfoActuatorResponseModel responseModel, Response response) {
-                if (responseModel!=null){
+                if (responseModel != null) {
                     zoneActuator = responseModel;
-                   viewHolder.scCovered.setChecked(responseModel.isStatusCovered());
+                    viewHolder.scCovered.setChecked(responseModel.isStatusCovered());
                     viewHolder.scMisting.setChecked(responseModel.isStatusMisting());
                     viewHolder.scPump.setChecked(responseModel.isStatusPump());
                     viewHolder.scFertilize.setChecked(responseModel.isStatusFertilize());
                     viewHolder.cbAutomatically.setChecked(responseModel.isAutomatically());
+                    viewHolder.scLamp.setChecked(responseModel.isStatusLamp());
+                    if (responseModel.isStatusFertilize()) {
+                        AlertDialog.Builder builder = new AlertDialog.Builder(getActivity());
+                        builder.setTitle("Warning")
+                                .setMessage("Need to be Fertilize")
+                                .setPositiveButton("Ok", new DialogInterface.OnClickListener() {
+                                    @Override
+                                    public void onClick(DialogInterface dialog, int which) {
+                                        dialog.dismiss();
+                                    }
+                                }).create().show();
+                    }
+
                 }
             }
 
@@ -78,30 +94,33 @@ public class ActuatorFragment extends Fragment implements View.OnClickListener ,
         viewHolder.scPump = (SwitchCompat) v.findViewById(R.id.sc_zone_status_pump);
         viewHolder.scFertilize = (SwitchCompat) v.findViewById(R.id.sc_zone_status_fertilize);
         viewHolder.cbAutomatically = (CheckBox) v.findViewById(R.id.cb_automatically);
+        viewHolder.scLamp = (SwitchCompat) v.findViewById(R.id.sc_zone_status_lamp);
         viewHolder.scCovered.setChecked(false);
         viewHolder.scMisting.setChecked(false);
         viewHolder.scPump.setChecked(false);
         viewHolder.scFertilize.setChecked(false);
+        viewHolder.scLamp.setChecked(false);
         viewHolder.cbAutomatically.setChecked(false);
         viewHolder.cbAutomatically.setOnClickListener(this);
         viewHolder.scFertilize.setOnClickListener(this);
         viewHolder.scPump.setOnClickListener(this);
         viewHolder.scMisting.setOnClickListener(this);
         viewHolder.scCovered.setOnClickListener(this);
+        viewHolder.scLamp.setOnClickListener(this);
         viewHolder.cbAutomatically.setOnCheckedChangeListener(this);
     }
 
     @Override
     public void onClick(View v) {
         int id = v.getId();
-        switch ( id){
+        switch (id) {
             case R.id.cb_automatically:
                 if (viewHolder.cbAutomatically.isChecked()) {
                     viewHolder.scCovered.setEnabled(false);
                     viewHolder.scMisting.setEnabled(false);
                     viewHolder.scPump.setEnabled(false);
                     viewHolder.scFertilize.setEnabled(false);
-                }else{
+                } else {
                     viewHolder.scCovered.setEnabled(true);
                     viewHolder.scMisting.setEnabled(true);
                     viewHolder.scPump.setEnabled(true);
@@ -114,6 +133,7 @@ public class ActuatorFragment extends Fragment implements View.OnClickListener ,
         actuator.setStatusCovered(viewHolder.scCovered.isChecked());
         actuator.setStatusMisting(viewHolder.scMisting.isChecked());
         actuator.setStatusPump(viewHolder.scPump.isChecked());
+        actuator.setStatusLamp(viewHolder.scLamp.isChecked());
         actuator.setStatusFertilize(viewHolder.scFertilize.isChecked());
         actuator.setAutomatically(viewHolder.cbAutomatically.isChecked());
         restService.getiZoneService().updateActuator(actuator, new Callback<String>() {
@@ -132,13 +152,13 @@ public class ActuatorFragment extends Fragment implements View.OnClickListener ,
     @Override
     public void onCheckedChanged(CompoundButton buttonView, boolean isChecked) {
         int id = buttonView.getId();
-        if (id==R.id.cb_automatically){
+        if (id == R.id.cb_automatically) {
             if (isChecked) {
                 viewHolder.scCovered.setEnabled(false);
                 viewHolder.scMisting.setEnabled(false);
                 viewHolder.scPump.setEnabled(false);
                 viewHolder.scFertilize.setEnabled(false);
-            }else{
+            } else {
                 viewHolder.scCovered.setEnabled(true);
                 viewHolder.scMisting.setEnabled(true);
                 viewHolder.scPump.setEnabled(true);
@@ -153,5 +173,6 @@ public class ActuatorFragment extends Fragment implements View.OnClickListener ,
         SwitchCompat scPump;
         SwitchCompat scFertilize;
         CheckBox cbAutomatically;
+        SwitchCompat scLamp;
     }
 }
