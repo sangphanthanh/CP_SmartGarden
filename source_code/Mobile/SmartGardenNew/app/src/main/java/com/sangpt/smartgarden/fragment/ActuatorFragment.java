@@ -14,6 +14,7 @@ import android.widget.CheckBox;
 import android.widget.CompoundButton;
 import android.widget.EditText;
 import android.widget.Switch;
+import android.widget.TextView;
 import android.widget.Toast;
 
 import com.sangpt.smartgarden.R;
@@ -73,7 +74,19 @@ public class ActuatorFragment extends Fragment implements View.OnClickListener, 
                                     }
                                 }).create().show();
                     }
-
+                    String phStatus = "";
+                    switch (responseModel.getStatusPH()){
+                        case 0: phStatus="Low";
+                            break;
+                        case 1:
+                            phStatus  = "Normal";
+                            break;
+                        case 2:
+                            phStatus = "High";
+                            break;
+                        default:phStatus="Normal";
+                    }
+                    viewHolder.txtPhStatus.setText(phStatus);
                 }
             }
 
@@ -95,6 +108,7 @@ public class ActuatorFragment extends Fragment implements View.OnClickListener, 
         viewHolder.scFertilize = (SwitchCompat) v.findViewById(R.id.sc_zone_status_fertilize);
         viewHolder.cbAutomatically = (CheckBox) v.findViewById(R.id.cb_automatically);
         viewHolder.scLamp = (SwitchCompat) v.findViewById(R.id.sc_zone_status_lamp);
+        viewHolder.txtPhStatus = (TextView) v.findViewById(R.id.txt_phStatus);
         viewHolder.scCovered.setChecked(false);
         viewHolder.scMisting.setChecked(false);
         viewHolder.scPump.setChecked(false);
@@ -174,5 +188,6 @@ public class ActuatorFragment extends Fragment implements View.OnClickListener, 
         SwitchCompat scFertilize;
         CheckBox cbAutomatically;
         SwitchCompat scLamp;
+        TextView txtPhStatus;
     }
 }

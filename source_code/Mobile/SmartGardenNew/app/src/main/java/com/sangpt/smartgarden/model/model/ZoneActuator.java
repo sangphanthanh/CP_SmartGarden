@@ -22,6 +22,8 @@ public class ZoneActuator {
     private boolean automatically;
     @SerializedName("statuslamp")
     private boolean statusLamp;
+    @SerializedName("statusPH")
+    private int statusPH;
 
     public String getEndDeviceId() {
         return endDeviceId;
@@ -85,5 +87,9 @@ public class ZoneActuator {
 
     public void setStatusLamp(boolean statusLamp) {
         this.statusLamp = statusLamp;
+    }
+
+    public int getStatusPH() {
+        return statusPH;
     }
 }

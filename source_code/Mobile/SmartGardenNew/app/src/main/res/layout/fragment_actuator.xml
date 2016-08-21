@@ -156,9 +156,38 @@
                 android:textOn="ON" />
         </RelativeLayout>
         <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5sp"
+            android:layout_marginRight="5sp"
+            android:layout_marginTop="2sp"
+            android:background="#fff"
+            android:paddingBottom="10sp"
+            android:paddingLeft="10sp"
+            android:paddingRight="10sp"
+            android:paddingTop="10sp">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="PH Status: "
+                android:textColor="#000"
+                android:textStyle="bold"
+                android:textSize="18sp"/>
+            <TextView
+                android:id="@+id/txt_phStatus"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Normal"
+                android:textColor="#000"
+                android:textStyle="bold"
+                android:textSize="18sp"
+                android:layout_alignParentRight="true"/>
+        </RelativeLayout>
+        <RelativeLayout
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_gravity="bottom|right">
+            android:layout_gravity="bottom|right"
+            android:background="#fff">
 
             <TextView
                 android:id="@+id/text"
@@ -179,5 +208,6 @@
                 android:textOff="OFF"
                 android:textOn="ON" />
         </RelativeLayout>
+
     </LinearLayout>
 </LinearLayout>
